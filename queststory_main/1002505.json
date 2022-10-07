@@ -1,0 +1,5566 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002505",
+  "filename": "1002505",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 4,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "OL_TITLE",
+          "args": [
+            "この話のあらすじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "端末",
+            "たんまつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "により"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "裂",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "だらけに。ゼノスの\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "要塞",
+            "ようさい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "侵入",
+            "しんにゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "してくるのも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "時間",
+            "じかん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "問題",
+            "もんだい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "。そこに\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "現",
+            "あらわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "れたのはイリア。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "覚醒",
+            "かくせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "した"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "使",
+            "つか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "い、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "異界",
+            "いかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "裂",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "塞",
+            "ふさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "ぐ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "危機",
+            "きき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "去",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "ったと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "った\\nのも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "束",
+            "つか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "間",
+            "ま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "、ゼノスとベベットが"
+          ],
+          "end": 0
+        },
+        {
+          "row": 4,
+          "command": "ruby",
+          "args": [
+            "現",
+            "あらわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 4,
+          "command": "outline",
+          "args": [
+            "れる。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0029_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 25,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0012_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "O",
+            "C",
+            "m00401",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "CHARA_ATTACK_DARK",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 31,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n25501c",
+            "1",
+            "M",
+            "M",
+            "0",
+            "150",
+            "n25501b",
+            "1",
+            "M",
+            "M",
+            "200",
+            "0",
+            "n25501",
+            "1",
+            "M",
+            "M",
+            "-100",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 34,
+          "command": "play_sound",
+          "args": [
+            "SE_245"
+          ],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "wait",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 37,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 38,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n25501c"
+          ],
+          "end": 1
+        },
+        {
+          "row": 39,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n25501b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "wait",
+          "args": [
+            "0.55"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "CHARA_ATTACK_DARK2",
+          "args": [
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n25501c",
+            "n25501b",
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 49,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "c_bound2_b_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 55,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "はあ、はあ……うう……。",
+            "VO_CHR_MAINSTORY_25_05_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "みんな、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 61,
+          "command": "ruby",
+          "args": [
+            "生",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 61,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "きてるか……!?",
+            "VO_CHR_MAINSTORY_25_05_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00301",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "ああ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "何",
+            "なん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "とかここまでは\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "押",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "し"
+          ],
+          "end": 0
+        },
+        {
+          "row": 66,
+          "command": "ruby",
+          "args": [
+            "返",
+            "かえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 66,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "したけどよ……。",
+            "VO_CHR_MAINSTORY_25_05_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "100",
+            "100",
+            "n25501",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-100",
+            "-100",
+            "n25501b",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 72,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "mnu_move",
+          "args": [
+            "n25501",
+            "true",
+            "0.05",
+            "0",
+            "-120",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "mnu_move",
+          "args": [
+            "n25501",
+            "false",
+            "0.8",
+            "0",
+            "120",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "chara_fadein",
+          "args": [
+            "n25501",
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "stop_se",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 78,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 79,
+          "command": "mnu_move",
+          "args": [
+            "n25501b",
+            "true",
+            "0.05",
+            "0",
+            "-120",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "mnu_move",
+          "args": [
+            "n25501b",
+            "false",
+            "0.8",
+            "0",
+            "120",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "chara_fadein",
+          "args": [
+            "n25501b",
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "stop_se",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 84,
+          "command": "CHARA_ATTACK_DARK2",
+          "args": [
+            "n25501b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "n25501",
+            "n25501b"
+          ],
+          "end": 1
+        },
+        {
+          "row": 86,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "EFF_SCE_2D_CMN_040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "0",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_040",
+            "2",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "wait",
+          "args": [
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 97,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "c_bound_t",
+          "args": [
+            "m00301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "だが、キリがねえぜ！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 102,
+          "command": "ruby",
+          "args": [
+            "裂",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 102,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "も"
+          ],
+          "end": 0
+        },
+        {
+          "row": 102,
+          "command": "ruby",
+          "args": [
+            "増",
+            "ふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 102,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "えちまってる。",
+            "VO_CHR_MAINSTORY_25_05_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 106,
+          "command": "c_swing_h_slow",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "これ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "以上",
+            "いじょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "cn0104",
+            "はどうすることも……。",
+            "VO_CHR_MAINSTORY_25_05_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 109,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n25501c",
+            "1",
+            "M",
+            "M",
+            "0",
+            "150",
+            "n25501b",
+            "1",
+            "M",
+            "M",
+            "200",
+            "0",
+            "n25501",
+            "1",
+            "M",
+            "M",
+            "-100",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_ATTACK_DARK2",
+          "args": [
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 114,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n25501c",
+            "n25501b",
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "touch_enable",
+          "args": [
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 119,
+          "command": "play_sound",
+          "args": [
+            "SE_057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "stop_se",
+          "args": [
+            "2.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_004",
+            "EFF_SCE_2D_CMN_040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_004",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_004",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_004",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 125,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_040",
+            "2",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_004",
+            "0",
+            "200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "play_sound",
+          "args": [
+            "SE_057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 130,
+          "command": "stop_se",
+          "args": [
+            "2.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 131,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_004",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_004",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_004",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_004",
+            "-200",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1",
+            "1",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "play_sound",
+          "args": [
+            "SE_057"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "stop_se",
+          "args": [
+            "2.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "EFF_004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_004",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_004",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 143,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_004",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 144,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_004",
+            "200",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "1",
+            "1",
+            "1",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "touch_enable",
+          "args": [
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "くっ……！",
+            "VO_CHR_MAINSTORY_25_05_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 156,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3669",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 157,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "このままではゼノスの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 158,
+          "command": "ruby",
+          "args": [
+            "要塞",
+            "ようさい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 158,
+          "command": "ruby",
+          "args": [
+            "侵入",
+            "しんにゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "されて\\nしまう。どうする……！",
+            "VO_CHR_MAINSTORY_25_05_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3669"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0167"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "EFF_SCE_2D_CMN_063"
+          ],
+          "end": 1
+        },
+        {
+          "row": 166,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_062",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 167,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_063",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 168,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 173,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 174,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "なんだ……!?",
+            "VO_CHR_MAINSTORY_25_05_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "？？？#cn3667",
+            "――"
+          ],
+          "end": 0
+        },
+        {
+          "row": 178,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "？？？#cn3667",
+            "、はじまりたるものの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 178,
+          "command": "ruby",
+          "args": [
+            "名",
+            "な"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "？？？#cn3667",
+            "に\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 178,
+          "command": "ruby",
+          "args": [
+            "於",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "？？？#cn3667",
+            "いてここに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 178,
+          "command": "ruby",
+          "args": [
+            "命",
+            "めい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 178,
+          "command": "print",
+          "args": [
+            "？？？#cn3667",
+            "ず。",
+            "VO_CHR_MAINSTORY_25_05_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "？？？#cn3667"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "清",
+            "きよ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "らかなる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "風",
+            "かぜ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "よ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "許",
+            "もと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "集",
+            "つど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "え。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "空",
+            "そら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "を、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "海",
+            "うみ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "を、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "大地",
+            "だいち"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "渡",
+            "わた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "れ。",
+            "VO_CHR_MAINSTORY_25_05_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 184,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "この"
+          ],
+          "end": 0
+        },
+        {
+          "row": 185,
+          "command": "ruby",
+          "args": [
+            "声",
+            "こえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "は……！",
+            "VO_CHR_MAINSTORY_25_05_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 187,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0019_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "CHARA_SET_0",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "c3667",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "KURONUKI",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "chara_fadein",
+          "args": [
+            "c3667",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 195,
+          "command": "chara_brightness",
+          "args": [
+            "c3667",
+            "1",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 196,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 197,
+          "command": "RestartEye",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "wait",
+          "args": [
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3669",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 202,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 203,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "イリア！",
+            "VO_CHR_MAINSTORY_25_05_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 204,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3669"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "cn3667"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "疾風",
+            "しっぷう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "祝福",
+            "しゅくふく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "烈風",
+            "れっぷう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "粛清",
+            "しゅくせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "命",
+            "めい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "により"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "は『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "創造",
+            "そうぞう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "』に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 208,
+          "command": "ruby",
+          "args": [
+            "至",
+            "いた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 208,
+          "command": "print",
+          "args": [
+            "る！",
+            "VO_CHR_MAINSTORY_25_05_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "1",
+            "EFF_SCE_2D_CMN_114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 211,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "0",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0164"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 216,
+          "command": "WHITE_OUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 217,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 218,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "0",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 223,
+          "command": "WHITE_IN_MIDSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 225,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 229,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 230,
+          "command": "ruby",
+          "args": [
+            "裂",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 230,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 230,
+          "command": "ruby",
+          "args": [
+            "塞",
+            "ふさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 230,
+          "command": "print",
+          "args": [
+            "がりました……！",
+            "VO_CHR_MAINSTORY_25_05_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "CharaSet",
+          "args": [
+            "DEF",
+            "n25501c",
+            "1",
+            "M",
+            "M",
+            "0",
+            "150",
+            "n25501b",
+            "1",
+            "M",
+            "M",
+            "200",
+            "0",
+            "n25501",
+            "1",
+            "M",
+            "M",
+            "-100",
+            "-100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "TERMINAL_BEAT3_AFTER",
+          "args": [
+            "n25501c",
+            "n25501b",
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "c_bound_b",
+          "args": [
+            "m00301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 240,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "こいつらも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 241,
+          "command": "ruby",
+          "args": [
+            "動",
+            "うご"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "かなくなったぞ！",
+            "VO_CHR_MAINSTORY_25_05_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "CHARA_KAMITE_SE",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "1",
+            "SE_WALK_IN_GR"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "cn3667"
+          ],
+          "end": 0
+        },
+        {
+          "row": 247,
+          "command": "ruby",
+          "args": [
+            "待",
+            "ま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "たせたね、みんな。",
+            "VO_CHR_MAINSTORY_25_05_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 250,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 251,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "イリア！　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 252,
+          "command": "ruby",
+          "args": [
+            "間",
+            "ま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 252,
+          "command": "ruby",
+          "args": [
+            "合",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ったんだな。",
+            "VO_CHR_MAINSTORY_25_05_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "c_bound_b",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "ボクだけはなんとかね。\\nひとまず"
+          ],
+          "end": 0
+        },
+        {
+          "row": 258,
+          "command": "ruby",
+          "args": [
+            "異界",
+            "いかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 258,
+          "command": "ruby",
+          "args": [
+            "裂",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 258,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 258,
+          "command": "ruby",
+          "args": [
+            "塞",
+            "ふさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 258,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "いだよ。",
+            "VO_CHR_MAINSTORY_25_05_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00201",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "cn0102",
+            "これが"
+          ],
+          "end": 0
+        },
+        {
+          "row": 263,
+          "command": "ruby",
+          "args": [
+            "巫女",
+            "みこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "cn0102",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 263,
+          "command": "ruby",
+          "args": [
+            "創世",
+            "そうせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "cn0102",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 263,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "print",
+          "args": [
+            "cn0102",
+            "……。",
+            "VO_CHR_MAINSTORY_25_05_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "c_bound_b_slow",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "ああ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 269,
+          "command": "ruby",
+          "args": [
+            "五人",
+            "ごにん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "cn3667"
+          ],
+          "end": 0
+        },
+        {
+          "row": 269,
+          "command": "ruby",
+          "args": [
+            "集",
+            "あつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "まれば"
+          ],
+          "end": 0
+        },
+        {
+          "row": 269,
+          "command": "ruby",
+          "args": [
+            "新",
+            "あら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "たな"
+          ],
+          "end": 0
+        },
+        {
+          "row": 269,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "を\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 269,
+          "command": "ruby",
+          "args": [
+            "創",
+            "つく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 269,
+          "command": "print",
+          "args": [
+            "ることだってできるはずだ。",
+            "VO_CHR_MAINSTORY_25_05_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00301",
+            "5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "たまげたぜ。こりゃ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 274,
+          "command": "ruby",
+          "args": [
+            "希望",
+            "きぼう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 274,
+          "command": "ruby",
+          "args": [
+            "持",
+            "も"
+          ],
+          "end": 1
+        },
+        {
+          "row": 274,
+          "command": "print",
+          "args": [
+            "cn0103",
+            "てるな。",
+            "VO_CHR_MAINSTORY_25_05_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ああ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 279,
+          "command": "ruby",
+          "args": [
+            "全員",
+            "ぜんいん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 279,
+          "command": "ruby",
+          "args": [
+            "覚醒",
+            "かくせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "すれば、\\nきっと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 279,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 279,
+          "command": "ruby",
+          "args": [
+            "救",
+            "すく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "える……",
+            "VO_CHR_MAINSTORY_25_05_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 280,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "common_003001",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 285,
+          "command": "chara_brightness",
+          "args": [
+            "common_003001",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0125"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "screen_fadeout",
+          "args": [
+            "0.02",
+            "255",
+            "255",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00109",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "set_render_target",
+          "args": [
+            "common_003001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 290,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_REN_010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_REN_010",
+            "234",
+            "166",
+            "74"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_REN_010",
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "25"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "screen_fadein",
+          "args": [
+            "0.02",
+            "255",
+            "255",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "wait",
+          "args": [
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 299,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "……!?　これは……！",
+            "VO_CHR_MAINSTORY_25_05_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "set_BG_effect",
+          "args": [
+            "1",
+            "EFF_SCE_2D_CMN_024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "set_BG_effect_pos",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "0",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "set_BG_effect_speed",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 309,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "0",
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "screen_fadeout",
+          "args": [
+            "0.02",
+            "255",
+            "255",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "RESET_SCREEN",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 314,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "SEFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 316,
+          "command": "screen_fadein",
+          "args": [
+            "0.02",
+            "255",
+            "255",
+            "255"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "なっ……!?",
+            "VO_CHR_MAINSTORY_25_05_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00401",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "c_swing_h_fast",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "cn0104"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "裂",
+            "さ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "元",
+            "もと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "戻",
+            "もど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "って……!?",
+            "VO_CHR_MAINSTORY_25_05_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 331,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00401"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-100",
+            "-100",
+            "n25501",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "200",
+            "0",
+            "n25501b",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "0",
+            "150",
+            "n25501c",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 337,
+          "command": "mnu_move",
+          "args": [
+            "n25501c",
+            "true",
+            "0.05",
+            "0",
+            "-120",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "mnu_move",
+          "args": [
+            "n25501c",
+            "false",
+            "0.8",
+            "0",
+            "120",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 340,
+          "command": "chara_fadein",
+          "args": [
+            "n25501c",
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 341,
+          "command": "stop_se",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 342,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 343,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 344,
+          "command": "mnu_move",
+          "args": [
+            "n25501b",
+            "true",
+            "0.05",
+            "0",
+            "-120",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 345,
+          "command": "mnu_move",
+          "args": [
+            "n25501b",
+            "false",
+            "0.8",
+            "0",
+            "120",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 346,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 347,
+          "command": "chara_fadein",
+          "args": [
+            "n25501b",
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 348,
+          "command": "stop_se",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 349,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 350,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0169"
+          ],
+          "end": 1
+        },
+        {
+          "row": 351,
+          "command": "mnu_move",
+          "args": [
+            "n25501",
+            "true",
+            "0.05",
+            "0",
+            "-120",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 352,
+          "command": "mnu_move",
+          "args": [
+            "n25501",
+            "false",
+            "0.8",
+            "0",
+            "120",
+            "EaseOutSine"
+          ],
+          "end": 1
+        },
+        {
+          "row": 353,
+          "command": "wait",
+          "args": [
+            "0.05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 354,
+          "command": "chara_fadein",
+          "args": [
+            "n25501",
+            "0.8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 355,
+          "command": "stop_se",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 356,
+          "command": "wait",
+          "args": [
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 357,
+          "command": "CHARA_FADEOUT3_DEF",
+          "args": [
+            "n25501c",
+            "n25501b",
+            "n25501"
+          ],
+          "end": 1
+        },
+        {
+          "row": 360,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00201",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 361,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "cn0102"
+          ],
+          "end": 0
+        },
+        {
+          "row": 362,
+          "command": "ruby",
+          "args": [
+            "再",
+            "ふたた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "び"
+          ],
+          "end": 0
+        },
+        {
+          "row": 362,
+          "command": "ruby",
+          "args": [
+            "動",
+            "うご"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 362,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 362,
+          "command": "print",
+          "args": [
+            "しただと……!?",
+            "VO_CHR_MAINSTORY_25_05_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 363,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00201"
+          ],
+          "end": 1
+        },
+        {
+          "row": 365,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3667",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 366,
+          "command": "c_swing2_h",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 367,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "まさか……！\\nすでに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 368,
+          "command": "ruby",
+          "args": [
+            "因果",
+            "いんが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 368,
+          "command": "ruby",
+          "args": [
+            "固定",
+            "こてい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 368,
+          "command": "print",
+          "args": [
+            "cn3667",
+            "されていたのか!?",
+            "VO_CHR_MAINSTORY_25_05_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 369,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3667"
+          ],
+          "end": 1
+        },
+        {
+          "row": 371,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 372,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 373,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "そんな……！",
+            "VO_CHR_MAINSTORY_25_05_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 374,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 375,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 377,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 378,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 379,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0029_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 380,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 382,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 383,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 384,
+          "command": "wait",
+          "args": [
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 385,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 386,
+          "command": "fade_color",
+          "args": [
+            "0.1",
+            "255",
+            "255",
+            "255",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 387,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0029_400"
+          ],
+          "end": 1
+        },
+        {
+          "row": 388,
+          "command": "fade_color",
+          "args": [
+            "1.5",
+            "255",
+            "255",
+            "255",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 389,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 391,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0013_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 393,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "M",
+            "-100",
+            "0",
+            "m05301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 394,
+          "command": "KURONUKI",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 395,
+          "command": "CHARA_SET_POS_0",
+          "args": [
+            "M",
+            "Q",
+            "150",
+            "0",
+            "m03801",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 396,
+          "command": "KURONUKI",
+          "args": [
+            "m03801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 397,
+          "command": "mnu",
+          "args": [
+            "m05301",
+            "true",
+            "1.0",
+            "0",
+            "0",
+            "1",
+            "1.0",
+            "1",
+            "1",
+            "1",
+            "1.0",
+            "0",
+            "1",
+            "1.0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 398,
+          "command": "cmp",
+          "args": [
+            "m05301",
+            "1.0",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 399,
+          "command": "mnu",
+          "args": [
+            "m03801",
+            "true",
+            "1.0",
+            "0",
+            "0",
+            "1",
+            "1.0",
+            "1",
+            "1",
+            "1",
+            "1.0",
+            "0",
+            "1",
+            "1.0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 400,
+          "command": "cmp",
+          "args": [
+            "m03801",
+            "1.0",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 401,
+          "command": "chara_brightness",
+          "args": [
+            "m05301",
+            "1",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 402,
+          "command": "chara_brightness",
+          "args": [
+            "m03801",
+            "1",
+            "1.0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 403,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 404,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 405,
+          "command": "NO_EMO",
+          "args": [
+            "m03801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 406,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "ゼノス"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "ったはずだ。お"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "前",
+            "まえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "たちの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "意志",
+            "いし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "も\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "選択",
+            "せんたく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "もすべて"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "無用",
+            "むよう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "だと。お"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "前",
+            "まえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "たちには\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "一縷",
+            "いちる"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "希望",
+            "きぼう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "も"
+          ],
+          "end": 0
+        },
+        {
+          "row": 407,
+          "command": "ruby",
+          "args": [
+            "残",
+            "のこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 407,
+          "command": "print",
+          "args": [
+            "されてはいない。",
+            "VO_CHR_MAINSTORY_25_05_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 408,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "ただ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 409,
+          "command": "ruby",
+          "args": [
+            "受",
+            "う"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "け"
+          ],
+          "end": 0
+        },
+        {
+          "row": 409,
+          "command": "ruby",
+          "args": [
+            "入",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "れるがいい。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 409,
+          "command": "ruby",
+          "args": [
+            "目",
+            "め"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 409,
+          "command": "ruby",
+          "args": [
+            "前",
+            "まえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 409,
+          "command": "ruby",
+          "args": [
+            "絶望",
+            "ぜつぼう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 409,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "を――。",
+            "VO_CHR_MAINSTORY_25_05_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 410,
+          "command": "CHARA_FADEOUT2_DEF",
+          "args": [
+            "m05301",
+            "m03801"
+          ],
+          "end": 1
+        },
+        {
+          "row": 412,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00109",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 413,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 414,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ゼノス……！",
+            "VO_CHR_MAINSTORY_25_05_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 415,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 416,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00109"
+          ],
+          "end": 1
+        },
+        {
+          "row": 418,
+          "command": "SCREEN_FLASH_WHITE_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 419,
+          "command": "play_sound",
+          "args": [
+            "SE_007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 420,
+          "command": "play_sound",
+          "args": [
+            "SE_034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 421,
+          "command": "SHAKE_BG_LOOP",
+          "args": [
+            "3",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 423,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 424,
+          "command": "set_BG_effect_scale",
+          "args": [
+            "EFF_SCE_2D_CMN_024",
+            "3",
+            "3",
+            "3",
+            "EaseInCubic",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 425,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 426,
+          "command": "wait",
+          "args": [
+            "3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 427,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 429,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "c3669",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 430,
+          "command": "c_swing_h_fast",
+          "args": [
+            "c3669"
+          ],
+          "end": 1
+        },
+        {
+          "row": 431,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "まずい！　"
+          ],
+          "end": 0
+        },
+        {
+          "row": 432,
+          "command": "ruby",
+          "args": [
+            "要塞",
+            "ようさい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 432,
+          "command": "ruby",
+          "args": [
+            "入",
+            "はい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 432,
+          "command": "print",
+          "args": [
+            "cn3669",
+            "ってくるぞ！",
+            "VO_CHR_MAINSTORY_25_05_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 433,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "c3669"
+          ],
+          "end": 1
+        },
+        {
+          "row": 435,
+          "command": "SHAKE_BG_STOP",
+          "args": [
+            "3",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 437,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 438,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "そこで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 439,
+          "command": "ruby",
+          "args": [
+            "見",
+            "み"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "ているがいい。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 439,
+          "command": "ruby",
+          "args": [
+            "紛",
+            "まが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "いものではない"
+          ],
+          "end": 0
+        },
+        {
+          "row": 439,
+          "command": "ruby",
+          "args": [
+            "真",
+            "しん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 439,
+          "command": "ruby",
+          "args": [
+            "創世",
+            "そうせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 439,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "を！",
+            "VO_CHR_MAINSTORY_25_05_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 440,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 441,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "8"
+          ],
+          "end": 1
+        },
+        {
+          "row": 442,
+          "command": "chara_face",
+          "args": [
+            "m05301",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 443,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_25_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "print",
+          "args": [
+            "ゼノス"
+          ],
+          "end": 0
+        },
+        {
+          "row": 444,
+          "command": "ruby",
+          "args": [
+            "新",
+            "あら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "print",
+          "args": [
+            "たなる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 444,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 444,
+          "command": "ruby",
+          "args": [
+            "誕生",
+            "たんじょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 444,
+          "command": "print",
+          "args": [
+            "を――！",
+            "VO_CHR_MAINSTORY_25_05_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 445,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 446,
+          "command": "NO_EFFECT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 447,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 449,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 450,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "TERMINAL_BEAT3_AFTER",
+      "args": [
+        "CID",
+        "CID2",
+        "CID3"
+      ],
+      "defaultValues": [
+        "",
+        "",
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 7,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "mnu",
+          "args": [
+            "CID",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint",
+            "0.6",
+            "1.0",
+            "1.0",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.6",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "mnu",
+          "args": [
+            "CID2",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint",
+            "0.6",
+            "1.0",
+            "1.0",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.6",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 10,
+          "command": "mnu",
+          "args": [
+            "CID3",
+            "true",
+            "0.6",
+            "0",
+            "-150",
+            "EaseOutQuint",
+            "0.6",
+            "1.0",
+            "1.0",
+            "1",
+            "0.6",
+            "0",
+            "1",
+            "0.6",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 11,
+          "command": "wait",
+          "args": [
+            "0.6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0324"
+          ],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "chara_visible",
+          "args": [
+            "CID",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "chara_visible",
+          "args": [
+            "CID2",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "chara_visible",
+          "args": [
+            "CID3",
+            "false"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "effect_shake_bg",
+          "args": [
+            "12",
+            "0.1",
+            "0.2",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "wait",
+          "args": [
+            "0.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 18,
+          "command": "RestartAll",
+          "args": [
+            "CID"
+          ],
+          "end": 1
+        },
+        {
+          "row": 19,
+          "command": "RestartAll",
+          "args": [
+            "CID2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "RestartAll",
+          "args": [
+            "CID3"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,7488 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -200192584946661878
+  },
+  "m_Name": "1002617",
+  "filename": "1002617",
+  "functions": [
+    {
+      "name": "",
+      "args": [],
+      "defaultValues": [],
+      "commandList": [
+        {
+          "row": 3,
+          "command": "OL_LEFT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "OL_TITLE",
+          "args": [
+            "この話のあらすじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "碧竜",
+            "へきりゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "と"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "共",
+            "とも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "に『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "』の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "記憶",
+            "きおく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "に\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "触",
+            "ふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "れた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "王子",
+            "おうじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "。そこにはゼノスの\\n『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "』らしい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "葛藤",
+            "かっとう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "があった。ゼノスの\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "憎",
+            "にく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "しみや"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "悲",
+            "かな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "しみを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "断",
+            "た"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "ち"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "切",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "ると"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "決意",
+            "けつい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "し、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "王子",
+            "おうじ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "はゼノスに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 3,
+          "command": "ruby",
+          "args": [
+            "挑",
+            "いど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 3,
+          "command": "outline",
+          "args": [
+            "む。"
+          ],
+          "end": 1
+        },
+        {
+          "row": 12,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 13,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0040_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 14,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0146_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 15,
+          "command": "window_type",
+          "args": [
+            "NORMAL"
+          ],
+          "end": 1
+        },
+        {
+          "row": 16,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 17,
+          "command": "BLACK_IN_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 20,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 21,
+          "command": "window_fadein",
+          "args": [
+            "0",
+            "true"
+          ],
+          "end": 1
+        },
+        {
+          "row": 22,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "だいぶ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 23,
+          "command": "ruby",
+          "args": [
+            "進",
+            "すす"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "んでは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 23,
+          "command": "ruby",
+          "args": [
+            "来",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "たが……\\n『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 23,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "』は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 23,
+          "command": "ruby",
+          "args": [
+            "近",
+            "ちか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 23,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "いのか？",
+            "VO_CHR_MAINSTORY_26_13_0001"
+          ],
+          "end": 1
+        },
+        {
+          "row": 24,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 26,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 27,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 28,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 29,
+          "command": "ruby",
+          "args": [
+            "近",
+            "ちか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "づいてはいると"
+          ],
+          "end": 0
+        },
+        {
+          "row": 29,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "う。\\nでも、この"
+          ],
+          "end": 0
+        },
+        {
+          "row": 29,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "はゼノスの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 29,
+          "command": "ruby",
+          "args": [
+            "気配",
+            "けはい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "が\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 29,
+          "command": "ruby",
+          "args": [
+            "強",
+            "つよ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 29,
+          "command": "print",
+          "args": [
+            "くて……。",
+            "VO_CHR_MAINSTORY_26_13_0002"
+          ],
+          "end": 1
+        },
+        {
+          "row": 30,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 33,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 35,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 36,
+          "command": "ruby",
+          "args": [
+            "過",
+            "あやま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "ちを……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 36,
+          "command": "ruby",
+          "args": [
+            "正",
+            "ただ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 36,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "さねば……。",
+            "VO_CHR_MAINSTORY_26_13_0003"
+          ],
+          "end": 1
+        },
+        {
+          "row": 40,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 41,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "……？　なんだ？\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 42,
+          "command": "ruby",
+          "args": [
+            "何",
+            "なに"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "かが"
+          ],
+          "end": 0
+        },
+        {
+          "row": 42,
+          "command": "ruby",
+          "args": [
+            "聞",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 42,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "こえたような……。",
+            "VO_CHR_MAINSTORY_26_13_0004"
+          ],
+          "end": 1
+        },
+        {
+          "row": 43,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 44,
+          "command": "set_BG_effect",
+          "args": [
+            "EFF_SCE_2D_CMN_072"
+          ],
+          "end": 1
+        },
+        {
+          "row": 45,
+          "command": "set_BG_effect_color",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "80",
+            "60",
+            "100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 46,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0"
+          ],
+          "end": 1
+        },
+        {
+          "row": 47,
+          "command": "set_BG_effect_trigger",
+          "args": [
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 48,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 50,
+          "command": "play_sound",
+          "args": [
+            "SE_STORY_COMMON_0162"
+          ],
+          "end": 1
+        },
+        {
+          "row": 51,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 52,
+          "command": "wait",
+          "args": [
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 53,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 54,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 56,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 57,
+          "command": "ODOROKI_EMO",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 58,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 59,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "――っ！　ゼノス！",
+            "VO_CHR_MAINSTORY_26_13_0005"
+          ],
+          "end": 1
+        },
+        {
+          "row": 60,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 62,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 63,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "dn2101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 64,
+          "command": "ruby",
+          "args": [
+            "待",
+            "ま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "て、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 64,
+          "command": "ruby",
+          "args": [
+            "何",
+            "なに"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "か"
+          ],
+          "end": 0
+        },
+        {
+          "row": 64,
+          "command": "ruby",
+          "args": [
+            "様子",
+            "ようす"
+          ],
+          "end": 1
+        },
+        {
+          "row": 64,
+          "command": "print",
+          "args": [
+            "がおかしい。",
+            "VO_CHR_MAINSTORY_26_13_0006"
+          ],
+          "end": 1
+        },
+        {
+          "row": 65,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 67,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 68,
+          "command": "c_bound_b",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 69,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 70,
+          "command": "ruby",
+          "args": [
+            "確",
+            "たし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "かに、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 70,
+          "command": "ruby",
+          "args": [
+            "存在",
+            "そんざい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 70,
+          "command": "ruby",
+          "args": [
+            "感",
+            "かん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 70,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "じられない。\\nゼノスそのものではないのか……。",
+            "VO_CHR_MAINSTORY_26_13_0007"
+          ],
+          "end": 1
+        },
+        {
+          "row": 71,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 73,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 74,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "はるか"
+          ],
+          "end": 0
+        },
+        {
+          "row": 75,
+          "command": "ruby",
+          "args": [
+            "悠久",
+            "ゆうきゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 75,
+          "command": "ruby",
+          "args": [
+            "時",
+            "とき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 75,
+          "command": "ruby",
+          "args": [
+            "遡",
+            "さかのぼ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "りし"
+          ],
+          "end": 0
+        },
+        {
+          "row": 75,
+          "command": "ruby",
+          "args": [
+            "時",
+            "とき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 75,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "……",
+            "VO_CHR_MAINSTORY_26_13_0008"
+          ],
+          "end": 1
+        },
+        {
+          "row": 76,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 77,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 80,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 81,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 82,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "えっ？",
+            "VO_CHR_MAINSTORY_26_13_0009"
+          ],
+          "end": 1
+        },
+        {
+          "row": 83,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 85,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0003_05"
+          ],
+          "end": 1
+        },
+        {
+          "row": 87,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 88,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "はるか"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "悠久",
+            "ゆうきゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "時",
+            "とき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "遡",
+            "さかのぼ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "りし"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "時",
+            "とき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "永劫",
+            "えいごう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "虚空",
+            "こくう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "飽",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "いた『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "』と\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "は、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "互",
+            "たが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "いのために"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 89,
+          "command": "ruby",
+          "args": [
+            "生",
+            "う"
+          ],
+          "end": 1
+        },
+        {
+          "row": 89,
+          "command": "print",
+          "args": [
+            "？？？#ゼノスの記憶",
+            "んだ。",
+            "VO_CHR_MAINSTORY_26_13_0010"
+          ],
+          "end": 1
+        },
+        {
+          "row": 90,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 91,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 93,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 94,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 95,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "こ、これは……！",
+            "VO_CHR_MAINSTORY_26_13_0011"
+          ],
+          "end": 1
+        },
+        {
+          "row": 96,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 98,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 99,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 100,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "』の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 100,
+          "command": "ruby",
+          "args": [
+            "記憶",
+            "きおく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 100,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "なのか……？",
+            "VO_CHR_MAINSTORY_26_13_0012"
+          ],
+          "end": 1
+        },
+        {
+          "row": 101,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 103,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 104,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "創造",
+            "そうぞう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "した"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "らは、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "、ドラゴン……あらゆる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "創造",
+            "そうぞう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "物",
+            "ぶつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "と\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "共",
+            "とも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "月日",
+            "つきひ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 105,
+          "command": "ruby",
+          "args": [
+            "過",
+            "す"
+          ],
+          "end": 1
+        },
+        {
+          "row": 105,
+          "command": "print",
+          "args": [
+            "ごした。",
+            "VO_CHR_MAINSTORY_26_13_0013"
+          ],
+          "end": 1
+        },
+        {
+          "row": 107,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "持",
+            "も"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "つ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "を、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "創",
+            "つく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "りし"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "らに\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "惜",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "しみなく"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "与",
+            "あた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "えた。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "もドラゴンも\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 108,
+          "command": "ruby",
+          "args": [
+            "隔",
+            "へだ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 108,
+          "command": "print",
+          "args": [
+            "てることなく。",
+            "VO_CHR_MAINSTORY_26_13_0014"
+          ],
+          "end": 1
+        },
+        {
+          "row": 110,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "らは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "瞬",
+            "またた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "く"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "間",
+            "ま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "蓄",
+            "たくわ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "え、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "手",
+            "て"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "離",
+            "はな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "れ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "成長",
+            "せいちょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "していった。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "誇",
+            "ほこ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "らしいと、そう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 111,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 111,
+          "command": "print",
+          "args": [
+            "っていた。",
+            "VO_CHR_MAINSTORY_26_13_0015"
+          ],
+          "end": 1
+        },
+        {
+          "row": 112,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 113,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 115,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 116,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ゼノスにも、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "やドラゴンと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "穏",
+            "おだ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "やかに\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "暮",
+            "く"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "らしていた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 117,
+          "command": "ruby",
+          "args": [
+            "頃",
+            "ころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 117,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "があったのか……。",
+            "VO_CHR_MAINSTORY_26_13_0016"
+          ],
+          "end": 1
+        },
+        {
+          "row": 118,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 120,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 121,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "最初",
+            "さいしょ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 122,
+          "command": "ruby",
+          "args": [
+            "内",
+            "うち"
+          ],
+          "end": 1
+        },
+        {
+          "row": 122,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "は。",
+            "VO_CHR_MAINSTORY_26_13_0017"
+          ],
+          "end": 1
+        },
+        {
+          "row": 123,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 124,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 126,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 127,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 128,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "えっ!?",
+            "VO_CHR_MAINSTORY_26_13_0018"
+          ],
+          "end": 1
+        },
+        {
+          "row": 129,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 132,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 133,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "らは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "驕",
+            "おご"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "った。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "与",
+            "あた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "えた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "私欲",
+            "しよく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "満",
+            "み"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "たすために"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "用",
+            "もち"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "い\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "をめぐっての"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "いを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 134,
+          "command": "ruby",
+          "args": [
+            "起",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 134,
+          "command": "print",
+          "args": [
+            "こした。",
+            "VO_CHR_MAINSTORY_26_13_0019"
+          ],
+          "end": 1
+        },
+        {
+          "row": 135,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "ばかりではない。ドラゴンすらも\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "求",
+            "もと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "め、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "悪",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "しき"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "で"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "力",
+            "ちから"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 136,
+          "command": "ruby",
+          "args": [
+            "揮",
+            "ふる"
+          ],
+          "end": 1
+        },
+        {
+          "row": 136,
+          "command": "print",
+          "args": [
+            "った。",
+            "VO_CHR_MAINSTORY_26_13_0020"
+          ],
+          "end": 1
+        },
+        {
+          "row": 137,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 138,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 138,
+          "command": "ruby",
+          "args": [
+            "嘆",
+            "なげ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "き、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 138,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "いを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 138,
+          "command": "ruby",
+          "args": [
+            "収",
+            "おさ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 138,
+          "command": "print",
+          "args": [
+            "めようとした。",
+            "VO_CHR_MAINSTORY_26_13_0021"
+          ],
+          "end": 1
+        },
+        {
+          "row": 139,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "だが、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "先",
+            "さき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "んじて、『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "』は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "いに\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "溢",
+            "あふ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "れた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 140,
+          "command": "ruby",
+          "args": [
+            "滅",
+            "ほろ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 140,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "ぼしてしまった。",
+            "VO_CHR_MAINSTORY_26_13_0022"
+          ],
+          "end": 1
+        },
+        {
+          "row": 141,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 142,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 145,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 146,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 147,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "――！",
+            "VO_CHR_MAINSTORY_26_13_0023"
+          ],
+          "end": 1
+        },
+        {
+          "row": 148,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 150,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 151,
+          "command": "c_swing_h_slow",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 152,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "なんと……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 153,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 153,
+          "command": "ruby",
+          "args": [
+            "一度",
+            "いちど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "\\n『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 153,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "』により"
+          ],
+          "end": 0
+        },
+        {
+          "row": 153,
+          "command": "ruby",
+          "args": [
+            "滅",
+            "ほろ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 153,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "ぼされて\\nいたのか……。",
+            "VO_CHR_MAINSTORY_26_13_0024"
+          ],
+          "end": 1
+        },
+        {
+          "row": 154,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 158,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 159,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 160,
+          "command": "ruby",
+          "args": [
+            "再",
+            "ふたた"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "び"
+          ],
+          "end": 0
+        },
+        {
+          "row": 160,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "と『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 160,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "』はまたいちから\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 160,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 160,
+          "command": "ruby",
+          "args": [
+            "創造",
+            "そうぞう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 160,
+          "command": "print",
+          "args": [
+            "した。\\nそして――。",
+            "VO_CHR_MAINSTORY_26_13_0025"
+          ],
+          "end": 1
+        },
+        {
+          "row": 162,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "そこから"
+          ],
+          "end": 0
+        },
+        {
+          "row": 163,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "と『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 163,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "』の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 163,
+          "command": "ruby",
+          "args": [
+            "対立",
+            "たいりつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 163,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "が\\nはじまったのだ。",
+            "VO_CHR_MAINSTORY_26_13_0026"
+          ],
+          "end": 1
+        },
+        {
+          "row": 164,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 165,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 169,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 170,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 171,
+          "command": "ruby",
+          "args": [
+            "対立",
+            "たいりつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "……これが"
+          ],
+          "end": 0
+        },
+        {
+          "row": 171,
+          "command": "ruby",
+          "args": [
+            "話",
+            "はなし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 171,
+          "command": "ruby",
+          "args": [
+            "聞",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "いていた\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 171,
+          "command": "ruby",
+          "args": [
+            "造物主",
+            "ぞうぶつしゅ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "ruby",
+          "args": [
+            "同士",
+            "どうし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 171,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 171,
+          "command": "print",
+          "args": [
+            "いか……。",
+            "VO_CHR_MAINSTORY_26_13_0027"
+          ],
+          "end": 1
+        },
+        {
+          "row": 172,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 175,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 176,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "は、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "新",
+            "あら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "たなる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "らで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "管理",
+            "かんり"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "すべき\\nと『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "』に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "主張",
+            "しゅちょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "した。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "先",
+            "さき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "悲劇",
+            "ひげき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "を\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "繰",
+            "く"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "り"
+          ],
+          "end": 0
+        },
+        {
+          "row": 177,
+          "command": "ruby",
+          "args": [
+            "返",
+            "かえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 177,
+          "command": "print",
+          "args": [
+            "すわけにはいかなかった。",
+            "VO_CHR_MAINSTORY_26_13_0028"
+          ],
+          "end": 1
+        },
+        {
+          "row": 179,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "だが『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "』は、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "以前",
+            "いぜん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "と"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "同",
+            "おな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "じく"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "住",
+            "す"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "む\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "創造",
+            "そうぞう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "物",
+            "ぶつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "選択",
+            "せんたく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "任",
+            "まか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "せるべきと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 180,
+          "command": "ruby",
+          "args": [
+            "言",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 180,
+          "command": "print",
+          "args": [
+            "う。",
+            "VO_CHR_MAINSTORY_26_13_0029"
+          ],
+          "end": 1
+        },
+        {
+          "row": 182,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "また"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "同",
+            "おな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "じ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "悲劇",
+            "ひげき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "起",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "きた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "時",
+            "とき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "どうするのかと\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "問",
+            "と"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "えば、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "同",
+            "おな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "じように"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "滅",
+            "ほろ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "ぼすと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 183,
+          "command": "ruby",
+          "args": [
+            "告",
+            "つ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 183,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "げる。",
+            "VO_CHR_MAINSTORY_26_13_0030"
+          ],
+          "end": 1
+        },
+        {
+          "row": 185,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "』は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "生",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "きる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "者",
+            "もの"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "破滅",
+            "はめつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "を\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "選",
+            "えら"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "ぶのであれば、それを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "認",
+            "みと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "めるべきと\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 186,
+          "command": "ruby",
+          "args": [
+            "主張",
+            "しゅちょう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 186,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "した。",
+            "VO_CHR_MAINSTORY_26_13_0031"
+          ],
+          "end": 1
+        },
+        {
+          "row": 188,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "それは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "らを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "見捨",
+            "みす"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "てることと"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "同",
+            "おな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "じだ。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "滅",
+            "ほろ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "びるための"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "生",
+            "う"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "んで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "何",
+            "なん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 189,
+          "command": "ruby",
+          "args": [
+            "意味",
+            "いみ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 189,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "が\\nあるというのだ……。",
+            "VO_CHR_MAINSTORY_26_13_0032"
+          ],
+          "end": 1
+        },
+        {
+          "row": 191,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "相",
+            "あい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "容",
+            "い"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "れぬ"
+          ],
+          "end": 0
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "らの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "対立",
+            "たいりつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "は、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "醜",
+            "みにく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "き"
+          ],
+          "end": 0
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "戦",
+            "たたか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "いにまで\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 192,
+          "command": "ruby",
+          "args": [
+            "発展",
+            "はってん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 192,
+          "command": "print",
+          "args": [
+            "した。",
+            "VO_CHR_MAINSTORY_26_13_0033"
+          ],
+          "end": 1
+        },
+        {
+          "row": 193,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 194,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 198,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 199,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "dn2101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "と"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "りゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "いか……。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "億",
+            "おく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "万",
+            "まん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "年",
+            "ねん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "昔",
+            "むかし"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "から、なにも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "変",
+            "か"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "わらぬのか、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 200,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 200,
+          "command": "print",
+          "args": [
+            "らは……。",
+            "VO_CHR_MAINSTORY_26_13_0034"
+          ],
+          "end": 1
+        },
+        {
+          "row": 201,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 205,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 206,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "と『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "』の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "いに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "らを\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "関",
+            "かか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "わらせようとはしなかった。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "争",
+            "あらそ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "いに\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 207,
+          "command": "ruby",
+          "args": [
+            "関",
+            "かか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 207,
+          "command": "print",
+          "args": [
+            "わってほしくはなかったのだ。",
+            "VO_CHR_MAINSTORY_26_13_0035"
+          ],
+          "end": 1
+        },
+        {
+          "row": 209,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "しかし『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "』は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "違",
+            "ちが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "った。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "自",
+            "みずか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "らの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "生",
+            "う"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "んだ\\nドラゴンたちを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "前",
+            "まえ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "駆",
+            "か"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "り"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "出",
+            "だ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "し、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "はドラゴンによって"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "追",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 210,
+          "command": "ruby",
+          "args": [
+            "詰",
+            "つ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 210,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "められた。",
+            "VO_CHR_MAINSTORY_26_13_0036"
+          ],
+          "end": 1
+        },
+        {
+          "row": 212,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "そればかりか……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 213,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 213,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "らまでもが\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 213,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 213,
+          "command": "ruby",
+          "args": [
+            "敵",
+            "てき"
+          ],
+          "end": 1
+        },
+        {
+          "row": 213,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶",
+            "となった。",
+            "VO_CHR_MAINSTORY_26_13_0037"
+          ],
+          "end": 1
+        },
+        {
+          "row": 214,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 215,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 219,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "9"
+          ],
+          "end": 1
+        },
+        {
+          "row": 220,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 221,
+          "command": "ruby",
+          "args": [
+            "人間",
+            "にんげん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "までが……\\nやはりかつての"
+          ],
+          "end": 0
+        },
+        {
+          "row": 221,
+          "command": "ruby",
+          "args": [
+            "人々",
+            "ひとびと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "も"
+          ],
+          "end": 0
+        },
+        {
+          "row": 221,
+          "command": "ruby",
+          "args": [
+            "可能性",
+            "かのうせい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "を\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 221,
+          "command": "ruby",
+          "args": [
+            "求",
+            "もと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 221,
+          "command": "print",
+          "args": [
+            "めたんだろうか……。",
+            "VO_CHR_MAINSTORY_26_13_0038"
+          ],
+          "end": 1
+        },
+        {
+          "row": 222,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 226,
+          "command": "CHARA_SET_XEN",
+          "args": [
+            "0.3"
+          ],
+          "end": 1
+        },
+        {
+          "row": 227,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "仔",
+            "こ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "らに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "裏切",
+            "うらぎ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "られ、そして……\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "異界",
+            "いかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "果",
+            "は"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "て――"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "永劫",
+            "えいごう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "牢獄",
+            "ろうごく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "へと\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 228,
+          "command": "ruby",
+          "args": [
+            "閉",
+            "と"
+          ],
+          "end": 1
+        },
+        {
+          "row": 228,
+          "command": "print",
+          "args": [
+            "ざされることとなったのだった……。",
+            "VO_CHR_MAINSTORY_26_13_0039"
+          ],
+          "end": 1
+        },
+        {
+          "row": 231,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 232,
+          "command": "ruby",
+          "args": [
+            "我",
+            "われ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 232,
+          "command": "ruby",
+          "args": [
+            "誤",
+            "あやま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 232,
+          "command": "print",
+          "args": [
+            "った……。",
+            "VO_CHR_MAINSTORY_26_13_0040"
+          ],
+          "end": 1
+        },
+        {
+          "row": 235,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "print",
+          "args": [
+            "ゼノスの記憶"
+          ],
+          "end": 0
+        },
+        {
+          "row": 236,
+          "command": "ruby",
+          "args": [
+            "過",
+            "あやま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 236,
+          "command": "print",
+          "args": [
+            "ちは――。",
+            "VO_CHR_MAINSTORY_26_13_0041"
+          ],
+          "end": 1
+        },
+        {
+          "row": 237,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "0",
+            "0.2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 238,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 239,
+          "command": "c_mnu_reset",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 241,
+          "command": "BLACK_OUT_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 242,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 243,
+          "command": "CHARA_UNCOLOR",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 244,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0040_100"
+          ],
+          "end": 1
+        },
+        {
+          "row": 245,
+          "command": "set_BG",
+          "args": [
+            "sty_bg_0146_200"
+          ],
+          "end": 1
+        },
+        {
+          "row": 246,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "？？？#ゼノス",
+            "そうだ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 247,
+          "command": "ruby",
+          "args": [
+            "過",
+            "あやま"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "？？？#ゼノス",
+            "ちは"
+          ],
+          "end": 0
+        },
+        {
+          "row": 247,
+          "command": "ruby",
+          "args": [
+            "正",
+            "ただ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 247,
+          "command": "print",
+          "args": [
+            "？？？#ゼノス",
+            "さねばならぬ。",
+            "VO_CHR_MAINSTORY_26_13_0042"
+          ],
+          "end": 1
+        },
+        {
+          "row": 248,
+          "command": "WFOUT_SHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 249,
+          "command": "BLACK_IN_VERYSHORT",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 252,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "Q",
+            "C",
+            "m00114",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 253,
+          "command": "c_swing_h_fast",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 254,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 255,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "――！",
+            "VO_CHR_MAINSTORY_26_13_0043"
+          ],
+          "end": 1
+        },
+        {
+          "row": 256,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 257,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 259,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_0014_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 261,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 262,
+          "command": "KURONUKI",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 263,
+          "command": "wait",
+          "args": [
+            "0.1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 264,
+          "command": "chara_brightness",
+          "args": [
+            "m05301",
+            "1",
+            "1.5"
+          ],
+          "end": 1
+        },
+        {
+          "row": 265,
+          "command": "mnu",
+          "args": [
+            "m05301",
+            "true",
+            "1.0",
+            "0",
+            "0",
+            "1",
+            "1.0",
+            "1",
+            "1",
+            "1",
+            "1.0",
+            "0",
+            "1",
+            "1.0",
+            "1",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 266,
+          "command": "cmp",
+          "args": [
+            "m05301",
+            "1.0",
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 267,
+          "command": "wait",
+          "args": [
+            "2"
+          ],
+          "end": 1
+        },
+        {
+          "row": 268,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 270,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "d2101",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 271,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 272,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "』……！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 272,
+          "command": "ruby",
+          "args": [
+            "今度",
+            "こんど"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 272,
+          "command": "ruby",
+          "args": [
+            "本物",
+            "ほんもの"
+          ],
+          "end": 1
+        },
+        {
+          "row": 272,
+          "command": "print",
+          "args": [
+            "dn2101",
+            "のようだな……。",
+            "VO_CHR_MAINSTORY_26_13_0044"
+          ],
+          "end": 1
+        },
+        {
+          "row": 273,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "d2101"
+          ],
+          "end": 1
+        },
+        {
+          "row": 275,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 276,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 277,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ああ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 278,
+          "command": "ruby",
+          "args": [
+            "間違",
+            "まちが"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "いない。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 278,
+          "command": "ruby",
+          "args": [
+            "追",
+            "お"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "い"
+          ],
+          "end": 0
+        },
+        {
+          "row": 278,
+          "command": "ruby",
+          "args": [
+            "詰",
+            "つ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 278,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "めたぞ、ゼノス……！",
+            "VO_CHR_MAINSTORY_26_13_0045"
+          ],
+          "end": 1
+        },
+        {
+          "row": 279,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 281,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 282,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 283,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "』……"
+          ],
+          "end": 0
+        },
+        {
+          "row": 283,
+          "command": "ruby",
+          "args": [
+            "切",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "り"
+          ],
+          "end": 0
+        },
+        {
+          "row": 283,
+          "command": "ruby",
+          "args": [
+            "捨",
+            "す"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "てた"
+          ],
+          "end": 0
+        },
+        {
+          "row": 283,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "が\\nまさかここまで"
+          ],
+          "end": 0
+        },
+        {
+          "row": 283,
+          "command": "ruby",
+          "args": [
+            "侵入",
+            "しんにゅう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 283,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "してこようとは。",
+            "VO_CHR_MAINSTORY_26_13_0046"
+          ],
+          "end": 1
+        },
+        {
+          "row": 284,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 286,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 287,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 288,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "は"
+          ],
+          "end": 0
+        },
+        {
+          "row": 288,
+          "command": "ruby",
+          "args": [
+            "不要",
+            "ふよう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "……か。\\n『はじまりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 288,
+          "command": "ruby",
+          "args": [
+            "竜",
+            "ドラゴン"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "』との"
+          ],
+          "end": 0
+        },
+        {
+          "row": 288,
+          "command": "ruby",
+          "args": [
+            "戦",
+            "たたか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "いの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 288,
+          "command": "ruby",
+          "args": [
+            "中",
+            "なか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "で\\nそう"
+          ],
+          "end": 0
+        },
+        {
+          "row": 288,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 288,
+          "command": "print",
+          "args": [
+            "ったということか？",
+            "VO_CHR_MAINSTORY_26_13_0047"
+          ],
+          "end": 1
+        },
+        {
+          "row": 289,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 291,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 292,
+          "command": "c_bound_b_slow",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 293,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "そうだ。"
+          ],
+          "end": 0
+        },
+        {
+          "row": 294,
+          "command": "ruby",
+          "args": [
+            "永劫",
+            "えいごう"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 294,
+          "command": "ruby",
+          "args": [
+            "牢獄",
+            "ろうごく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "の"
+          ],
+          "end": 0
+        },
+        {
+          "row": 294,
+          "command": "ruby",
+          "args": [
+            "中",
+            "なか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "で"
+          ],
+          "end": 0
+        },
+        {
+          "row": 294,
+          "command": "ruby",
+          "args": [
+            "悔",
+            "く"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "い、\\nそして"
+          ],
+          "end": 0
+        },
+        {
+          "row": 294,
+          "command": "ruby",
+          "args": [
+            "理解",
+            "りかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 294,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "したのだ。",
+            "VO_CHR_MAINSTORY_26_13_0048"
+          ],
+          "end": 1
+        },
+        {
+          "row": 295,
+          "command": "chara_face",
+          "args": [
+            "m05301",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 296,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "ゼノス"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "完全",
+            "かんぜん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "なる"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "世界",
+            "せかい"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "阻",
+            "はば"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "むもの。\\nそれは、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "我",
+            "わ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 297,
+          "command": "ruby",
+          "args": [
+            "他",
+            "ほか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 297,
+          "command": "print",
+          "args": [
+            "ならないと！",
+            "VO_CHR_MAINSTORY_26_13_0049"
+          ],
+          "end": 1
+        },
+        {
+          "row": 298,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 300,
+          "command": "CHARA_SET",
+          "args": [
+            "Q",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 301,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "cn0101"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "思",
+            "おも"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "いやりの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "が"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "裏目",
+            "うらめ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "に"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "出",
+            "で"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "て、\\nそして"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "裏切",
+            "うらぎ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "りにも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "遭",
+            "あ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "い、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "を"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "捨",
+            "す"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "てることを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 302,
+          "command": "ruby",
+          "args": [
+            "決",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 302,
+          "command": "print",
+          "args": [
+            "めた……か。",
+            "VO_CHR_MAINSTORY_26_13_0050"
+          ],
+          "end": 1
+        },
+        {
+          "row": 303,
+          "command": "c_face",
+          "args": [
+            "M",
+            "M",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 304,
+          "command": "c_bound_b",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 305,
+          "command": "BGMFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 306,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "……おまえは『"
+          ],
+          "end": 0
+        },
+        {
+          "row": 307,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 307,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "』なんだな、ゼノス。",
+            "VO_CHR_MAINSTORY_26_13_0051"
+          ],
+          "end": 1
+        },
+        {
+          "row": 308,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 310,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 311,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 312,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "なに？",
+            "VO_CHR_MAINSTORY_26_13_0052"
+          ],
+          "end": 1
+        },
+        {
+          "row": 313,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 315,
+          "command": "play_sound",
+          "args": [
+            "BGM_IN_STORY_1027_01"
+          ],
+          "end": 1
+        },
+        {
+          "row": 317,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "4"
+          ],
+          "end": 1
+        },
+        {
+          "row": 318,
+          "command": "c_swing_h",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 319,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "すべてを"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "超越",
+            "ちょうえつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "した"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "神",
+            "かみ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "じゃない。\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "人",
+            "ひと"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "だからこそ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "怒",
+            "いか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "り、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "悲",
+            "かな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "しみ、"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "迷",
+            "まよ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "い、\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "正",
+            "ただ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "しさに"
+          ],
+          "end": 0
+        },
+        {
+          "row": 320,
+          "command": "ruby",
+          "args": [
+            "固執",
+            "こしつ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 320,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "する！",
+            "VO_CHR_MAINSTORY_26_13_0053"
+          ],
+          "end": 1
+        },
+        {
+          "row": 321,
+          "command": "chara_face",
+          "args": [
+            "m00114",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 322,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "どこにでもいる、ただの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 323,
+          "command": "ruby",
+          "args": [
+            "人間",
+            "にんげん"
+          ],
+          "end": 1
+        },
+        {
+          "row": 323,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "だ！",
+            "VO_CHR_MAINSTORY_26_13_0054"
+          ],
+          "end": 1
+        },
+        {
+          "row": 324,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 326,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "6"
+          ],
+          "end": 1
+        },
+        {
+          "row": 327,
+          "command": "c_swing2_h_fast",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 328,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "おのれ……！\\n"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "心",
+            "こころ"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "ごときが"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "賢",
+            "さか"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "しい"
+          ],
+          "end": 0
+        },
+        {
+          "row": 329,
+          "command": "ruby",
+          "args": [
+            "口",
+            "くち"
+          ],
+          "end": 1
+        },
+        {
+          "row": 329,
+          "command": "print",
+          "args": [
+            "ゼノス",
+            "を！",
+            "VO_CHR_MAINSTORY_26_13_0055"
+          ],
+          "end": 1
+        },
+        {
+          "row": 330,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m05301"
+          ],
+          "end": 1
+        },
+        {
+          "row": 332,
+          "command": "CHARA_SET",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m00114",
+            "11"
+          ],
+          "end": 1
+        },
+        {
+          "row": 333,
+          "command": "play_sound",
+          "args": [
+            "VO_CHR_MAINSTORY_26_13_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "おまえの"
+          ],
+          "end": 0
+        },
+        {
+          "row": 334,
+          "command": "ruby",
+          "args": [
+            "憎",
+            "にく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "しみも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 334,
+          "command": "ruby",
+          "args": [
+            "悲",
+            "かな"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "しみも"
+          ],
+          "end": 0
+        },
+        {
+          "row": 334,
+          "command": "ruby",
+          "args": [
+            "執着",
+            "しゅうちゃく"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "も\\nすべておれが"
+          ],
+          "end": 0
+        },
+        {
+          "row": 334,
+          "command": "ruby",
+          "args": [
+            "断",
+            "た"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ち"
+          ],
+          "end": 0
+        },
+        {
+          "row": 334,
+          "command": "ruby",
+          "args": [
+            "切",
+            "き"
+          ],
+          "end": 1
+        },
+        {
+          "row": 334,
+          "command": "print",
+          "args": [
+            "cn0101",
+            "ってみせる！",
+            "VO_CHR_MAINSTORY_26_13_0056"
+          ],
+          "end": 1
+        },
+        {
+          "row": 335,
+          "command": "WFOUT_DEF",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 336,
+          "command": "CHARA_FADEOUT_DEF",
+          "args": [
+            "m00114"
+          ],
+          "end": 1
+        },
+        {
+          "row": 338,
+          "command": "BLACK_OUT_DEF_STOP",
+          "args": [],
+          "end": 1
+        },
+        {
+          "row": 339,
+          "command": "end",
+          "args": [],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    },
+    {
+      "name": "CHARA_SET_XEN",
+      "args": [
+        "sec"
+      ],
+      "defaultValues": [
+        ""
+      ],
+      "commandList": [
+        {
+          "row": 6,
+          "command": "CHARA_SET_0",
+          "args": [
+            "M",
+            "M",
+            "C",
+            "m05301",
+            "1"
+          ],
+          "end": 1
+        },
+        {
+          "row": 7,
+          "command": "set_BG_effect_opacity",
+          "args": [
+            "EFF_SCE_2D_CMN_072",
+            "1",
+            "sec"
+          ],
+          "end": 1
+        },
+        {
+          "row": 8,
+          "command": "chara_color",
+          "args": [
+            "m05301",
+            "0",
+            "1",
+            "255",
+            "255",
+            "255",
+            "0.7"
+          ],
+          "end": 1
+        },
+        {
+          "row": 9,
+          "command": "chara_fadein",
+          "args": [
+            "m05301",
+            "sec"
+          ],
+          "end": 1
+        }
+      ],
+      "variables": {
+        "buckets": [
+          -1,
+          -1,
+          -1
+        ],
+        "count": 0,
+        "entriesHashCode": [
+          0,
+          0,
+          0
+        ],
+        "entriesNext": [
+          0,
+          0,
+          0
+        ],
+        "entriesKey": [
+          "",
+          "",
+          ""
+        ],
+        "entriesValue": [
+          "",
+          "",
+          ""
+        ],
+        "freeCount": 0,
+        "freeList": -1
+      }
+    }
+  ]
+}
