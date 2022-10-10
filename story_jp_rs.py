@@ -18,13 +18,10 @@ filepath=f'{ori_path}/queststory_main'
 filelist=f'{ori_path}/queststory_main.csv'
 export_path=f'{ori_path}/queststory_main_jp'
 mainstory_fnmae=''
+
 # 主线剧情中特殊的人物名称？
 ms_spname=['SYS','ＳＹＳ','碧竜']
 # print(ori_path)
-
-# 判断字符串相似度
-def str_eqrate(str1,str2):
-    return difflib.SequenceMatcher(None,str1,str2).quick_ratio()
 
 # 加载charaid表
 cidfile=pd.read_csv(char_id)
@@ -34,6 +31,102 @@ eachfile=pd.read_csv(filelist)
 eflen=len(eachfile['filename'])
 # eflen=1 # 测试用
 fname=''
+
+# 定义剧情概要、演员角色、台词、台词暂存变量
+role=[]
+rolew=[]
+# print
+rpn=''
+rwtemp=''
+rwtext=''
+senend=0
+# telop
+trpn=''
+tltitle=''
+tltemp=''
+tltext=''
+# monologue
+mono=0
+mopn=''
+monotext=''
+# outline
+oltitle=''
+oltext=''
+oltemp=''
+# 剧情概要、角色台词开始标志
+telop=0
+outline=0
+start=0
+outend=0
+teend=0
+no_audio=1
+
+# 判断字符串相似度
+def str_eqrate(str1,str2):
+    return difflib.SequenceMatcher(None,str1,str2).quick_ratio()
+
+# 剧情概要 ol_outline处理
+def nor_ol_outline(n):
+    i=int(n)
+    otext=''
+    outlen=len(nlze['args'][i])
+    for a in range(0,outlen):
+        if('\\n' in nlze['args'][i][a]):
+            oltemp=str(nlze['args'][i][a])
+            oltemp=oltemp.replace('\\n','\n')
+            otext+=oltemp
+        elif(nlze['args'][i][a]=='block_a' or nlze['args'][i][a]=='end_block'):
+            oltemp=''
+        else:
+            oltemp=str(nlze['args'][i][a])
+            otext+=oltemp
+    return otext
+
+# 剧情概要 ol_ruby处理
+def nor_ol_ruby(n):
+    i=int(n)
+    otext=''
+    if(nlze['command'][i]=='ruby'):
+        if('\\n' in nlze['args'][i][0]):
+            oltemp=str(nlze['args'][i][0])
+            oltemp=oltemp.replace('\\n','\n')
+            otext+=oltemp
+        else:
+            oltemp=str(nlze['args'][i][0])
+            otext+=oltemp
+    return otext
+
+# MONOLOGUE_print处理
+def nor_mo_print(n):
+    i=int(n)
+    mpn=''
+    motext=''
+    molen=len(nlze['args'][i])
+    for ax in range(0,molen):
+        if str(nlze['args'][i][ax]) in ms_spname:
+            mpn=str(nlze['args'][i][ax])
+        elif '\\n' in nlze['args'][i][ax]:
+            motemp=str(nlze['args'][i][ax])
+            motemp=motemp.replace('\\n','\n')
+            motext+=motemp
+        else:
+            motemp=str(nlze['args'][i][ax])
+            motext+=motemp
+    return mpn,motext
+
+# MONOLOGUE_ruby处理
+def nor_mo_ruby(n):
+    i=int(n)
+    motext=''
+    if '\\n' in nlze['args'][i][0]:
+        motemp=str(nlze['args'][i][0])
+        motemp=motemp.replace('\\n','\n')
+        motext+=motemp
+    else:
+        motemp=str(nlze['args'][i][0])
+        motext+=motemp
+    return motext
+    
 for i in range(0,eflen):
     fname=eachfile['filename'][i]
     # fname='1000100' # 测试用
@@ -54,121 +147,80 @@ for i in range(0,eflen):
 
     # 获取列长度
     nlzelen=len(nlze['row'])
-    # 定义剧情概要、演员角色、台词、台词暂存变量
-    role=[]
-    rolew=[]
-    # print
-    rpn=''
-    rwtemp=''
-    rwtext=''
-    senend=0
-    # telop
-    trpn=''
-    tltitle=''
-    tltemp=''
-    tltext=''
-    # monologue
-    mono=0
-    mopn=''
-    monotext=''
-    # outline
-    oltitle=''
-    oltext=''
-    oltemp=''
-    # 剧情概要、角色台词开始标志
-    telop=0
-    outline=0
-    start=0
-    outend=0
-    teend=0
-    no_audio=1
+
+    
     for i in range(0,nlzelen):
-        # 剧情概要处理
+        n=int(i)
+        # 剧情概要处理过程：oltilte->ol outline->ol ruby
+        # 剧情概要标题
         if(nlze['command'][i]=='OL_TITLE' or nlze['command'][i]=='outline_title'):
             oltitle=nlze['args'][i]
             outline=1
-        # 剧情概要文本拼接
+        # 剧情概要 outline
         if(nlze['command'][i]=='outline'):
-            # 当下一行不是ruby或者outline时合并当前的数据后关闭outline开关
+            if outline==1:
+                # 当下一行不是ruby或者outline时合并当前的数据后关闭outline开关
                 if(nlze['command'][i+1]=='outline' or nlze['command'][i+1]=='ruby'):
-                    outlen=len(nlze['args'][i])
-                    for a in range(0,outlen):
-                        if('\\n' in nlze['args'][i][a]):
-                            oltemp=str(nlze['args'][i][a])
-                            oltemp=oltemp.replace('\\n','\n')
-                            oltext+=oltemp
-                        elif(nlze['args'][i][a]=='block_a' or nlze['args'][i][a]=='end_block'):
-                            oltemp=''
-                        else:
-                            oltemp=str(nlze['args'][i][a])
-                            oltext+=oltemp
+                    olend=0
                 else:
-                    outlen=len(nlze['args'][i])
-                    for a in range(0,outlen):
-                        if('\\n' in nlze['args'][i][a]):
-                            oltemp=str(nlze['args'][i][a])
-                            oltemp=oltemp.replace('\\n','\n')
-                            oltext+=oltemp
-                        elif(nlze['args'][i][a]=='block_a' or nlze['args'][i][a]=='end_block'):
-                            oltemp=''
-                        else:
-                            oltemp=str(nlze['args'][i][a])
-                            oltext+=oltemp
+                    olend=1
+                n=int(i)
+                oltemp=nor_ol_outline(n)
+                oltext+=oltemp
+                if olend==1:
                     outline=0
-                    outend=1
+                else:
+                    outline=1
+        # 剧情概要 ruby
         if(nlze['command'][i]=='ruby'):
             if outline==1:
                 # 当下一行不是ruby或者outline时合并当前的数据后关闭outline开关
                 if(nlze['command'][i+1]=='outline' or nlze['command'][i+1]=='ruby'):
-                    if('\\n' in nlze['args'][i][0]):
-                        oltemp=str(nlze['args'][i][0])
-                        oltemp=oltemp.replace('\\n','\n')
-                        oltext+=oltemp
-                    else:
-                        oltemp=str(nlze['args'][i][0])
-                        oltext+=oltemp
+                    olend=0
                 else:
-                    if('\\n' in nlze['args'][i][a]):
-                        oltemp=str(nlze['args'][i][a])
-                        oltemp=oltemp.replace('\\n','\n')
-                        oltext+=oltemp
-                    else:
-                        oltemp=str(nlze['args'][i][a])
-                        oltext+=oltemp
+                    olend=1
+                n=int(i)
+                oltemp=nor_ol_ruby(n)
+                oltext+=oltemp
+                if olend==1:
                     outline=0
-                    outend=1
+                else:
+                    outline=1
+
         # MONOLOGUE处理
-        if nlze['args'][i]=='MONOLOGUE':
-            mono=1
+        if nlze['command'][i]=='window_type':
+            if nlze['args'][i][0]=='MONOLOGUE':
+                mono=1
         if(nlze['command'][i]=='print'):
             if mono==1:
-                if(nlze['command'][i+1]=='print' or 'ruby' or 'wait'):
+                ncmd=nlze['command'][i+1]
+                if(ncmd=='print' or ncmd=='ruby' or ncmd=='wait'):
                     moend=0
                 else:
                     moend=1
-                molen=len(nlze['args'][i])
-                for ax in range(0,molen):
-                    if str(nlze['args'][i][ax]) in ms_spname:
-                        mopn=str(nlze['args'][i][ax])
-                        mopn=mopn+'： '
-                    elif '\\n' in nlze['args'][i][ax]:
-                        motemp=str(nlze['args'][i][ax])
-                        motemp=motemp.replace('\\n','\n')
-                        monotext+=motemp
+                n=int(i)
+                mopntemp,monotemp=nor_mo_print(n)
+                if mopntemp in ms_spname:
+                    mopn=mopntemp+'： '
+                monotext+=monotemp
                 if moend==1:
                     mono=0
+                else:
+                    mono=1
         if(nlze['command'][i]=='ruby'):
             if mono==1:
-                if(nlze['command'][i+1]=='print' or 'ruby' or 'wait'):
+                ncmd=nlze['command'][i+1]
+                if(ncmd=='print' or ncmd=='ruby' or ncmd=='wait'):
                     moend=0
                 else:
                     moend=1
-                if '\\n' in nlze['args'][i][0]:
-                        motemp=str(nlze['args'][i][0])
-                        motemp=motemp.replace('\\n','\n')
-                        monotext+=motemp
+                n=int(i)
+                monotemp=nor_mo_ruby(n)
+                monotext+=monotemp
                 if moend==1:
                     mono=0
+                else:
+                    mono=1
         # telop 章节背景介绍处理
         if(nlze['command'][i]=='telop'):
             telop=1
@@ -179,40 +231,40 @@ for i in range(0,eflen):
         if(nlze['command'][i]=='print'):
             if telop==1:
                 # 当下一行不是ruby或者print时合并当前的数据后关闭telop开关
-                if(nlze['command'][i+1]=='print' or nlze['command'][i+1]=='ruby'):
-                    tltlen=len(nlze['args'][i])
-                    for b in range(0,tltlen):
-                        if('\\n' in nlze['args'][i][b]):
-                            tltemp=str(nlze['args'][i][b])
-                            tltemp=tltemp.replace('\\n','\n')
-                            tltext+=tltemp
-                        elif (nlze['args'][i][b] in ms_spname):
-                            trpn=nlze['args'][i][b]
-                        else:
-                            tltemp=str(nlze['args'][i][b])
-                            tltext+=tltemp
-                        telop=0
-                        teend=1
+                tncmd=nlze['command'][i+1]
+                if(tncmd=='print' or tncmd=='ruby'):
+                    teend=1
+                else:
+                    teend=0
+                tltlen=len(nlze['args'][i])
+                for b in range(0,tltlen):
+                    if('\\n' in nlze['args'][i][b]):
+                        tltemp=str(nlze['args'][i][b])
+                        tltemp=tltemp.replace('\\n','\n')
+                        tltext+=tltemp
+                    elif (nlze['args'][i][b] in ms_spname):
+                        trpn=nlze['args'][i][b]
+                    else:
+                        tltemp=str(nlze['args'][i][b])
+                        tltext+=tltemp
+                if teend==1:
+                    telop=0
         if(nlze['command'][i]=='ruby'):
             if telop==1:
-                if(nlze['command'][i+1]=='print' or nlze['command'][i+1]=='ruby'):
-                    if('\\n' in nlze['args'][i][0]):
-                        tltemp=str(nlze['args'][i][0])
-                        tltemp=tltemp.replace('\\n','\n')
-                        tltext+=tltemp
-                    else:
-                        tltemp=str(nlze['args'][i][0])
-                        tltext+=tltemp
-                else:
-                    if('\\n' in nlze['args'][i][0]):
-                        tltemp=str(nlze['args'][i][0])
-                        tltemp=tltemp.replace('\\n','\n')
-                        tltext+=tltemp
-                    else:
-                        tltemp=str(nlze['args'][i][0])
-                        tltext+=tltemp
-                    telop=0
+                tncmd=nlze['command'][i+1]
+                if(tncmd=='print' or tncmd=='ruby'):
                     teend=1
+                else:
+                    teend=0
+                if('\\n' in nlze['args'][i][0]):
+                    tltemp=str(nlze['args'][i][0])
+                    tltemp=tltemp.replace('\\n','\n')
+                    tltext+=tltemp
+                else:
+                    tltemp=str(nlze['args'][i][0])
+                    tltext+=tltemp
+                if teend==1:
+                    telop=0
         # 对话处理
         if outend+teend==2 or outend+telop==1:
             start=1
@@ -304,15 +356,29 @@ for i in range(0,eflen):
                         rwtext=''
 
     with open(f'{export_path}/{fname}.txt','w',encoding='utf-8') as msr:
+        # 调试用
         # write in outline
         msr.write(f'oltitle:\n{oltitle}\noltext:\n{oltext}\n')
         # write in monologue
-        msr.write(f'mopn:\n{mopn}\nmotext:\n{monotext}')
+        msr.write(f'mopn:\n{mopn}\nmotext:\n{monotext}\n')
         # write in telop
         msr.write(f'trpn:\n{trpn}\ntititle:\n{tltitle}\ntltext:\n{tltext}\n')
+
+        # # 正式输出用
+        # # write in outline
+        # msr.write(f'{oltitle}\n{oltext}\n')
+        # # write in monologue
+        # msr.write(f'{mopn}\n{monotext}\n')
+        # # write in telop
+        # msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
+
         # write in role,rolew
         for i in range(0,len(role)):
             msr.write(f'{role[i]}： {rolew[i]}')
+        oltitle=''
+        oltext=''
+        mopn=''
+        monotext=''
         print(f'{oltitle}\n{oltext}\n')
         print(f'{trpn}\n{tltitle}\n{tltext}\n')
         print(f'{role}')
