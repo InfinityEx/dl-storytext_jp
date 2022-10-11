@@ -1,0 +1,17 @@
+﻿,row,command,args,end
+0,2,wait,['0'],1
+1,4,TUTORIAL_BUTTON_SETTING,[],1
+2,5,window_type,['NORMAL'],1
+3,6,frame_visible,['false'],1
+4,8,cutt_load,['CT_MAIN_000_003'],1
+5,10,outline,[],1
+6,13,cutt_waitevent_disable_skip,[],1
+7,15,frame_visible,"['true', '0.2']",1
+8,16,print,"['王子#ユーディル', 'うおおおおおおおおおお']",0
+9,16,no_need_touch_wait,[],1
+10,16,print,['王子#ユーディル'],1
+11,18,cutt_resetpause,[],1
+12,20,WFOUT_DEF,[],1
+13,21,frame_visible,"['false', '0.3']",1
+14,23,WFOUT_SHORT,[],1
+15,25,end,[],1

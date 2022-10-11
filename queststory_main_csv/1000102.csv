@@ -1,0 +1,113 @@
+﻿,row,command,args,end
+0,5,OL_LEFT,[],1
+1,5,outline_title,['この話のあらすじ'],1
+2,5,ruby,"['暗殺者', 'あんさつしゃ']",1
+3,5,outline,['は'],0
+4,5,ruby,"['聖騎士', 'せいきし']",1
+5,5,outline,['を'],0
+6,5,ruby,"['追', 'お']",1
+7,5,outline,['い'],0
+8,5,ruby,"['詰', 'つ']",1
+9,5,outline,['めるが、そこに\\n'],0
+10,5,ruby,"['突如', 'とつじょ']",1
+11,5,outline,['として'],0
+12,5,ruby,"['魔獣', 'まじゅう']",1
+13,5,outline,['が'],0
+14,5,ruby,"['現', 'あらわ']",1
+15,5,outline,['れ、'],0
+16,5,ruby,"['大混戦', 'だいこんせん']",1
+17,5,outline,['となる。\\n'],0
+18,5,ruby,"['遅', 'おく']",1
+19,5,outline,['れて'],0
+20,5,ruby,"['駆', 'か']",1
+21,5,outline,['けつけた'],0
+22,5,ruby,"['王子', 'おうじ']",1
+23,5,outline,['は、'],0
+24,5,ruby,"['聖騎士', 'せいきし']",1
+25,5,outline,['を\\n'],0
+26,5,ruby,"['助', 'たす']",1
+27,5,outline,['けるため、'],0
+28,5,ruby,"['魔獣', 'まじゅう']",1
+29,5,outline,['に'],0
+30,5,ruby,"['立', 'た']",1
+31,5,outline,['ち'],0
+32,5,ruby,"['向', 'む']",1
+33,5,outline,['かう。'],1
+34,10,BLACK_OUT_DEF_STOP,[],1
+35,11,set_BG,['sty_bg_0021_100'],1
+36,12,window_type,['NORMAL'],1
+37,13,play_sound,['BGM_IN_STORY_0008_02'],1
+38,14,BLACK_IN_DEF,[],1
+39,16,CHARA_SET,"['M', 'M', 'C', 'c0207', '1']",1
+40,17,window_fadein,"['0', 'true']",1
+41,18,play_sound,['SE_014'],1
+42,19,print,['魔獣'],0
+43,19,SHOUT_COM,[],1
+44,19,print,['グルゥゥゥゥ！'],0
+45,19,SHOUT_STOP,[],1
+46,19,print,[' '],1
+47,20,NO_EFFECT,[],1
+48,21,CHARA_FADEOUT_DEF,['c0207'],1
+49,23,CHARA_SET,"['M', 'M', 'C', 'c0102', '7']",1
+50,24,ODOROKI_EMO,['c0102'],1
+51,25,play_sound,['VO_CHR_INGAMESTORY_01_01_0002'],1
+52,26,print,"['？？？#cn0915', 'な、こんな']",0
+53,26,ruby,"['巨大', 'きょだい']",1
+54,26,print,"['？？？#cn0915', 'な']",0
+55,26,ruby,"['魔獣', 'まじゅう']",1
+56,26,print,"['？？？#cn0915', 'が、\\nこの']",0
+57,26,ruby,"['森', 'もり']",1
+58,26,print,"['？？？#cn0915', 'に']",0
+59,26,ruby,"['出', 'で']",1
+60,26,print,"['？？？#cn0915', 'るなんて!?', 'VO_CHR_INGAMESTORY_01_01_0002']",1
+61,27,CHARA_FADEOUT_DEF,['c0102'],1
+62,29,play_sound,['SE_053'],1
+63,30,CHARA_SHIMOTE,"['M', 'M', 'C', 'c0105', '4']",1
+64,31,play_sound,['VO_CHR_INGAMESTORY_01_01_0003'],1
+65,32,print,['暗殺者'],0
+66,32,ruby,"['追', 'お']",1
+67,32,print,['い'],0
+68,32,ruby,"['詰', 'つ']",1
+69,32,print,['めたぞ！\\n'],0
+70,32,ruby,"['裏切', 'うらぎ']",1
+71,32,print,['りの'],0
+72,32,ruby,"['聖騎士', 'せいきし']",1
+73,32,print,"['！', 'VO_CHR_INGAMESTORY_01_01_0003']",1
+74,33,CHARA_FADEOUT_DEF,['c0105'],1
+75,34,WFOUT_DEF,[],1
+76,36,CHARA_KAMITE_SE,"['M', 'M', 'C', 'c0101', '11', 'SE_RUN_IN_GR']",1
+77,37,play_sound,['VO_CHR_INGAMESTORY_01_01_0004'],1
+78,38,print,['cn0101'],0
+79,38,ruby,"['待', 'ま']",1
+80,38,print,"['てっ！', 'VO_CHR_INGAMESTORY_01_01_0004']",1
+81,39,CHARA_FADEOUT_DEF,['c0101'],1
+82,41,CHARA_SET,"['M', 'M', 'C', 'c0105', '6']",1
+83,42,play_sound,['VO_CHR_INGAMESTORY_01_01_0005'],1
+84,43,print,"['暗殺者', 'くっ、こんなところで']",0
+85,43,ruby,"['邪魔', 'じゃま']",1
+86,43,print,"['暗殺者', 'が！', 'VO_CHR_INGAMESTORY_01_01_0005']",1
+87,44,CHARA_FADEOUT_DEF,['c0105'],1
+88,46,CHARA_SET,"['M', 'M', 'C', 'c0102', '7']",1
+89,47,play_sound,['VO_CHR_INGAMESTORY_01_01_0006'],1
+90,48,print,"['？？？#cn0915', 'あなたがたは!?', 'VO_CHR_INGAMESTORY_01_01_0006']",1
+91,49,CHARA_FADEOUT_DEF,['c0102'],1
+92,51,CHARA_SET,"['M', 'M', 'C', 'c0207', '1']",1
+93,52,play_sound,['SE_014'],1
+94,53,print,['魔獣'],0
+95,53,SHOUT_COM,[],1
+96,53,print,['グルゥゥゥゥ！'],0
+97,53,SHOUT_STOP,[],1
+98,53,print,[' '],1
+99,54,NO_EFFECT,[],1
+100,55,CHARA_FADEOUT_DEF,['c0207'],1
+101,57,CHARA_SET,"['M', 'M', 'C', 'c0101', '11']",1
+102,58,play_sound,['VO_CHR_INGAMESTORY_01_01_0008'],1
+103,59,print,['cn0101'],0
+104,59,ruby,"['話', 'はなし']",1
+105,59,print,['は'],0
+106,59,ruby,"['後', 'あと']",1
+107,59,print,['だ！\u3000まずはこいつを'],0
+108,59,ruby,"['倒', 'たお']",1
+109,59,print,"['そう！', 'VO_CHR_INGAMESTORY_01_01_0008']",1
+110,61,BLACK_OUT_DEF_STOP,[],1
+111,63,end,[],1

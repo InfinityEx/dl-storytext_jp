@@ -1,0 +1,106 @@
+﻿,row,command,args,end
+0,3,cutt_load,['CT_MAIN_000_004'],1
+1,5,OL_LEFT,[],1
+2,5,OL_TITLE,['この話のあらすじ'],1
+3,5,outline,['ドラゴンの'],0
+4,5,ruby,"['力', 'ちから']",1
+5,5,outline,['で'],0
+6,5,ruby,"['魔獣', 'まじゅう']",1
+7,5,outline,['を'],0
+8,5,ruby,"['倒', 'たお']",1
+9,5,outline,['した'],0
+10,5,ruby,"['王子', 'おうじ']",1
+11,5,outline,['。\\nしかしその'],0
+12,5,ruby,"['前', 'まえ']",1
+13,5,outline,['に、'],0
+14,5,ruby,"['仮面', 'かめん']",1
+15,5,outline,['の'],0
+16,5,ruby,"['少女', 'しょうじょ']",1
+17,5,outline,['が'],0
+18,5,ruby,"['呼', 'よ']",1
+19,5,outline,['び'],0
+20,5,ruby,"['出', 'だ']",1
+21,5,outline,['した\\n'],0
+22,5,ruby,"['新', 'あら']",1
+23,5,outline,['たな'],0
+24,5,ruby,"['魔獣', 'まじゅう']",1
+25,5,outline,['が'],0
+26,5,ruby,"['立', 'た']",1
+27,5,outline,['ちはだかる。\\n'],0
+28,5,ruby,"['王子', 'おうじ']",1
+29,5,outline,['が'],0
+30,5,ruby,"['魔獣', 'まじゅう']",1
+31,5,outline,['めがけて'],0
+32,5,ruby,"['放', 'はな']",1
+33,5,outline,['った'],0
+34,5,ruby,"['攻撃', 'こうげき']",1
+35,5,outline,['の'],0
+36,5,ruby,"['余波', 'よは']",1
+37,5,outline,['が、\\n'],0
+38,5,ruby,"['少女', 'しょうじょ']",1
+39,5,outline,['を'],0
+40,5,ruby,"['襲', 'おそ']",1
+41,5,outline,['い、その'],0
+42,5,ruby,"['顔', 'かお']",1
+43,5,outline,['から'],0
+44,5,ruby,"['仮面', 'かめん']",1
+45,5,outline,['が'],0
+46,5,ruby,"['落', 'お']",1
+47,5,outline,"['ちる……。', 'end_block']",1
+48,7,window_type,['NORMAL'],1
+49,8,frame_visible,"['false', '0.3']",1
+50,10,next_area,[],1
+51,13,cutt_waitevent_disable_skip,[],1
+52,15,frame_visible,"['true', '0.3']",1
+53,16,WFIN_DEF,[],1
+54,18,stop_bgm,['3.0'],1
+55,21,print,"['王子#ユーディル', 'はぁ……はぁ……']",0
+56,21,wait_print,[],1
+57,21,print,"['王子#ユーディル', '\\nおれが……ドラゴンに……']",0
+58,21,wait_print,[],1
+59,21,print,"['王子#ユーディル', '\\nこれが……']",0
+60,21,ruby,"['契約石', 'けいやくせき']",1
+61,21,print,"['王子#ユーディル', 'の']",0
+62,21,ruby,"['力', 'ちから']",1
+63,21,print,"['王子#ユーディル', 'なのか？', 'VO_CHR_INGAMESTORY_00_09_0001']",1
+64,23,cutt_resetpause,[],1
+65,24,cutt_waitevent_disable_skip,[],1
+66,26,print,"['仮面の少女#ゼシア', 'あああ……なんという……。']",0
+67,26,wait_print,[],1
+68,26,print,"['仮面の少女#ゼシア', '\\nまたしても……']",0
+69,26,ruby,"['契約', 'けいやく']",1
+70,26,print,"['仮面の少女#ゼシア', 'が……。']",0
+71,26,wait_print,[],1
+72,26,print,"['仮面の少女#ゼシア', '\\nやはり']",0
+73,26,ruby,"['運命', 'うんめい']",1
+74,26,print,"['仮面の少女#ゼシア', 'は……。', 'VO_CHR_INGAMESTORY_00_09_0002']",1
+75,28,cutt_resetpause,[],1
+76,29,cutt_waitevent_disable_skip,[],1
+77,31,print,['仮面の少女#ゼシア'],0
+78,31,ruby,"['仕方', 'しかた']",1
+79,31,print,['ありません。\\nここは'],0
+80,31,ruby,"['一度', 'いちど']",1
+81,31,print,"['……！', 'VO_CHR_INGAMESTORY_00_09_0003']",1
+82,33,cutt_resetpause,[],1
+83,35,WFOUT_DEF,[],1
+84,36,frame_visible,"['false', '0.3']",1
+85,38,cutt_waitevent_disable_skip,[],1
+86,40,frame_visible,"['true', '0.3']",1
+87,41,WFIN_DEF,[],1
+88,44,print,"['王子#ユーディル', 'くっ、まだ']",0
+89,44,ruby,"['出', 'で']",1
+90,44,print,"['王子#ユーディル', 'てくるのか！']",0
+91,44,wait_print,[],1
+92,44,print,"['王子#ユーディル', '\\nハァッ!!', 'VO_CHR_INGAMESTORY_00_09_0004']",1
+93,46,cutt_resetpause,[],1
+94,47,cutt_waitevent_disable_skip,[],1
+95,49,print,"['仮面の少女#ゼシア', 'きゃあっ!?', 'VO_CHR_INGAMESTORY_00_09_0005']",1
+96,51,cutt_resetpause,[],1
+97,53,WFOUT_DEF,[],1
+98,54,frame_visible,"['false', '0.3']",1
+99,56,cutt_waitevent_disable_skip,[],1
+100,59,SEFOUT_DEF,[],1
+101,61,wait,['2.0'],1
+102,63,cutt_waittap,[],1
+103,65,BLACK_OUT_VERYSHORT,[],1
+104,67,end_block,[],1

@@ -1,0 +1,1176 @@
+﻿,row,command,args,end
+0,2,OL_LEFT,[],1
+1,2,OL_TITLE,['この話のあらすじ'],1
+2,2,ruby,"['突如', 'とつじょ']",1
+3,2,outline,['、バハムートに'],0
+4,2,ruby,"['意識', 'いしき']",1
+5,2,outline,['を'],0
+6,2,ruby,"['乗', 'の']",1
+7,2,outline,['っ'],0
+8,2,ruby,"['取', 'と']",1
+9,2,outline,['られて\\nしまうゼシア。ゼシアを'],0
+10,2,ruby,"['救', 'すく']",1
+11,2,outline,['うため'],0
+12,2,ruby,"['奮戦', 'ふんせん']",1
+13,2,outline,['する\\n'],0
+14,2,ruby,"['王子', 'おうじ']",1
+15,2,outline,['たちだが、'],0
+16,2,ruby,"['隙', 'すき']",1
+17,2,outline,['をつかれ'],0
+18,2,ruby,"['逃', 'に']",1
+19,2,outline,['げられて\\nしまう。'],0
+20,2,ruby,"['聖', 'せい']",1
+21,2,outline,['なる'],0
+22,2,ruby,"['樹', 'き']",1
+23,2,outline,['を'],0
+24,2,ruby,"['破壊', 'はかい']",1
+25,2,outline,['しようとする\\nバハムートを'],0
+26,2,ruby,"['追', 'お']",1
+27,2,outline,['い、'],0
+28,2,ruby,"['頂上', 'ちょうじょう']",1
+29,2,outline,['を'],0
+30,2,ruby,"['目指', 'めざ']",1
+31,2,outline,['すのだった。'],1
+32,4,BLACK_OUT_DEF_STOP,[],1
+33,5,set_BG,['sty_bg_0139_100'],1
+34,6,window_type,['NORMAL'],1
+35,7,play_sound,['BGM_IN_STORY_0012_01'],1
+36,8,BLACK_IN_DEF,[],1
+37,12,CHARA_SET,"['M', 'M', 'C', 'm05401', '7']",1
+38,13,window_fadein,"['0', 'true']",1
+39,14,c_swing2_h_fast,['m05401'],1
+40,15,play_sound,['VO_CHR_MAINSTORY_22_06_0001'],1
+41,16,print,"['cn0109', '――っ!?\u3000こ、これは……！', 'VO_CHR_MAINSTORY_22_06_0001']",1
+42,17,CHARA_FADEOUT_DEF,['m05401'],1
+43,19,CHARA_SET,"['M', 'M', 'C', 'm00701', '7']",1
+44,20,ODOROKI_EMO,['m00701'],1
+45,21,play_sound,['VO_CHR_MAINSTORY_22_06_0002'],1
+46,22,print,"['cn0107', '……？\u3000ゼシア？\\nどうかしたの？', 'VO_CHR_MAINSTORY_22_06_0002']",1
+47,23,CHARA_FADEOUT_DEF,['m00701'],1
+48,25,CHARA_SET,"['M', 'M', 'C', 'm05401', '6']",1
+49,26,c_swing_h,['m05401'],1
+50,27,play_sound,['VO_CHR_MAINSTORY_22_06_0003'],1
+51,28,print,"['cn0109', 'い、いけない……！\\nみなさん、']",0
+52,28,ruby,"['逃', 'に']",1
+53,28,print,"['cn0109', 'げて！\u3000']",0
+54,28,ruby,"['逃', 'に']",1
+55,28,print,"['cn0109', 'げてください！', 'VO_CHR_MAINSTORY_22_06_0003']",1
+56,29,CHARA_FADEOUT_DEF,['m05401'],1
+57,31,CHARA_SET,"['M', 'M', 'C', 'm00109', '7']",1
+58,32,play_sound,['VO_CHR_MAINSTORY_22_06_0004'],1
+59,33,print,"['cn0101', 'えっ!?', 'VO_CHR_MAINSTORY_22_06_0004']",1
+60,34,CHARA_FADEOUT_DEF,['m00109'],1
+61,36,CHARA_SET,"['Q', 'M', 'C', 'm05401', '6']",1
+62,37,set_BG_effect,['EFF_013'],1
+63,38,set_BG_effect_trigger,['8'],1
+64,39,SHAKE_CH_LOOP,"['3', '0']",1
+65,40,play_sound,['VO_CHR_MAINSTORY_22_06_0005'],1
+66,41,print,"['cn0109', 'い、いやああああああああっ！', 'VO_CHR_MAINSTORY_22_06_0005']",1
+67,42,WFOUT_DEF,[],1
+68,43,SHAKE_CH_STOP,"['3', '0']",1
+69,44,Negaposi,"['0.5', '1', '100', '100', '100']",1
+70,45,play_sound,['SE_STORY_COMMON_0423'],1
+71,46,set_volume,"['0.1', '5', 'SE_STORY_COMMON_0423']",1
+72,47,set_camera_distortion,"['1', 'true', 'EFF_007']",1
+73,48,set_BG_effect,"['1', 'EFF_007']",1
+74,49,set_BG_effect_speed,"['EFF_007', '0.2']",1
+75,50,set_BG_effect_trigger,"['0', '8']",1
+76,51,wait,['2'],1
+77,52,set_BG_effect,"['1', '0']",1
+78,53,Negaposi,"['0.5', '1', '0', '0', '0']",1
+79,54,RESET_SCREEN,[],1
+80,55,SEFOUT_DEF,[],1
+81,56,NO_EFFECT,[],1
+82,58,_CharaSet,"['DEF', 'n24501', '1', 'M', 'M', '-120', 'C']",1
+83,59,set_BG_effect,"['EFF_070', 'EFF_071']",1
+84,60,set_BG_effect_color,"['EFF_070', '79', '0', '225']",1
+85,61,set_BG_effect_color,"['EFF_071', '79', '0', '225']",1
+86,62,set_BG_effect_opacity,"['EFF_070', '1']",1
+87,63,set_BG_effect_opacity,"['EFF_071', '1']",1
+88,64,set_BG_effect_trigger,"['8', '8']",1
+89,65,play_sound,['SE_209'],1
+90,66,wait,['1.5'],1
+91,67,set_BG_effect_opacity,"['EFF_070', '0', '0.8']",1
+92,68,set_BG_effect_opacity,"['EFF_071', '0', '0.8']",1
+93,69,wait,['0.3'],1
+94,71,set_BG_effect,"['1', '1', 'EFF_111']",1
+95,72,set_BG_effect_color,"['EFF_111', '79', '0', '225']",1
+96,74,c_face,"['Q', 'O', 'm05401', '6']",1
+97,75,SEFOUT_DEF,[],1
+98,76,wait,['0.5'],1
+99,78,mnu,"['n24501', 'true', '0.5', '0', '0', 'EaseInSine', '0.5', '1', '1', 'EaseInSine', '0.5', '0', 'EaseInSine', '0.5', '1', 'EaseInSine']",1
+100,79,NO_EMO,['m05401'],1
+101,80,WFOUT_DEF,[],1
+102,81,set_BG_effect_scale,"['EFF_111', '2.5', '2.5', '0.5', 'EaseInSine']",1
+103,82,set_BG_effect_opacity,"['EFF_111', '0', '0.5', 'EaseInSine']",1
+104,83,wait,['0.5'],1
+105,84,set_BG_effect_trigger,"['0', '0', '1']",1
+106,85,set_camera_distortion,"['cameraType_Chara', 'false', 'EFF_007']",1
+107,86,wait,['1'],1
+108,87,CHARA_FADEOUT2_DEF,"['n24501', 'm05401']",1
+109,88,NO_EFFECT,[],1
+110,90,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+111,91,play_sound,['SE_STORY_COMMON_0490'],1
+112,92,SHOUT_COM,[],1
+113,93,SHOUT_STOP,[],1
+114,94,CHARA_FADEOUT_DEF,['n24501'],1
+115,98,CHARA_SET,"['M', 'M', 'C', 'm00109', '9']",1
+116,99,ODOROKI_EMO,['m00109'],1
+117,100,play_sound,['VO_CHR_MAINSTORY_22_06_0006'],1
+118,101,print,"['cn0101', 'ゼシア!?\u3000']",0
+119,101,ruby,"['一体', 'いったい']",1
+120,101,print,"['cn0101', '、どうしたんだ！\\nなぜ、バハムートを……!?', 'VO_CHR_MAINSTORY_22_06_0006']",1
+121,102,CHARA_FADEOUT_DEF,['m00109'],1
+122,104,CHARA_SET,"['M', 'M', 'C', 'm05401', '6']",1
+123,105,c_swing2_h_fast,['m05401'],1
+124,106,play_sound,['VO_CHR_MAINSTORY_22_06_0007'],1
+125,107,print,['cn0109'],0
+126,107,ruby,"['兄', 'にい']",1
+127,107,print,['……さま……だめ……\\n'],0
+128,107,ruby,"['逃', 'に']",1
+129,107,print,"['げ……て……！', 'VO_CHR_MAINSTORY_22_06_0007']",1
+130,108,CHARA_FADEOUT_DEF,['m05401'],1
+131,109,WFOUT_DEF,[],1
+132,111,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+133,113,play_sound,['SE_STORY_COMMON_0031'],1
+134,114,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+135,115,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+136,116,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '-120']",1
+137,117,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '-300', '370']",1
+138,118,set_BG_effect_trigger,['8'],1
+139,119,wait,['1'],1
+140,120,SEFOUT_DEF,[],1
+141,121,play_sound,['SE_STORY_COMMON_0038'],1
+142,122,play_sound,['SE_STORY_COMMON_0129'],1
+143,123,set_BG_effect_trigger,['9'],1
+144,124,wait,['1.5'],1
+145,126,BLACK_OUT_VERYSHORT,[],1
+146,127,NO_EFFECT,[],1
+147,128,CHARA_FADEOUT_DEF,['n24501'],1
+148,129,BLACK_IN_VERYSHORT,[],1
+149,131,set_BG_effect,['EFF_SCE_2D_CMN_227'],1
+150,132,set_BG_effect_color,"['EFF_SCE_2D_CMN_227', '32', '0', '188']",1
+151,133,set_BG_effect_trigger,['8'],1
+152,134,wait,['1.5'],1
+153,136,touch_enable,['false'],1
+154,137,play_sound,['SE_057'],1
+155,138,stop_se,['2.3'],1
+156,139,set_BG_effect,"['1', 'EFF_004']",1
+157,140,set_BG_effect_opacity,"['EFF_004', '1']",1
+158,141,set_BG_effect_speed,"['EFF_004', '2']",1
+159,142,set_BG_effect_scale,"['EFF_004', '1', '1']",1
+160,143,set_BG_effect_pos,"['EFF_004', '0', '200']",1
+161,144,set_BG_effect_trigger,"['0', '8']",1
+162,145,wait,['1'],1
+163,146,play_sound,['SE_057'],1
+164,147,stop_se,['2.3'],1
+165,148,set_BG_effect,"['1', '1', 'EFF_004']",1
+166,149,set_BG_effect_speed,"['EFF_004', '2']",1
+167,150,set_BG_effect_opacity,"['EFF_004', '1']",1
+168,151,set_BG_effect_scale,"['EFF_004', '1', '1']",1
+169,152,set_BG_effect_pos,"['EFF_004', '-200', '100']",1
+170,153,set_BG_effect_trigger,"['1', '1', '8']",1
+171,154,wait,['1'],1
+172,155,play_sound,['SE_057'],1
+173,156,stop_se,['2.3'],1
+174,157,set_BG_effect,"['1', '1', '1', 'EFF_004']",1
+175,158,set_BG_effect_speed,"['EFF_004', '2']",1
+176,159,set_BG_effect_opacity,"['EFF_004', '1']",1
+177,160,set_BG_effect_scale,"['EFF_004', '1', '1']",1
+178,161,set_BG_effect_pos,"['EFF_004', '200', '100']",1
+179,162,set_BG_effect_trigger,"['1', '1', '1', '8']",1
+180,163,wait,['2'],1
+181,164,touch_enable,['true'],1
+182,166,BLACK_OUT_VERYSHORT,[],1
+183,167,NO_EFFECT,[],1
+184,168,SEFOUT_DEF,[],1
+185,169,CHARA_SET,"['M', 'M', 'C', 'm01601', '4']",1
+186,170,BLACK_IN_VERYSHORT,[],1
+187,176,play_sound,['VO_CHR_MAINSTORY_22_06_0008'],1
+188,177,print,['cn0116'],0
+189,177,ruby,"['異界', 'いかい']",1
+190,177,print,['の'],0
+191,177,ruby,"['裂', 'さ']",1
+192,177,print,['け'],0
+193,177,ruby,"['目', 'め']",1
+194,177,print,['……。\\n'],0
+195,177,ruby,"['世界', 'せかい']",1
+196,177,print,['が'],0
+197,177,ruby,"['破壊', 'はかい']",1
+198,177,print,"['されている……！', 'VO_CHR_MAINSTORY_22_06_0008']",1
+199,178,play_sound,['VO_CHR_MAINSTORY_22_06_0009'],1
+200,179,print,"['cn0116', 'あのバハムートは、ゼシアが']",0
+201,179,ruby,"['操', 'あやつ']",1
+202,179,print,"['cn0116', 'って\\nいるのではなかったのか……？', 'VO_CHR_MAINSTORY_22_06_0009']",1
+203,180,CHARA_FADEOUT_DEF,['m01601'],1
+204,182,CHARA_SET,"['M', 'M', 'C', 'm01506', '4']",1
+205,183,play_sound,['VO_CHR_MAINSTORY_22_06_0010'],1
+206,184,print,"['cn0115', 'ゼシアがバハムートに']",0
+207,184,ruby,"['命', 'めい']",1
+208,184,print,"['cn0115', 'じている……\\nわけではなさそうですけれど。', 'VO_CHR_MAINSTORY_22_06_0010']",1
+209,185,CHARA_FADEOUT_DEF,['m01506'],1
+210,187,CHARA_SET,"['M', 'M', 'C', 'm00701', '11']",1
+211,188,c_jump2,['m00701'],1
+212,189,play_sound,['VO_CHR_MAINSTORY_22_06_0011'],1
+213,190,print,['cn0107'],0
+214,190,ruby,"['当', 'あ']",1
+215,190,print,['たり'],0
+216,190,ruby,"['前', 'まえ']",1
+217,190,print,"['だよ！\\nゼシアはそんなことしないよ！', 'VO_CHR_MAINSTORY_22_06_0011']",1
+218,191,CHARA_FADEOUT_DEF,['m00701'],1
+219,193,CHARA_SET,"['M', 'M', 'C', 'p36701', '4']",1
+220,194,play_sound,['VO_CHR_MAINSTORY_22_06_0012'],1
+221,195,print,"['cn3667', '……だろうね。だとすると、\\n']",0
+222,195,ruby,"['最悪', 'さいあく']",1
+223,195,print,"['cn3667', 'のパターンかもしれないよ。', 'VO_CHR_MAINSTORY_22_06_0012']",1
+224,196,CHARA_FADEOUT_DEF,['p36701'],1
+225,198,CHARA_SET,"['M', 'M', 'C', 'm00701', '7']",1
+226,199,play_sound,['VO_CHR_MAINSTORY_22_06_0013'],1
+227,200,print,"['cn0107', 'えっ？', 'VO_CHR_MAINSTORY_22_06_0013']",1
+228,201,CHARA_FADEOUT_DEF,['m00701'],1
+229,202,WFOUT_DEF,[],1
+230,206,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+231,207,wait,['0.5'],1
+232,208,play_sound,['SE_010'],1
+233,209,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+234,210,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+235,211,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '-120']",1
+236,212,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '-300', '370']",1
+237,213,set_BG_effect_trigger,['8'],1
+238,214,wait,['2.0'],1
+239,215,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '0', '0.2']",1
+240,216,SEFOUT_DEF,[],1
+241,217,CHARA_FADEOUT_DEF,['n24501'],1
+242,219,CHARA_SET,"['M', 'M', 'C', 'p33402', '6']",1
+243,220,ODOROKI_EMO,['p33402'],1
+244,221,play_sound,['VO_CHR_MAINSTORY_22_06_0014'],1
+245,222,print,"['cn3734', '――っ！\u3000みなの']",0
+246,222,ruby,"['者', 'もの']",1
+247,222,print,"['cn3734', '、']",0
+248,222,ruby,"['気', 'き']",1
+249,222,print,"['cn3734', 'をつけろ！\\n']",0
+250,222,ruby,"['来', 'く']",1
+251,222,print,"['cn3734', 'るぞ！', 'VO_CHR_MAINSTORY_22_06_0014']",1
+252,223,CHARA_FADEOUT_DEF,['p33402'],1
+253,224,WFOUT_DEF,[],1
+254,226,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1', '0.3']",1
+255,227,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+256,228,wait,['1.0'],1
+257,230,play_sound,['SE_STORY_COMMON_0130'],1
+258,231,set_BG_effect_trigger,['9'],1
+259,232,wait,['2'],1
+260,233,NO_EFFECT,[],1
+261,234,CHARA_FADEOUT_DEF,['n24501'],1
+262,238,CHARA_SET3,"['Q', 'M', 'm00907', '6', 'M', 'M', 'm04201', '6', 'Q', 'M', 'm00109', '6']",1
+263,239,play_sound,['SE_STORY_COMMON_0145'],1
+264,240,play_sound,['SE_STORY_COMMON_0038'],1
+265,241,set_BG_effect,"['EFF_SCE_2D_CMN_165', 'EFF_SCE_2D_CMN_146']",1
+266,242,set_BG_effect_color,"['EFF_SCE_2D_CMN_165', '135', '0', '255']",1
+267,243,set_BG_effect_color,"['EFF_SCE_2D_CMN_146', '135', '0', '255']",1
+268,244,set_BG_effect_scale,"['EFF_SCE_2D_CMN_165', '3', '3']",1
+269,245,set_BG_effect_speed,"['EFF_SCE_2D_CMN_165', '0.5']",1
+270,246,set_BG_effect_trigger,"['8', '8']",1
+271,247,c_swing2_h_fast,['m00907'],1
+272,248,c_swing2_h_fast,['m04201'],1
+273,249,c_swing2_h_fast,['m00109'],1
+274,250,play_sound,['VO_CHR_MAINSTORY_22_06_0015'],1
+275,251,print,"['全員', 'うわああああああっ！', 'VO_CHR_MAINSTORY_22_06_0015']",1
+276,252,CHARA_BEAT3_AFTER,"['m00109', 'm00907', 'm04201']",1
+277,253,NO_EFFECT,[],1
+278,255,CHARA_BOTTOM_ZIG,"['M', 'M', 'C', 'm00109', '6']",1
+279,256,play_sound,['VO_CHR_MAINSTORY_22_06_0016'],1
+280,257,print,"['cn0101', 'く……']",0
+281,257,ruby,"['一体', 'いったい']",1
+282,257,print,"['cn0101', '、']",0
+283,257,ruby,"['何', 'なに']",1
+284,257,print,"['cn0101', 'が']",0
+285,257,ruby,"['起', 'お']",1
+286,257,print,"['cn0101', 'きたんだ……\\nゼシアの']",0
+287,257,ruby,"['身', 'み']",1
+288,257,print,"['cn0101', 'に']",0
+289,257,ruby,"['何', 'なに']",1
+290,257,print,"['cn0101', 'が……。', 'VO_CHR_MAINSTORY_22_06_0016']",1
+291,258,CHARA_FADEOUT_DEF,['m00109'],1
+292,260,CHARA_SET,"['M', 'M', 'C', 'm03901', '9']",1
+293,261,c_bound_b_slow,['m03901'],1
+294,262,play_sound,['VO_CHR_MAINSTORY_22_06_0017'],1
+295,263,print,"['cn0139', '……バハムートだ。', 'VO_CHR_MAINSTORY_22_06_0017']",1
+296,264,play_sound,['VO_CHR_MAINSTORY_22_06_0018'],1
+297,265,print,['cn0139'],0
+298,265,ruby,"['俺', 'おれ']",1
+299,265,print,['の'],0
+300,265,ruby,"['時', 'とき']",1
+301,265,print,['と'],0
+302,265,ruby,"['同', 'おな']",1
+303,265,print,['じように、バハムートが\\nゼシアの'],0
+304,265,ruby,"['体', 'からだ']",1
+305,265,print,['を'],0
+306,265,ruby,"['支配', 'しはい']",1
+307,265,print,"['しようとしている\\nのだ。', 'VO_CHR_MAINSTORY_22_06_0018']",1
+308,266,play_sound,['VO_CHR_MAINSTORY_22_06_0019'],1
+309,267,print,"['cn0139', 'そして、この']",0
+310,267,ruby,"['世界', 'せかい']",1
+311,267,print,"['cn0139', 'ごと『はじまりの']",0
+312,267,ruby,"['人', 'ひと']",1
+313,267,print,"['cn0139', '』\\n']",0
+314,267,ruby,"['復活', 'ふっかつ']",1
+315,267,print,"['cn0139', 'の']",0
+316,267,ruby,"['可能性', 'かのうせい']",1
+317,267,print,"['cn0139', 'を']",0
+318,267,ruby,"['消', 'け']",1
+319,267,print,"['cn0139', 'そうとしている。\\n……そうとしか']",0
+320,267,ruby,"['考', 'かんが']",1
+321,267,print,"['cn0139', 'えられん。', 'VO_CHR_MAINSTORY_22_06_0019']",1
+322,268,CHARA_FADEOUT_DEF,['m03901'],1
+323,270,CHARA_SET,"['M', 'M', 'C', 'm00109', '9']",1
+324,271,c_swing_h,['m00109'],1
+325,272,play_sound,['VO_CHR_MAINSTORY_22_06_0020'],1
+326,273,print,"['cn0101', 'そんな……\\nゼシア！\u3000しっかりしてくれ、ゼシア！', 'VO_CHR_MAINSTORY_22_06_0020']",1
+327,274,CHARA_FADEOUT_DEF,['m00109'],1
+328,276,CHARA_SET,"['Q', 'Q', 'C', 'm05401', '1']",1
+329,277,print,"['cn0109', '…………。']",1
+330,278,CHARA_FADEOUT_DEF,['m05401'],1
+331,279,WFOUT_DEF,[],1
+332,281,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+333,282,NO_EFFECT,[],1
+334,283,play_sound,['SE_010'],1
+335,284,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+336,285,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+337,286,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '-120']",1
+338,287,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '-300', '370']",1
+339,288,set_BG_effect_trigger,['8'],1
+340,289,wait,['1'],1
+341,290,play_sound,['SE_STORY_COMMON_0130'],1
+342,291,set_BG_effect_trigger,['9'],1
+343,292,wait,['1.5'],1
+344,294,BLACK_OUT_VERYSHORT,[],1
+345,295,NO_EFFECT,[],1
+346,296,CHARA_FADEOUT_DEF,['n24501'],1
+347,297,BLACK_IN_VERYSHORT,[],1
+348,299,set_BG_effect,['EFF_SCE_2D_CMN_227'],1
+349,300,set_BG_effect_color,"['EFF_SCE_2D_CMN_227', '32', '0', '188']",1
+350,301,set_BG_effect_trigger,['8'],1
+351,302,wait,['1.5'],1
+352,304,touch_enable,['false'],1
+353,305,play_sound,['SE_057'],1
+354,306,stop_se,['2.3'],1
+355,307,set_BG_effect,"['1', 'EFF_004']",1
+356,308,set_BG_effect_opacity,"['EFF_004', '1']",1
+357,309,set_BG_effect_speed,"['EFF_004', '2']",1
+358,310,set_BG_effect_scale,"['EFF_004', '1', '1']",1
+359,311,set_BG_effect_pos,"['EFF_004', '0', '200']",1
+360,312,set_BG_effect_trigger,"['0', '8']",1
+361,313,wait,['1'],1
+362,314,touch_enable,['true'],1
+363,315,wait,['1'],1
+364,316,SEFOUT_DEF,[],1
+365,318,BLACK_OUT_VERYSHORT,[],1
+366,319,NO_EFFECT,[],1
+367,320,CHARA_SET,"['M', 'M', 'C', 'p33402', '6']",1
+368,321,BLACK_IN_VERYSHORT,[],1
+369,325,c_swing_h_slow,['p33402'],1
+370,326,play_sound,['VO_CHR_MAINSTORY_22_06_0021'],1
+371,327,print,['cn3734'],0
+372,327,ruby,"['完全', 'かんぜん']",1
+373,327,print,['に'],0
+374,327,ruby,"['意識', 'いしき']",1
+375,327,print,['を'],0
+376,327,ruby,"['奪', 'うば']",1
+377,327,print,"['われてしまっている\\nようだな……。', 'VO_CHR_MAINSTORY_22_06_0021']",1
+378,328,CHARA_FADEOUT_DEF,['p33402'],1
+379,330,CHARA_SET,"['M', 'M', 'C', 'm00109', '9']",1
+380,331,play_sound,['VO_CHR_MAINSTORY_22_06_0022'],1
+381,332,print,"['cn0101', 'くっ！\u3000どうすればいいんだ……！', 'VO_CHR_MAINSTORY_22_06_0022']",1
+382,333,CHARA_FADEOUT_DEF,['m00109'],1
+383,335,CHARA_SET,"['M', 'M', 'C', 'm01506', '4']",1
+384,336,play_sound,['VO_CHR_MAINSTORY_22_06_0023'],1
+385,337,print,"['cn0115', 'ゼシアを']",0
+386,337,ruby,"['倒', 'たお']",1
+387,337,print,"['cn0115', 'してしまえばいいと\\nいうなら']",0
+388,337,ruby,"['簡単', 'かんたん']",1
+389,337,print,"['cn0115', 'なんですけれど……。', 'VO_CHR_MAINSTORY_22_06_0023']",1
+390,338,CHARA_FADEOUT_DEF,['m01506'],1
+391,340,CHARA_SET,"['M', 'M', 'C', 'm00701', '6']",1
+392,341,c_jump2,['m00701'],1
+393,342,play_sound,['VO_CHR_MAINSTORY_22_06_0024'],1
+394,343,print,"['cn0107', 'できるわけないよ、そんなこと！', 'VO_CHR_MAINSTORY_22_06_0024']",1
+395,344,CHARA_FADEOUT_DEF,['m00701'],1
+396,346,CHARA_SET,"['M', 'M', 'C', 'm01601', '1']",1
+397,347,play_sound,['VO_CHR_MAINSTORY_22_06_0025'],1
+398,348,print,"['cn0116', 'だが、ネデウと']",0
+399,348,ruby,"['違', 'ちが']",1
+400,348,print,"['cn0116', 'い']",0
+401,348,ruby,"['竜化', 'りゅうか']",1
+402,348,print,"['cn0116', 'をしている\\nわけではない。ゼシア']",0
+403,348,ruby,"['自身', 'じしん']",1
+404,348,print,"['cn0116', 'を']",0
+405,348,ruby,"['抑', 'おさ']",1
+406,348,print,"['cn0116', 'える\\nことはできるかもしれん。', 'VO_CHR_MAINSTORY_22_06_0025']",1
+407,349,play_sound,['VO_CHR_MAINSTORY_22_06_0026'],1
+408,350,print,['cn0116'],0
+409,350,ruby,"['上手', 'うま']",1
+410,350,print,['く'],0
+411,350,ruby,"['意識', 'いしき']",1
+412,350,print,['を'],0
+413,350,ruby,"['失', 'うしな']",1
+414,350,print,"['わせるなりすれば、\\nあるいは……。', 'VO_CHR_MAINSTORY_22_06_0026']",1
+415,351,CHARA_FADEOUT_DEF,['m01601'],1
+416,353,CHARA_SET,"['M', 'M', 'C', 'm03901', '4']",1
+417,354,play_sound,['VO_CHR_MAINSTORY_22_06_0027'],1
+418,355,print,"['cn0139', '……やるのであれば、']",0
+419,355,ruby,"['勝負', 'しょうぶ']",1
+420,355,print,"['cn0139', 'は']",0
+421,355,ruby,"['一瞬', 'いっしゅん']",1
+422,355,print,"['cn0139', 'だと\\n']",0
+423,355,ruby,"['思', 'おも']",1
+424,355,print,"['cn0139', 'え。ゼシアが']",0
+425,355,ruby,"['竜化', 'りゅうか']",1
+426,355,print,"['cn0139', 'をしてしまえば、\\n']",0
+427,355,ruby,"['終', 'お']",1
+428,355,print,"['cn0139', 'わりだからな。', 'VO_CHR_MAINSTORY_22_06_0027']",1
+429,356,CHARA_FADEOUT_DEF,['m03901'],1
+430,358,CHARA_SET,"['M', 'M', 'C', 'm00109', '7']",1
+431,359,ODOROKI_EMO,['m00109'],1
+432,360,play_sound,['VO_CHR_MAINSTORY_22_06_0028'],1
+433,361,print,['cn0101'],0
+434,361,ruby,"['竜化', 'りゅうか']",1
+435,361,print,['!?\u3000ゼシアはバハムートへ\\n'],0
+436,361,ruby,"['竜化', 'りゅうか']",1
+437,361,print,"['はできないんじゃ……。', 'VO_CHR_MAINSTORY_22_06_0028']",1
+438,362,CHARA_FADEOUT_DEF,['m00109'],1
+439,364,CHARA_SET,"['M', 'M', 'C', 'p36701', '4']",1
+440,365,c_swing_h,['p36701'],1
+441,366,play_sound,['VO_CHR_MAINSTORY_22_06_0029'],1
+442,367,print,"['cn3667', 'できないわけじゃないよ。']",0
+443,367,ruby,"['体', 'からだ']",1
+444,367,print,"['cn3667', 'への']",0
+445,367,ruby,"['負担', 'ふたん']",1
+446,367,print,"['cn3667', 'を\\n']",0
+447,367,ruby,"['考', 'かんが']",1
+448,367,print,"['cn3667', 'えてしていないだけだ。その']",0
+449,367,ruby,"['気', 'き']",1
+450,367,print,"['cn3667', 'に\\nなればできるはずだよ。', 'VO_CHR_MAINSTORY_22_06_0029']",1
+451,368,play_sound,['VO_CHR_MAINSTORY_22_06_0030'],1
+452,369,print,"['cn3667', 'でも、その']",0
+453,369,ruby,"['代償', 'だいしょう']",1
+454,369,print,"['cn3667', 'も']",0
+455,369,ruby,"['大', 'おお']",1
+456,369,print,"['cn3667', 'きい。もし']",0
+457,369,ruby,"['今', 'いま']",1
+458,369,print,"['cn3667', 'の\\nゼシアがバハムートに']",0
+459,369,ruby,"['竜化', 'りゅうか']",1
+460,369,print,"['cn3667', 'したら……。', 'VO_CHR_MAINSTORY_22_06_0030']",1
+461,370,CHARA_FADEOUT_DEF,['p36701'],1
+462,372,CHARA_SET,"['M', 'M', 'C', 'm00701', '7']",1
+463,373,play_sound,['VO_CHR_MAINSTORY_22_06_0031'],1
+464,374,print,"['cn0107', 'ど、どうなるの？', 'VO_CHR_MAINSTORY_22_06_0031']",1
+465,375,CHARA_FADEOUT_DEF,['m00701'],1
+466,377,CHARA_SET,"['M', 'M', 'C', 'm03901', '4']",1
+467,378,c_swing_h_slow,['m03901'],1
+468,379,play_sound,['VO_CHR_MAINSTORY_22_06_0032'],1
+469,380,print,"['cn0139', 'よくても']",0
+470,380,ruby,"['二度', 'にど']",1
+471,380,print,"['cn0139', 'と']",0
+472,380,ruby,"['人', 'ひと']",1
+473,380,print,"['cn0139', 'の']",0
+474,380,ruby,"['姿', 'すがた']",1
+475,380,print,"['cn0139', 'に']",0
+476,380,ruby,"['戻', 'もど']",1
+477,380,print,"['cn0139', 'ることは\\nできないだろう。']",0
+478,380,ruby,"['悪', 'わる']",1
+479,380,print,"['cn0139', 'ければ']",0
+480,380,ruby,"['竜化', 'りゅうか']",1
+481,380,print,"['cn0139', 'した\\n']",0
+482,380,ruby,"['瞬間', 'しゅんかん']",1
+483,380,print,"['cn0139', '、この']",0
+484,380,ruby,"['世界', 'せかい']",1
+485,380,print,"['cn0139', 'から']",0
+486,380,ruby,"['消滅', 'しょうめつ']",1
+487,380,print,"['cn0139', 'する。', 'VO_CHR_MAINSTORY_22_06_0032']",1
+488,381,CHARA_FADEOUT_DEF,['m03901'],1
+489,383,CHARA_SET,"['M', 'O', 'C', 'm00109', '9']",1
+490,384,ODOROKI_EMO,['m00109'],1
+491,385,play_sound,['VO_CHR_MAINSTORY_22_06_0033'],1
+492,386,print,"['cn0101', '……！', 'VO_CHR_MAINSTORY_22_06_0033']",1
+493,387,CHARA_FADEOUT_DEF,['m00109'],1
+494,389,CHARA_SET,"['M', 'M', 'C', 'm01601', '1']",1
+495,390,play_sound,['VO_CHR_MAINSTORY_22_06_0034'],1
+496,391,print,"['cn0116', 'ゼシアに']",0
+497,391,ruby,"['竜化', 'りゅうか']",1
+498,391,print,"['cn0116', 'する']",0
+499,391,ruby,"['隙', 'すき']",1
+500,391,print,"['cn0116', 'を']",0
+501,391,ruby,"['与', 'あた']",1
+502,391,print,"['cn0116', 'えず、\\n']",0
+503,391,ruby,"['一瞬', 'いっしゅん']",1
+504,391,print,"['cn0116', 'で']",0
+505,391,ruby,"['意識', 'いしき']",1
+506,391,print,"['cn0116', 'を']",0
+507,391,ruby,"['奪', 'うば']",1
+508,391,print,"['cn0116', 'う、か。', 'VO_CHR_MAINSTORY_22_06_0034']",1
+509,392,c_swing_h,['m01601'],1
+510,393,play_sound,['VO_CHR_MAINSTORY_22_06_0035'],1
+511,394,print,['cn0116'],0
+512,394,ruby,"['言', 'い']",1
+513,394,print,['うほど'],0
+514,394,ruby,"['容易', 'たやす']",1
+515,394,print,['いことではないぞ……。\\nひとつ'],0
+516,394,ruby,"['間違', 'まちが']",1
+517,394,print,['えれば、'],0
+518,394,ruby,"['命', 'いのち']",1
+519,394,print,['ごと'],0
+520,394,ruby,"['奪', 'うば']",1
+521,394,print,"['うことにも\\nなりかねん。', 'VO_CHR_MAINSTORY_22_06_0035']",1
+522,395,CHARA_FADEOUT_DEF,['m01601'],1
+523,397,CHARA_SET,"['M', 'M', 'C', 'm00109', '4']",1
+524,398,c_bound_b_slow,['m00109'],1
+525,399,play_sound,['VO_CHR_MAINSTORY_22_06_0036'],1
+526,400,print,"['cn0101', '……やってみせる。\\nおれにやらせてくれ……！', 'VO_CHR_MAINSTORY_22_06_0036']",1
+527,401,CHARA_FADEOUT_DEF,['m00109'],1
+528,403,CHARA_SET,"['M', 'M', 'C', 'm03901', '4']",1
+529,404,play_sound,['VO_CHR_MAINSTORY_22_06_0037'],1
+530,405,print,"['cn0139', '……いいだろう。お']",0
+531,405,ruby,"['前', 'まえ']",1
+532,405,print,"['cn0139', 'に']",0
+533,405,ruby,"['覚悟', 'かくご']",1
+534,405,print,"['cn0139', 'が\\nあるのなら、']",0
+535,405,ruby,"['力', 'ちから']",1
+536,405,print,"['cn0139', 'を']",0
+537,405,ruby,"['貸', 'か']",1
+538,405,print,"['cn0139', 'してやる。', 'VO_CHR_MAINSTORY_22_06_0037']",1
+539,406,play_sound,['VO_CHR_MAINSTORY_22_06_0038'],1
+540,407,c_face,"['M', 'M', 'm03901', '11']",1
+541,408,print,['cn0139'],0
+542,408,ruby,"['契約', 'けいやく']",1
+543,408,print,['に'],0
+544,408,ruby,"['従', 'したが']",1
+545,408,print,['い、'],0
+546,408,ruby,"['我', 'わ']",1
+547,408,print,['が'],0
+548,408,ruby,"['力', 'ちから']",1
+549,408,print,"['となれ、\\nバハムート――！', 'VO_CHR_MAINSTORY_22_06_0038']",1
+550,409,WFOUT_DEF,[],1
+551,410,c_set_def,"['M', 'M', 'C', 'b16201', '1']",1
+552,411,set_BG_effect,"['EFF_SCE_2D_CMN_087', 'EFF_SCE_2D_CMN_086']",1
+553,412,set_BG_effect_color,"['EFF_SCE_2D_CMN_087', '255', '255', '255']",1
+554,413,set_BG_effect_color,"['EFF_SCE_2D_CMN_086', '255', '255', '255']",1
+555,414,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_087', '1']",1
+556,415,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_086', '1']",1
+557,416,set_BG_effect_trigger,"['8', '8']",1
+558,417,play_sound,['SE_209'],1
+559,418,wait,['1.5'],1
+560,419,stop_se,['0.1'],1
+561,420,set_BG_effect,"['1', '1', 'EFF_020', 'EFF_020', 'EFF_020']",1
+562,421,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_087', '0', '1.5', 'EaseInSine']",1
+563,422,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_086', '0', '1.5', 'EaseInSine']",1
+564,423,play_sound,['SE_210'],1
+565,424,wait,['2.0'],1
+566,426,set_BG_effect_trigger,"['1', '1']",1
+567,427,NO_EFFECT,[],1
+568,430,set_BG_effect,['EFF_111'],1
+569,431,set_BG_effect_color,"['EFF_111', '255', '255', '255']",1
+570,433,c_face,"['O', 'O', 'm03901', '11']",1
+571,434,mnu,"['b16201', 'true', '0.5', '0', '0', 'EaseInSine', '0.5', '1', '1', 'EaseInSine', '0.5', '0', 'EaseInSine', '0.5', '0.5', 'EaseInSine']",1
+572,435,NO_EMO,['m03901'],1
+573,436,wait,['0.2'],1
+574,438,play_sound,['SE_STORY_COMMON_0490'],1
+575,439,set_camera_distortion,"['cameraType_Chara', 'true', 'EFF_007']",1
+576,440,set_BG_effect,"['1', '1', '1', 'EFF_007']",1
+577,441,set_BG_effect_opacity,"['EFF_007', '0.5']",1
+578,442,set_BG_effect_trigger,"['2', '2', '2', '9']",1
+579,443,effect_shake_bg,"['12', '0.4', '0.8', '1']",1
+580,445,mnu,"['b16201', 'true', '1', '0', '-250', 'EaseInSine', '1', '2.5', '2.5', 'EaseInSine', '1', '0', 'EaseInSine', '1', '0', 'EaseInSine']",1
+581,446,mnu,"['m03901', 'true', '1', '0', '0', 'EaseInSine', '1', '1', '1', 'EaseInSine', '1', '0', 'EaseInSine', '0.5', '0', 'EaseInSine']",1
+582,448,set_BG_effect_scale,"['EFF_111', '2.5', '2.5', '0.5', 'EaseInSine']",1
+583,449,set_BG_effect_opacity,"['EFF_111', '0', '0.5', 'EaseInSine']",1
+584,450,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_120', '0', '0.5', 'EaseInSine']",1
+585,452,wait,['0.8'],1
+586,454,set_BG_effect_trigger,"['2', '2', '2', '1']",1
+587,455,set_camera_distortion,"['cameraType_Chara', 'false', 'EFF_007']",1
+588,457,wait,['0.25'],1
+589,458,NO_EFFECT,[],1
+590,459,CHARA_RESET,['m03901'],1
+591,462,CHARA_SET_0,"['M', 'M', 'C', 'b16201', '1']",1
+592,463,mnu,"['b16201', 'true', '0.05', '0', '0', 'EaseInSine', '0.05', '2.0', '2.0', 'EaseInSine', '0.05', '0', 'EaseInSine', '0.05', '0', 'EaseInSine']",1
+593,464,mnu,"['b16201', 'false', '0.8', '0', '0', 'EaseInSine', '0.8', '1.0', '1.0', 'EaseInSine', '0.8', '0', 'EaseInSine', '0.8', '1', 'EaseInSine']",1
+594,465,cmp,"['b16201', '1.05', '0', '0', '1', '1', '0', '1']",1
+595,466,wait,['1.0'],1
+596,467,play_sound,['VO_CHR_MAINSTORY_22_06_0039'],1
+597,468,print,"['cn0139', 'ゼシア……いや、バハムート。\\n']",0
+598,468,ruby,"['貴様', 'きさま']",1
+599,468,print,"['cn0139', 'の']",0
+600,468,ruby,"['真意', 'しんい']",1
+601,468,print,"['cn0139', 'を']",0
+602,468,ruby,"['見', 'み']",1
+603,468,print,"['cn0139', 'せてみろ――！', 'VO_CHR_MAINSTORY_22_06_0039']",1
+604,469,WFOUT_DEF,[],1
+605,470,play_sound,['SE_010'],1
+606,471,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '0', '0']",1
+607,472,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+608,473,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+609,474,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '40']",1
+610,475,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '230', '30']",1
+611,476,set_BG_effect_trigger,['8'],1
+612,477,wait,['1'],1
+613,478,play_sound,['SE_STORY_COMMON_0130'],1
+614,479,set_BG_effect_trigger,['9'],1
+615,480,wait,['2'],1
+616,481,NO_EFFECT,[],1
+617,482,CHARA_FADEOUT_DEF,['b16201'],1
+618,484,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+619,485,play_sound,['SE_010'],1
+620,486,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+621,487,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+622,488,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '-120']",1
+623,489,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '-300', '370']",1
+624,490,set_BG_effect_trigger,['8'],1
+625,491,wait,['1'],1
+626,492,play_sound,['SE_STORY_COMMON_0130'],1
+627,493,set_BG_effect_trigger,['9'],1
+628,494,wait,['2'],1
+629,495,set_BG_effect,"['1', 'EFF_SCE_2D_CMN_114']",1
+630,496,set_BG_effect_color,"['EFF_SCE_2D_CMN_114', '157', '0', '255']",1
+631,497,set_BG_effect_pos,"['EFF_SCE_2D_CMN_114', '-300', '50']",1
+632,498,set_BG_effect_trigger,"['0', '8']",1
+633,499,wait,['1'],1
+634,500,set_BG_effect_trigger,"['0', '9']",1
+635,502,WHITE_OUT_MIDSHORT,[],1
+636,503,NO_EFFECT,[],1
+637,504,CHARA_FADEOUT_DEF,['n24501'],1
+638,505,play_sound,['SE_STORY_COMMON_0038'],1
+639,506,play_sound,['SE_STORY_COMMON_0007'],1
+640,508,play_sound,['SE_STORY_COMMON_0145'],1
+641,509,set_BG_effect,"['EFF_SCE_2D_CMN_165', 'EFF_SCE_2D_CMN_146']",1
+642,510,set_BG_effect_color,"['EFF_SCE_2D_CMN_165', '135', '0', '255']",1
+643,511,set_BG_effect_color,"['EFF_SCE_2D_CMN_146', '135', '0', '255']",1
+644,512,set_BG_effect_scale,"['EFF_SCE_2D_CMN_165', '3', '3']",1
+645,513,set_BG_effect_speed,"['EFF_SCE_2D_CMN_165', '0.5']",1
+646,514,set_BG_effect_trigger,"['8', '8']",1
+647,515,WHITE_IN_MIDSHORT,[],1
+648,516,wait,['2.5'],1
+649,517,NO_EFFECT,[],1
+650,521,CHARA_SET,"['M', 'M', 'C', 'm01601', '4']",1
+651,522,play_sound,['VO_CHR_MAINSTORY_22_06_0040'],1
+652,523,print,['cn0116'],0
+653,523,ruby,"['互角', 'ごかく']",1
+654,523,print,"['……!?', 'VO_CHR_MAINSTORY_22_06_0040']",1
+655,524,CHARA_FADEOUT_DEF,['m01601'],1
+656,526,CHARA_SET,"['M', 'M', 'C', 'm01506', '7']",1
+657,527,play_sound,['VO_CHR_MAINSTORY_22_06_0041'],1
+658,528,print,['cn0115'],0
+659,528,ruby,"['先', 'さき']",1
+660,528,print,['ほどまで、ゼシアの'],0
+661,528,ruby,"['呼', 'よ']",1
+662,528,print,['んだ\\nバハムートは、'],0
+663,528,ruby,"['竜化', 'りゅうか']",1
+664,528,print,['したネデウには\\n'],0
+665,528,ruby,"['敵', 'かな']",1
+666,528,print,"['わなかったようでしたけど……。', 'VO_CHR_MAINSTORY_22_06_0041']",1
+667,529,CHARA_FADEOUT_DEF,['m01506'],1
+668,531,CHARA_SET,"['M', 'M', 'C', 'p33402', '4']",1
+669,532,play_sound,['VO_CHR_MAINSTORY_22_06_0042'],1
+670,533,print,"['cn3734', 'おそらくバハムートの']",0
+671,533,ruby,"['影響', 'えいきょう']",1
+672,533,print,"['cn3734', 'が']",0
+673,533,ruby,"['強', 'つよ']",1
+674,533,print,"['cn3734', 'くなって\\nいるのだ。そのぶんゼシアへの']",0
+675,533,ruby,"['負荷', 'ふか']",1
+676,533,print,"['cn3734', 'も\\n']",0
+677,533,ruby,"['増', 'ま']",1
+678,533,print,"['cn3734', 'している。']",0
+679,533,ruby,"['急', 'いそ']",1
+680,533,print,"['cn3734', 'がねば……！', 'VO_CHR_MAINSTORY_22_06_0042']",1
+681,534,CHARA_FADEOUT_DEF,['p33402'],1
+682,536,CHARA_SET,"['Q', 'Q', 'C', 'm05401', '1']",1
+683,537,print,"['cn0109', '…………。']",1
+684,538,CHARA_FADEOUT_DEF,['m05401'],1
+685,540,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+686,541,play_sound,['SE_STORY_COMMON_0490'],1
+687,542,print,['バハムート'],0
+688,542,SHOUT_COM,[],1
+689,542,print,['――！'],0
+690,542,SHOUT_STOP,[],1
+691,542,print,[],1
+692,543,NO_EFFECT,[],1
+693,544,SEFOUT_DEF,[],1
+694,545,WFOUT_DEF,[],1
+695,546,play_sound,['SE_010'],1
+696,547,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+697,548,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+698,549,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '-120']",1
+699,550,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '-300', '370']",1
+700,551,set_BG_effect_trigger,['8'],1
+701,552,wait,['1'],1
+702,553,play_sound,['SE_STORY_COMMON_0130'],1
+703,554,set_BG_effect_trigger,['9'],1
+704,555,wait,['2'],1
+705,556,NO_EFFECT,[],1
+706,557,CHARA_FADEOUT_DEF,['n24501'],1
+707,561,CHARA_SET,"['M', 'M', 'C', 'b16201', '1']",1
+708,562,play_sound,['SE_STORY_COMMON_0038'],1
+709,563,play_sound,['SE_STORY_COMMON_0007'],1
+710,565,play_sound,['SE_STORY_COMMON_0145'],1
+711,566,set_BG_effect,"['EFF_SCE_2D_CMN_165', 'EFF_SCE_2D_CMN_146']",1
+712,567,set_BG_effect_color,"['EFF_SCE_2D_CMN_165', '135', '0', '255']",1
+713,568,set_BG_effect_color,"['EFF_SCE_2D_CMN_146', '135', '0', '255']",1
+714,569,set_BG_effect_scale,"['EFF_SCE_2D_CMN_165', '3', '3']",1
+715,570,set_BG_effect_speed,"['EFF_SCE_2D_CMN_165', '0.5']",1
+716,571,set_BG_effect_trigger,"['8', '8']",1
+717,572,wait,['0.5'],1
+718,573,c_swing2_h_fast,['b16201'],1
+719,574,play_sound,['VO_CHR_MAINSTORY_22_06_0043'],1
+720,575,print,"['cn0139', 'くっ……。', 'VO_CHR_MAINSTORY_22_06_0043']",1
+721,576,NO_EFFECT,[],1
+722,577,CHARA_FADEOUT_DEF,['b16201'],1
+723,579,CHARA_SET,"['M', 'M', 'C', 'm04801', '7']",1
+724,580,play_sound,['VO_CHR_MAINSTORY_22_06_0044'],1
+725,581,print,"['cn0148', 'ネデウ！\u3000']",0
+726,581,ruby,"['大丈夫', 'だいじょうぶ']",1
+727,581,print,"['cn0148', 'ですか!?', 'VO_CHR_MAINSTORY_22_06_0044']",1
+728,582,CHARA_FADEOUT_DEF,['m04801'],1
+729,584,CHARA_SET,"['M', 'M', 'C', 'b16201', '1']",1
+730,585,play_sound,['VO_CHR_MAINSTORY_22_06_0045'],1
+731,586,print,['cn0139'],0
+732,586,ruby,"['心配', 'しんぱい']",1
+733,586,print,['するな。マナで'],0
+734,586,ruby,"['出来', 'でき']",1
+735,586,print,['た'],0
+736,586,ruby,"['虚像', 'きょぞう']",1
+737,586,print,['ごときに\\n'],0
+738,586,ruby,"['負', 'ま']",1
+739,586,print,"['けはしない……！', 'VO_CHR_MAINSTORY_22_06_0045']",1
+740,587,CHARA_FADEOUT_DEF,['b16201'],1
+741,589,CHARA_SET,"['M', 'M', 'C', 'p36701', '11']",1
+742,590,play_sound,['VO_CHR_MAINSTORY_22_06_0046'],1
+743,591,print,"['cn3667', 'ボクたちも']",0
+744,591,ruby,"['行', 'い']",1
+745,591,print,"['cn3667', 'こう！\u3000']",0
+746,591,ruby,"['少', 'すこ']",1
+747,591,print,"['cn3667', 'しでもゼシアの\\n']",0
+748,591,ruby,"['気', 'き']",1
+749,591,print,"['cn3667', 'をそらすんだ！', 'VO_CHR_MAINSTORY_22_06_0046']",1
+750,592,CHARA_FADEOUT_DEF,['p36701'],1
+751,594,CHARA_SET3,"['M', 'M', 'm00401', '4', 'M', 'M', 'm00301', '11', 'M', 'M', 'm00601', '11']",1
+752,595,c_bound_b,['m00401'],1
+753,596,c_bound_b,['m00301'],1
+754,597,c_bound_b,['m00601'],1
+755,598,play_sound,['VO_CHR_MAINSTORY_22_06_0047'],1
+756,599,print,"['全員', 'おう！', 'VO_CHR_MAINSTORY_22_06_0047']",1
+757,600,CHARA_FADEOUT3_DEF,"['m00401', 'm00301', 'm00601']",1
+758,602,CHARA_SET,"['Q', 'Q', 'C', 'm05401', '1']",1
+759,603,play_sound,['VO_CHR_MAINSTORY_22_06_0048'],1
+760,604,print,"['cn0109', '……っ！', 'VO_CHR_MAINSTORY_22_06_0048']",1
+761,605,CHARA_FADEOUT_DEF,['m05401'],1
+762,607,CHARA_SET,"['M', 'M', 'C', 'p33402', '11']",1
+763,608,play_sound,['VO_CHR_MAINSTORY_22_06_0049'],1
+764,609,print,['cn3734'],0
+765,609,ruby,"['行', 'い']",1
+766,609,print,"['け、{player_name}！', 'VO_CHR_MAINSTORY_22_06_0049']",1
+767,610,CHARA_FADEOUT_DEF,['p33402'],1
+768,612,CHARA_SET,"['M', 'M', 'C', 'm00109', '11']",1
+769,613,play_sound,['VO_CHR_MAINSTORY_22_06_0050'],1
+770,614,print,"['cn0101', 'ああ！\u3000']",0
+771,614,ruby,"['今', 'いま']",1
+772,614,print,['cn0101'],0
+773,614,ruby,"['助', 'たす']",1
+774,614,print,"['けるぞ、ゼシア！', 'VO_CHR_MAINSTORY_22_06_0050']",1
+775,615,WFOUT_DEF,[],1
+776,616,SHIMOTE_OUT_DEF_SE,"['m00109', 'SE_RUN_OUT_GR']",1
+777,618,CHARA_SET,"['Q', 'Q', 'C', 'm05401', '1']",1
+778,619,c_swing_h_mid,['m05401'],1
+779,620,print,"['cn0109', '…………。']",1
+780,621,CHARA_FADEOUT_DEF,['m05401'],1
+781,622,WFOUT_DEF,[],1
+782,624,CHARA_KAMITE_SE,"['M', 'M', 'C', 'm00109', '11', 'SE_RUN_IN_GR']",1
+783,625,wait,['0.5'],1
+784,626,c_face,"['M', 'M', 'm00109', '7']",1
+785,627,ODOROKI_EMO,['m00109'],1
+786,628,play_sound,['VO_CHR_MAINSTORY_22_06_0051'],1
+787,629,print,"['cn0101', '――っ！\\nこ、これは……！', 'VO_CHR_MAINSTORY_22_06_0051']",1
+788,630,CHARA_FADEOUT_DEF,['m00109'],1
+789,632,CHARA_SET,"['M', 'M', 'C', 'b16201', '1']",1
+790,633,play_sound,['VO_CHR_MAINSTORY_22_06_0052'],1
+791,634,print,['cn0139'],0
+792,634,ruby,"['何', 'なに']",1
+793,634,print,['をしている！\u3000なぜ、'],0
+794,634,ruby,"['躊躇', 'ためら']",1
+795,634,print,"['う！', 'VO_CHR_MAINSTORY_22_06_0052']",1
+796,635,CHARA_FADEOUT_DEF,['b16201'],1
+797,637,CHARA_SET,"['M', 'M', 'C', 'm04801', '11']",1
+798,638,c_swing_h,['m04801'],1
+799,639,play_sound,['VO_CHR_MAINSTORY_22_06_0053'],1
+800,640,print,"['cn0148', 'ネデウ！\u3000よそに']",0
+801,640,ruby,"['気', 'き']",1
+802,640,print,"['cn0148', 'を']",0
+803,640,ruby,"['取', 'と']",1
+804,640,print,"['cn0148', 'られないで！\\nバハムートが――！', 'VO_CHR_MAINSTORY_22_06_0053']",1
+805,641,CHARA_FADEOUT_DEF,['m04801'],1
+806,643,CHARA_SET,"['M', 'M', 'C', 'b16201', '1']",1
+807,644,play_sound,['VO_CHR_MAINSTORY_22_06_0054'],1
+808,645,print,"['cn0139', '……っ！\u3000しまった……！', 'VO_CHR_MAINSTORY_22_06_0054']",1
+809,646,CHARA_FADEOUT_DEF,['b16201'],1
+810,648,CHARA_SET,"['M', 'M', 'C', 'n24501', '1']",1
+811,649,play_sound,['SE_STORY_COMMON_0490'],1
+812,650,print,['バハムート'],0
+813,650,SHOUT_COM,[],1
+814,650,print,['――！'],0
+815,650,SHOUT_STOP,[],1
+816,650,print,[],1
+817,651,NO_EFFECT,[],1
+818,652,SEFOUT_DEF,[],1
+819,653,WFOUT_DEF,[],1
+820,654,play_sound,['SE_010'],1
+821,655,set_BG_effect,['EFF_SCE_2D_CMN_174'],1
+822,656,set_BG_effect_opacity,"['EFF_SCE_2D_CMN_174', '1']",1
+823,657,set_BG_effect_rotation,"['EFF_SCE_2D_CMN_174', '-120']",1
+824,658,set_BG_effect_pos,"['EFF_SCE_2D_CMN_174', '-300', '370']",1
+825,659,set_BG_effect_trigger,['8'],1
+826,660,wait,['1'],1
+827,661,play_sound,['SE_STORY_COMMON_0130'],1
+828,662,set_BG_effect_trigger,['9'],1
+829,663,wait,['2'],1
+830,664,NO_EFFECT,[],1
+831,665,CHARA_FADEOUT_DEF,['n24501'],1
+832,669,CHARA_SET,"['Q', 'M', 'C', 'm00109', '6']",1
+833,670,play_sound,['SE_STORY_COMMON_0038'],1
+834,671,play_sound,['SE_STORY_COMMON_0007'],1
+835,673,play_sound,['SE_STORY_COMMON_0145'],1
+836,674,set_BG_effect,"['EFF_SCE_2D_CMN_165', 'EFF_SCE_2D_CMN_146']",1
+837,675,set_BG_effect_color,"['EFF_SCE_2D_CMN_165', '135', '0', '255']",1
+838,676,set_BG_effect_color,"['EFF_SCE_2D_CMN_146', '135', '0', '255']",1
+839,677,set_BG_effect_scale,"['EFF_SCE_2D_CMN_165', '3', '3']",1
+840,678,set_BG_effect_speed,"['EFF_SCE_2D_CMN_165', '0.5']",1
+841,679,set_BG_effect_trigger,"['8', '8']",1
+842,680,wait,['0.5'],1
+843,681,c_swing2_h_fast,['m00109'],1
+844,682,play_sound,['VO_CHR_MAINSTORY_22_06_0055'],1
+845,683,print,"['cn0101', 'うわああああああっ！', 'VO_CHR_MAINSTORY_22_06_0055']",1
+846,684,WFOUT_DEF,[],1
+847,685,CHARA_BEAT_AFTER_0,['m00109'],1
+848,686,NO_EFFECT,[],1
+849,690,BGMFOUT_DEF,[],1
+850,691,CHARA_SET,"['Q', 'Q', 'C', 'm05401', '1']",1
+851,692,print,"['cn0109', '…………。']",1
+852,693,CHARA_FADEOUT_DEF,['m05401'],1
+853,694,WFOUT_DEF,[],1
+854,696,CHARA_SET_POS_0,"['Q', 'Q', '120', '143', 'm05401', '1']",1
+855,697,CHARA_SET_POS_0,"['M', 'M', '-50', '-50', 'n24501', '1']",1
+856,698,mnu,"['n24501', 'true', '0.05', '0', '0', '1', '0.05', '1.2', '1.2', '1', '0.05', '0', '0', '0.05', '0', '1']",1
+857,699,mnu,"['n24501', 'false', '0.3', '0', '0', '1', '0.3', '1.2', '1.2', '1', '0.3', '0', '0', '0.3', '1', '1']",1
+858,700,cmp,"['n24501', '0.35', '0', '0', '1.2', '1.2', '0', '1']",1
+859,701,wait,['0.85'],1
+860,703,mnu,"['n24501', 'true', '0.4', '0', '-50', 'EaseInSine', '0.05', '1.2', '1.2', '1', '0.05', '0', '0', '0.4', '0', '1']",1
+861,704,cmp,"['n24501', '0.4', '0', '-50', '1.2', '1.2', '0', '1']",1
+862,705,wait,['0.4'],1
+863,707,mnu,"['m05401', 'true', '0.05', '0', '0', '1', '0.05', '0.5', '0.5', '1', '0.05', '0', '0', '0.05', '0', '1']",1
+864,708,mnu,"['m05401', 'false', '0.4', '0', '50', 'EaseOutSine', '0.4', '0.5', '0.5', '1', '0.4', '0', '0', '0.4', '1', '1']",1
+865,709,cmp,"['m05401', '0.35', '0', '50', '0.7', '0.7', '0', '1']",1
+866,710,mnu,"['n24501', 'true', '0.05', '0', '0', '1', '0.05', '1.2', '1.2', '1', '0.05', '0', '0', '0.05', '0', '1']",1
+867,711,mnu,"['n24501', 'false', '0.4', '0', '50', 'EaseOutSine', '0.4', '1.2', '1.2', '1', '0.4', '0', '0', '0.4', '1', '1']",1
+868,712,cmp,"['n24501', '0.35', '0', '50', '1.2', '1.2', '0', '1']",1
+869,713,wait,['1.4'],1
+870,715,play_sound,['SE_041'],1
+871,716,mnu,"['m05401', 'true', '0.3', '-30', '50', '1', '0.3', '0.5', '0.5', '1', '0.3', '0', '0', '0.3', '1', '1']",1
+872,717,mnu,"['m05401', 'false', '0.6', '-160', '250', '1', '0.3', '0.5', '0.5', '1', '0.3', '0', '0', '0.2', '1', '1']",1
+873,718,mnu,"['m05401', 'false', '0.0', '0', '0', '0', '0.0', '0.0', '0.0', '0', '0.0', '0', '0', '0.4', '0', '1']",1
+874,719,cmp,"['m05401', '0.9', '0', '0', '1', '1', '0', '0']",1
+875,720,mnu,"['n24501', 'true', '0.3', '-30', '50', '1', '0.3', '1.2', '1.2', '1', '0.3', '0', '0', '0.3', '1', '1']",1
+876,721,mnu,"['n24501', 'false', '0.6', '-160', '250', '1', '0.3', '1.2', '1.2', '1', '0.3', '0', '0', '0.2', '1', '1']",1
+877,722,mnu,"['n24501', 'false', '0.0', '0', '0', '0', '0.0', '0.0', '0.0', '0', '0.0', '0', '0', '0.4', '0', '1']",1
+878,723,cmp,"['n24501', '0.9', '0', '0', '1', '1', '0', '0']",1
+879,724,wait,['2.0'],1
+880,730,CHARA_BOTTOM_ZIG,"['M', 'M', 'C', 'm00109', '6']",1
+881,731,play_sound,['VO_CHR_MAINSTORY_22_06_0056'],1
+882,732,print,"['cn0101', 'うう……ゼシア……。', 'VO_CHR_MAINSTORY_22_06_0056']",1
+883,733,CHARA_FADEOUT_DEF,['m00109'],1
+884,735,play_sound,['BGM_IN_STORY_0014_01'],1
+885,736,CHARA_SET,"['M', 'M', 'C', 'b16201', '1']",1
+886,737,wait,['0.5'],1
+887,738,CHANGE_DRAGON_RELEASE,"['b16201', 'm03901', '9']",1
+888,739,play_sound,['VO_CHR_MAINSTORY_22_06_0057'],1
+889,740,print,"['cn0139', '{player_name}！\\n']",0
+890,740,ruby,"['貴様', 'きさま']",1
+891,740,print,"['cn0139', '、']",0
+892,740,ruby,"['先', 'さき']",1
+893,740,print,"['cn0139', 'ほどなぜ']",0
+894,740,ruby,"['攻撃', 'こうげき']",1
+895,740,print,"['cn0139', 'を']",0
+896,740,ruby,"['躊躇', 'ためら']",1
+897,740,print,"['cn0139', 'った。\\n']",0
+898,740,ruby,"['覚悟', 'かくご']",1
+899,740,print,"['cn0139', 'を']",0
+900,740,ruby,"['決', 'き']",1
+901,740,print,"['cn0139', 'めたわけではなかったのか？', 'VO_CHR_MAINSTORY_22_06_0057']",1
+902,741,CHARA_FADEOUT_DEF,['m03901'],1
+903,743,CHARA_SET,"['M', 'M', 'C', 'm00109', '9']",1
+904,744,c_swing_h_slow,['m00109'],1
+905,745,play_sound,['VO_CHR_MAINSTORY_22_06_0058'],1
+906,746,print,"['cn0101', '……すまない。\\nだけど、あのまま']",0
+907,746,ruby,"['続', 'つづ']",1
+908,746,print,"['cn0101', 'けていれば、\\nゼシアは']",0
+909,746,ruby,"['竜化', 'りゅうか']",1
+910,746,print,"['cn0101', 'していた。', 'VO_CHR_MAINSTORY_22_06_0058']",1
+911,747,play_sound,['VO_CHR_MAINSTORY_22_06_0059'],1
+912,748,print,"['cn0101', 'このままじゃゼシアの']",0
+913,748,ruby,"['体', 'からだ']",1
+914,748,print,"['cn0101', 'が……\\nそう']",0
+915,748,ruby,"['思', 'おも']",1
+916,748,print,"['cn0101', 'ったら、']",0
+917,748,ruby,"['動', 'うご']",1
+918,748,print,"['cn0101', 'けなくなって\\nしまったんだ……。', 'VO_CHR_MAINSTORY_22_06_0059']",1
+919,749,CHARA_FADEOUT_DEF,['m00109'],1
+920,751,CHARA_SET,"['M', 'M', 'C', 'm03901', '4']",1
+921,752,play_sound,['VO_CHR_MAINSTORY_22_06_0060'],1
+922,753,print,"['cn0139', 'ゼシアが']",0
+923,753,ruby,"['竜化', 'りゅうか']",1
+924,753,print,"['cn0139', 'だと？\\nそんなそぶりなどなかったはずだ。\\nなぜ、それがわかった。', 'VO_CHR_MAINSTORY_22_06_0060']",1
+925,754,CHARA_FADEOUT_DEF,['m03901'],1
+926,756,CHARA_SET,"['M', 'M', 'C', 'm00109', '4']",1
+927,757,play_sound,['VO_CHR_MAINSTORY_22_06_0061'],1
+928,758,print,"['cn0101', 'それは、マナの']",0
+929,758,ruby,"['流', 'なが']",1
+930,758,print,"['cn0101', 'れで……\\n']",0
+931,758,wait,['2.9'],1
+932,758,print,['cn0101'],0
+933,758,HATENA_EMO,['m00109'],1
+934,758,print,"['そういうものじゃないのか？', 'VO_CHR_MAINSTORY_22_06_0061']",1
+935,759,CHARA_FADEOUT_DEF,['m00109'],1
+936,761,CHARA_SET,"['M', 'Q', 'C', 'm03901', '4']",1
+937,762,play_sound,['VO_CHR_MAINSTORY_22_06_0062'],1
+938,763,print,"['cn0139', '……？', 'VO_CHR_MAINSTORY_22_06_0062']",1
+939,764,CHARA_FADEOUT_DEF,['m03901'],1
+940,766,CHARA_SET,"['M', 'M', 'C', 'm00109', '4']",1
+941,767,play_sound,['VO_CHR_MAINSTORY_22_06_0063'],1
+942,768,print,"['cn0101', 'シェス']",0
+943,768,ruby,"['姉', 'ねえ']",1
+944,768,print,"['cn0101', 'さんやヴァルクス']",0
+945,768,ruby,"['兄', 'にい']",1
+946,768,print,"['cn0101', 'さんなら\\nわかるだろう？\u3000']",0
+947,768,ruby,"['人', 'ひと']",1
+948,768,print,"['cn0101', 'とドラゴンをつなぐ\\n']",0
+949,768,ruby,"['絆', 'きずな']",1
+950,768,print,"['cn0101', 'の']",0
+951,768,ruby,"['糸', 'いと']",1
+952,768,print,"['cn0101', 'のようなものが。', 'VO_CHR_MAINSTORY_22_06_0063']",1
+953,769,play_sound,['VO_CHR_MAINSTORY_22_06_0064'],1
+954,770,print,"['cn0101', 'その']",0
+955,770,ruby,"['糸', 'いと']",1
+956,770,print,"['cn0101', 'を']",0
+957,770,ruby,"['伝', 'つた']",1
+958,770,print,"['cn0101', 'うマナの']",0
+959,770,ruby,"['流', 'なが']",1
+960,770,print,"['cn0101', 'れを']",0
+961,770,ruby,"['見', 'み']",1
+962,770,print,"['cn0101', 'れば、\\n']",0
+963,770,ruby,"['竜化', 'りゅうか']",1
+964,770,print,"['cn0101', 'するかどうかくらいは……。', 'VO_CHR_MAINSTORY_22_06_0064']",1
+965,771,CHARA_FADEOUT_DEF,['m00109'],1
+966,773,CHARA_SET,"['M', 'M', 'C', 'm01601', '1']",1
+967,774,play_sound,['VO_CHR_MAINSTORY_22_06_0065'],1
+968,775,print,['cn0116'],0
+969,775,ruby,"['自分', 'じぶん']",1
+970,775,print,['が'],0
+971,775,ruby,"['竜化', 'りゅうか']",1
+972,775,print,['する'],0
+973,775,ruby,"['際', 'さい']",1
+974,775,print,['、ドラゴンのマナが\\n'],0
+975,775,ruby,"['伝', 'つた']",1
+976,775,print,['わってくるという'],0
+977,775,ruby,"['話', 'はなし']",1
+978,775,print,"['ならば\\nわかるが……。', 'VO_CHR_MAINSTORY_22_06_0065']",1
+979,776,CHARA_FADEOUT_DEF,['m01601'],1
+980,778,CHARA_SET,"['M', 'M', 'C', 'm01506', '4']",1
+981,779,c_swing_h,['m01506'],1
+982,780,play_sound,['VO_CHR_MAINSTORY_22_06_0066'],1
+983,781,print,['cn0115'],0
+984,781,ruby,"['他', 'ほか']",1
+985,781,print,['の'],0
+986,781,ruby,"['方', 'かた']",1
+987,781,print,['がいつ'],0
+988,781,ruby,"['竜化', 'りゅうか']",1
+989,781,print,['するかなんて、\\n'],0
+990,781,ruby,"['見', 'み']",1
+991,781,print,"['ただけでそうそうわかるもの\\nじゃありませんわ。', 'VO_CHR_MAINSTORY_22_06_0066']",1
+992,782,CHARA_FADEOUT_DEF,['m01506'],1
+993,784,CHARA_SET,"['M', 'M', 'C', 'm04201', '1']",1
+994,785,play_sound,['VO_CHR_MAINSTORY_22_06_0067'],1
+995,786,print,['cn0142'],0
+996,786,ruby,"['複竜契約者', 'ふくりゅうけいやくしゃ']",1
+997,786,print,['ならではの'],0
+998,786,ruby,"['特殊', 'とくしゅ']",1
+999,786,print,['な'],0
+1000,786,ruby,"['感覚', 'かんかく']",1
+1001,786,print,"['\\nということか？', 'VO_CHR_MAINSTORY_22_06_0067']",1
+1002,787,CHARA_FADEOUT_DEF,['m04201'],1
+1003,789,CHARA_SET,"['M', 'M', 'C', 'p33402', '1']",1
+1004,790,play_sound,['VO_CHR_MAINSTORY_22_06_0068'],1
+1005,791,print,"['cn3734', 'あるいは、']",0
+1006,791,ruby,"['経験則', 'けいけんそく']",1
+1007,791,print,"['cn3734', 'やもしれぬ。\\n']",0
+1008,791,ruby,"['王族', 'おうぞく']",1
+1009,791,print,"['cn3734', 'とは']",0
+1010,791,ruby,"['言', 'い']",1
+1011,791,print,"['cn3734', 'えども、']",0
+1012,791,ruby,"['他者', 'たしゃ']",1
+1013,791,print,"['cn3734', 'が']",0
+1014,791,ruby,"['竜化', 'りゅうか']",1
+1015,791,print,"['cn3734', 'する']",0
+1016,791,ruby,"['姿', 'すがた']",1
+1017,791,print,"['cn3734', 'を\\n']",0
+1018,791,ruby,"['目', 'め']",1
+1019,791,print,"['cn3734', 'にする']",0
+1020,791,ruby,"['機会', 'きかい']",1
+1021,791,print,"['cn3734', 'など']",0
+1022,791,ruby,"['多', 'おお']",1
+1023,791,print,"['cn3734', 'くはない。', 'VO_CHR_MAINSTORY_22_06_0068']",1
+1024,792,CHARA_FADEOUT_DEF,['p33402'],1
+1025,794,CHARA_SET,"['M', 'M', 'C', 'm04201', '1']",1
+1026,795,c_bound_b_slow,['m04201'],1
+1027,796,play_sound,['VO_CHR_MAINSTORY_22_06_0069'],1
+1028,797,print,"['cn0142', '……なるほど。']",0
+1029,797,ruby,"['乱世', 'らんせ']",1
+1030,797,print,"['cn0142', 'の']",0
+1031,797,ruby,"['生', 'う']",1
+1032,797,print,"['cn0142', 'み']",0
+1033,797,ruby,"['出', 'だ']",1
+1034,797,print,"['cn0142', 'した']",0
+1035,797,ruby,"['才能', 'さいのう']",1
+1036,797,print,"['cn0142', '、\\nということか。', 'VO_CHR_MAINSTORY_22_06_0069']",1
+1037,798,CHARA_FADEOUT_DEF,['m04201'],1
+1038,800,CHARA_SET,"['M', 'M', 'C', 'm00109', '4']",1
+1039,801,play_sound,['VO_CHR_MAINSTORY_22_06_0070'],1
+1040,802,print,"['cn0101', 'おれだけの']",0
+1041,802,ruby,"['感覚', 'かんかく']",1
+1042,802,print,"['cn0101', 'だったのか……。', 'VO_CHR_MAINSTORY_22_06_0070']",1
+1043,803,CHARA_FADEOUT_DEF,['m00109'],1
+1044,805,CHARA_SET,"['M', 'M', 'C', 'm03901', '1']",1
+1045,806,play_sound,['VO_CHR_MAINSTORY_22_06_0071'],1
+1046,807,print,"['cn0139', 'お']",0
+1047,807,ruby,"['前', 'まえ']",1
+1048,807,print,"['cn0139', 'は、']",0
+1049,807,ruby,"['他人', 'たにん']",1
+1050,807,print,"['cn0139', 'が']",0
+1051,807,ruby,"['竜化', 'りゅうか']",1
+1052,807,print,"['cn0139', 'するタイミングを\\nつかめるという']",0
+1053,807,ruby,"['話', 'はなし']",1
+1054,807,print,"['cn0139', 'はわかった。だが、\\nならば、なおのこと']",0
+1055,807,ruby,"['覚悟', 'かくご']",1
+1056,807,print,"['cn0139', 'を']",0
+1057,807,ruby,"['定', 'さだ']",1
+1058,807,print,"['cn0139', 'めておけ。', 'VO_CHR_MAINSTORY_22_06_0071']",1
+1059,808,c_swing_h_slow,['m03901'],1
+1060,809,play_sound,['VO_CHR_MAINSTORY_22_06_0072'],1
+1061,810,print,"['cn0139', 'この']",0
+1062,810,ruby,"['先', 'さき']",1
+1063,810,print,"['cn0139', '、ゼシアの']",0
+1064,810,ruby,"['体', 'からだ']",1
+1065,810,print,"['cn0139', 'を']",0
+1066,810,ruby,"['気遣', 'きづか']",1
+1067,810,print,"['cn0139', 'っている\\n']",0
+1068,810,ruby,"['余裕', 'よゆう']",1
+1069,810,print,"['cn0139', 'はなくなるかもしれん。', 'VO_CHR_MAINSTORY_22_06_0072']",1
+1070,811,CHARA_FADEOUT_DEF,['m03901'],1
+1071,813,CHARA_SET,"['M', 'M', 'C', 'm00701', '7']",1
+1072,814,HATENA_EMO,['m00701'],1
+1073,815,play_sound,['VO_CHR_MAINSTORY_22_06_0073'],1
+1074,816,print,"['cn0107', 'どういうこと!?\\nゼシアはどこに']",0
+1075,816,ruby,"['行', 'い']",1
+1076,816,print,"['cn0107', 'っちゃったの!?', 'VO_CHR_MAINSTORY_22_06_0073']",1
+1077,817,CHARA_FADEOUT_DEF,['m00701'],1
+1078,819,CHARA_SET,"['M', 'M', 'C', 'm01506', '4']",1
+1079,820,play_sound,['VO_CHR_MAINSTORY_22_06_0074'],1
+1080,821,print,['cn0115'],0
+1081,821,ruby,"['逃', 'に']",1
+1082,821,print,"['げた……わけではありませんわよね。', 'VO_CHR_MAINSTORY_22_06_0074']",1
+1083,822,CHARA_FADEOUT_DEF,['m01506'],1
+1084,824,CHARA_SET,"['M', 'M', 'C', 'p36701', '4']",1
+1085,825,play_sound,['VO_CHR_MAINSTORY_22_06_0075'],1
+1086,826,print,"['cn3667', 'たぶん、']",0
+1087,826,ruby,"['樹冠', 'じゅかん']",1
+1088,826,print,"['cn3667', 'に']",0
+1089,826,ruby,"['向', 'む']",1
+1090,826,print,"['cn3667', 'かったんだ。この']",0
+1091,826,ruby,"['樹', 'き']",1
+1092,826,print,"['cn3667', 'の\\n『']",0
+1093,826,ruby,"['核', 'かく']",1
+1094,826,print,"['cn3667', '』を']",0
+1095,826,ruby,"['破壊', 'はかい']",1
+1096,826,print,"['cn3667', 'して、']",0
+1097,826,ruby,"['聖', 'せい']",1
+1098,826,print,"['cn3667', 'なる']",0
+1099,826,ruby,"['樹', 'き']",1
+1100,826,print,"['cn3667', 'を']",0
+1101,826,ruby,"['世界', 'せかい']",1
+1102,826,print,"['cn3667', 'から\\n']",0
+1103,826,ruby,"['消滅', 'しょうめつ']",1
+1104,826,print,"['cn3667', 'させようとしているんだろう。', 'VO_CHR_MAINSTORY_22_06_0075']",1
+1105,827,CHARA_FADEOUT_DEF,['p36701'],1
+1106,829,CHARA_SET,"['M', 'M', 'C', 'm04201', '4']",1
+1107,830,play_sound,['VO_CHR_MAINSTORY_22_06_0076'],1
+1108,831,print,"['cn0142', 'この']",0
+1109,831,ruby,"['樹', 'き']",1
+1110,831,print,"['cn0142', 'の']",0
+1111,831,ruby,"['核', 'かく']",1
+1112,831,print,"['cn0142', 'とは、']",0
+1113,831,ruby,"['聖', 'せい']",1
+1114,831,print,"['cn0142', 'なる']",0
+1115,831,ruby,"['樹', 'き']",1
+1116,831,print,"['cn0142', 'の']",0
+1117,831,ruby,"['意志', 'いし']",1
+1118,831,print,"['cn0142', 'と\\n']",0
+1119,831,ruby,"['言', 'い']",1
+1120,831,print,"['cn0142', 'っていた、あの']",0
+1121,831,ruby,"['光', 'ひかり']",1
+1122,831,print,"['cn0142', 'のことか……。', 'VO_CHR_MAINSTORY_22_06_0076']",1
+1123,832,CHARA_FADEOUT_DEF,['m04201'],1
+1124,834,CHARA_SET,"['M', 'M', 'C', 'p36701', '4']",1
+1125,835,c_bound_b,['p36701'],1
+1126,836,play_sound,['VO_CHR_MAINSTORY_22_06_0077'],1
+1127,837,print,['cn3667'],0
+1128,837,ruby,"['聖', 'せい']",1
+1129,837,print,['なる'],0
+1130,837,ruby,"['樹', 'き']",1
+1131,837,print,['は、'],0
+1132,837,ruby,"['世界', 'せかい']",1
+1133,837,print,['を'],0
+1134,837,ruby,"['支', 'ささ']",1
+1135,837,print,['える'],0
+1136,837,ruby,"['重要', 'じゅうよう']",1
+1137,837,print,['な'],0
+1138,837,ruby,"['因子', 'いんし']",1
+1139,837,print,['の\\nひとつだ。'],0
+1140,837,ruby,"['失', 'うしな']",1
+1141,837,print,['われれば、'],0
+1142,837,ruby,"['世界', 'せかい']",1
+1143,837,print,['の'],0
+1144,837,ruby,"['消滅', 'しょうめつ']",1
+1145,837,print,['に\\n'],0
+1146,837,ruby,"['一歩', 'いっぽ']",1
+1147,837,ruby,"['近', 'ちか']",1
+1148,837,print,['づくと'],0
+1149,837,ruby,"['思', 'おも']",1
+1150,837,print,['って'],0
+1151,837,ruby,"['間違', 'まちが']",1
+1152,837,print,"['いない。', 'VO_CHR_MAINSTORY_22_06_0077']",1
+1153,838,CHARA_FADEOUT_DEF,['p36701'],1
+1154,840,CHARA_SET,"['M', 'M', 'C', 'p33402', '4']",1
+1155,841,play_sound,['VO_CHR_MAINSTORY_22_06_0078'],1
+1156,842,print,['cn3734'],0
+1157,842,ruby,"['放', 'ほう']",1
+1158,842,print,['ってはおけぬな……\\n'],0
+1159,842,ruby,"['急', 'いそ']",1
+1160,842,print,['ぎ、'],0
+1161,842,ruby,"['追', 'お']",1
+1162,842,print,"['わねばなるまい。', 'VO_CHR_MAINSTORY_22_06_0078']",1
+1163,843,CHARA_FADEOUT_DEF,['p33402'],1
+1164,845,CHARA_SET,"['M', 'M', 'C', 'm00109', '11']",1
+1165,846,c_bound_b,['m00109'],1
+1166,847,play_sound,['VO_CHR_MAINSTORY_22_06_0079'],1
+1167,848,print,"['cn0101', 'ああ、']",0
+1168,848,ruby,"['急', 'いそ']",1
+1169,848,print,"['cn0101', 'ごう！\\nゼシアを']",0
+1170,848,ruby,"['助', 'たす']",1
+1171,848,print,"['cn0101', 'けるんだ――！', 'VO_CHR_MAINSTORY_22_06_0079']",1
+1172,849,CHARA_FADEOUT_DEF,['m00109'],1
+1173,852,BLACK_OUT_DEF_STOP,[],1
+1174,853,end,[],1

@@ -1,0 +1,110 @@
+﻿,row,command,args,end
+0,3,stop_bgm,['2.0'],1
+1,5,cutt_load,['CT_MAIN_001_001'],1
+2,7,OL_LEFT,[],1
+3,7,outline_title,['この話のあらすじ'],1
+4,7,ruby,"['霧', 'きり']",1
+5,7,outline,['の'],0
+6,7,ruby,"['森', 'もり']",1
+7,7,outline,['の'],0
+8,7,ruby,"['奥', 'おく']",1
+9,7,outline,['では、'],0
+10,7,ruby,"['碧竜', 'へきりゅう']",1
+11,7,outline,['が'],0
+12,7,ruby,"['待', 'ま']",1
+13,7,outline,['っていた。\\n'],0
+14,7,ruby,"['真', 'しん']",1
+15,7,outline,['の'],0
+16,7,ruby,"['契約', 'けいやく']",1
+17,7,outline,['を'],0
+18,7,ruby,"['結', 'むす']",1
+19,7,outline,['ぶため、'],0
+20,7,ruby,"['王子', 'おうじ']",1
+21,7,outline,['は'],0
+22,7,ruby,"['碧竜', 'へきりゅう']",1
+23,7,outline,['に\\n'],0
+24,7,ruby,"['立', 'た']",1
+25,7,outline,['ち'],0
+26,7,ruby,"['向', 'む']",1
+27,7,outline,['かうのだった。'],1
+28,9,window_type,['NORMAL'],1
+29,10,frame_visible,"['false', '0.3']",1
+30,12,next_area,[],1
+31,14,cutt_waitevent_disable_skip,[],1
+32,16,frame_visible,"['true', '0.3']",1
+33,17,WFIN_SHORT,[],1
+34,19,print,"['碧竜', '……ようやく']",0
+35,19,ruby,"['来', 'き']",1
+36,19,print,"['碧竜', 'たか。', 'VO_CHR_INGAMESTORY_01_04_0001']",1
+37,21,cutt_resetpause,[],1
+38,23,WFOUT_DEF,[],1
+39,24,frame_visible,"['false', '0.3']",1
+40,26,cutt_waitevent_disable_skip,[],1
+41,28,frame_visible,"['true', '0.3']",1
+42,29,WFIN_DEF,[],1
+43,31,print,['碧竜'],0
+44,31,ruby,"['待', 'ま']",1
+45,31,print,"['ちくたびれたぞ。', 'VO_CHR_INGAMESTORY_01_04_0008']",1
+46,33,cutt_resetpause,[],1
+47,35,WFOUT_DEF,[],1
+48,37,cutt_waitevent_disable_skip,[],1
+49,39,WFIN_DEF,[],1
+50,41,print,"['cn0107', 'あんたが『']",0
+51,41,ruby,"['霧', 'きり']",1
+52,41,print,"['cn0107', 'の']",0
+53,41,ruby,"['森', 'もり']",1
+54,41,print,"['cn0107', '』がどこにあるか、\\n']",0
+55,41,ruby,"['教', 'おし']",1
+56,41,print,"['cn0107', 'えてくれなかったからじゃない！', 'VO_CHR_INGAMESTORY_01_04_0002']",1
+57,43,cutt_resetpause,[],1
+58,45,cutt_waitevent_disable_skip,[],1
+59,47,print,"['cn0101', 'まあまあ、ナーム。これも']",0
+60,47,ruby,"['試練', 'しれん']",1
+61,47,print,"['cn0101', 'だよ。', 'VO_CHR_INGAMESTORY_01_04_0003']",1
+62,49,cutt_resetpause,[],1
+63,50,cutt_waitevent_disable_skip,[],1
+64,52,print,"['cn0101', 'ところで……\\n']",0
+65,52,ruby,"['碧竜', 'へきりゅう']",1
+66,52,print,"['cn0101', 'よ、']",0
+67,52,wait_print,[],1
+68,52,print,"['cn0101', 'ここに『']",0
+69,52,ruby,"['聖片', 'せいへん']",1
+70,52,print,"['cn0101', '』があるのか？', 'VO_CHR_INGAMESTORY_01_04_0004']",1
+71,54,cutt_resetpause,[],1
+72,55,cutt_waitevent_disable_skip,[],1
+73,58,print,['碧竜'],0
+74,58,ruby,"['汝', 'なんじ']",1
+75,58,print,['が'],0
+76,58,ruby,"['求', 'もと']",1
+77,58,print,['める'],0
+78,58,ruby,"['物', 'もの']",1
+79,58,print,['はこの'],0
+80,58,ruby,"['霧', 'きり']",1
+81,58,print,['の'],0
+82,58,ruby,"['森', 'もり']",1
+83,58,print,['の'],0
+84,58,ruby,"['奥', 'おく']",1
+85,58,print,['にある。'],0
+86,58,wait_print,[],1
+87,58,print,['\\nだが、その'],0
+88,58,ruby,"['前', 'まえ']",1
+89,58,print,"['に――', 'VO_CHR_INGAMESTORY_01_04_0005']",1
+90,60,cutt_resetpause,[],1
+91,61,cutt_waitevent_disable_skip,[],1
+92,63,print,"['碧竜', 'そなたの']",0
+93,63,ruby,"['心', 'こころ']",1
+94,63,print,"['碧竜', 'と']",0
+95,63,ruby,"['力', 'ちから']",1
+96,63,print,"['碧竜', '、']",0
+97,63,wait,['2.5'],1
+98,63,print,['碧竜'],0
+99,63,ruby,"['我', 'われ']",1
+100,63,print,['に'],0
+101,63,ruby,"['今一度', 'いまいちど']",1
+102,63,print,['、\\n'],0
+103,63,ruby,"['見', 'み']",1
+104,63,print,"['せてもらうとしよう……！', 'VO_CHR_INGAMESTORY_01_04_0006']",1
+105,65,cutt_resetpause,[],1
+106,67,WFOUT_DEF,[],1
+107,68,frame_visible,"['false', '0.3']",1
+108,70,end_block,[],1

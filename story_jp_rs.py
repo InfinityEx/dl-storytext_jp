@@ -58,8 +58,12 @@ telop=0
 outline=0
 start=0
 outend=0
+moend=0
 teend=0
+daend=0
+markp=0
 no_audio=1
+# startrow=0
 
 # 判断字符串相似度
 def str_eqrate(str1,str2):
@@ -126,6 +130,112 @@ def nor_mo_ruby(n):
         motemp=str(nlze['args'][i][0])
         motext+=motemp
     return motext
+
+# telop_title
+def nor_te_title(n):
+    i=int(n)
+    tttemp=''
+    xlen=len(nlze['args'][i])
+    for x in range(0,xlen):
+        if('\\n' in nlze['args'][i][x]):
+            trctemp=str(nlze['args'][i][x])
+            trctemp=trctemp.replace('\\n','\n')
+            tttemp+=trctemp
+        else:
+            tttemp=tttemp+str(nlze['args'][i][x])
+    return tttemp
+
+# telop_print(备用)
+def nor_te_print(n):
+    i=int(n)
+    ttrpn=''
+    tptemp=''
+    tltlen=len(nlze['args'][i])
+    for b in range(0,tltlen):
+        if('\\n' in nlze['args'][i][b]):
+            txtemp=str(nlze['args'][i][b])
+            txtemp=txtemp.replace('\\n','\n')
+            tptemp+=txtemp
+        elif (nlze['args'][i][b] in ms_spname):
+            ttrpn=str(nlze['args'][i][b])
+            ttrpn+='<role>'
+        else:
+            txtemp=str(nlze['args'][i][b])
+            tptemp+=txtemp
+    return ttrpn,tptemp
+
+# telop_ruby(备用)
+def nor_te_ruby(n):
+    i=int(n)
+    tptemp=''
+    if('\\n' in nlze['args'][i][0]):
+        txtemp=str(nlze['args'][i][0])
+        txtemp=txtemp.replace('\\n','\n')
+        tptemp+=tltemp
+    else:
+        txtemp=str(nlze['args'][i][0])
+        tptemp+=txtemp
+    return tptemp
+
+# dialog_print
+def nor_da_print(n):
+    global no_audio
+    prpn=''
+    prwtemp=''
+    prwtext=''
+    i=int(n)
+    arglen=len(nlze['args'][i])
+    for c in range(0,arglen):
+        # 当print内容出现了音频播放时，输出音频播放内容
+        if(str_eqrate(nlze['args'][i][c],aud_normal)>0.72):
+            no_audio=0
+            # print('dialog end,play audio:'+nlze['args'][i][j])
+        elif nlze['command'][i]=='wait':
+            prwtemp=nlze['args'][i][c]==''
+        # 当人物id包含#cn时，替换为空白
+        elif('#cn' in nlze['args'][i][c]):
+            prpn=str(nlze['args'][i][c])
+            prpn=prpn[0:prpn.rfind('#')]
+        # 当人物id包含#时，替换为空白
+        elif('#' in nlze['args'][i][c]):
+            prpn=str(nlze['args'][i][c])
+            prpn=prpn[0:prpn.rfind('#')]
+        elif(nlze['args'][i][c] in ms_spname):
+            prpn=nlze['args'][i][c]
+        # 出现{player_name}时一律替换为ユーディル
+        elif "{'player_name'}" in nlze['args'][i][c]:
+            prpn='ユーディル'
+        # 当人物id字母部分只有cn或dn时，对照char_id.csv查表
+        elif 'cn' in nlze['args'][i][c] or 'dn' in nlze['args'][i][c]:
+            prpn=str(nlze['args'][i][c])
+            for d in range(0,cidlen):
+                if(prpn==cidfile['cid'][d]):
+                    prpn=cidfile['jp'][d]
+        # 避免换行符出现在句子前导致文本无法正常换行
+        elif '\\n' in str(nlze['args'][i][c])[0:2]:
+            prwtemp=str(nlze['args'][i][c])
+            prwtemp=prwtemp.replace('\\n','\n')
+            prwtext+=rwtemp
+        # 其余情况将字符继续拼接
+        else:
+            prwtext=prwtext+str(nlze['args'][i][c])
+    return prpn,prwtext
+
+# dialog_ruby
+def nor_da_ruby(n):
+    i=int(n)
+    prwtemp=''
+    prwtxt=''
+    if('\\n' in nlze['args'][i][0]):
+        prwtemp=str(nlze['args'][i][0])
+        prwtemp=prwtemp.replace('\\n','\n')
+        prwtxt+=rwtemp
+    elif nlze['command'][i]=='wait':
+        prwtemp=nlze['args'][i][0]==''
+    else:
+        prwtemp=str(nlze['args'][i][0])
+        prwtxt+=prwtemp
+    return prwtxt
     
 for i in range(0,eflen):
     fname=eachfile['filename'][i]
@@ -147,7 +257,7 @@ for i in range(0,eflen):
 
     # 获取列长度
     nlzelen=len(nlze['row'])
-
+    startrow=0
     
     for i in range(0,nlzelen):
         n=int(i)
@@ -156,6 +266,7 @@ for i in range(0,eflen):
         if(nlze['command'][i]=='OL_TITLE' or nlze['command'][i]=='outline_title'):
             oltitle=nlze['args'][i]
             outline=1
+        
         # 剧情概要 outline
         if(nlze['command'][i]=='outline'):
             if outline==1:
@@ -171,6 +282,7 @@ for i in range(0,eflen):
                     outline=0
                 else:
                     outline=1
+        
         # 剧情概要 ruby
         if(nlze['command'][i]=='ruby'):
             if outline==1:
@@ -191,6 +303,8 @@ for i in range(0,eflen):
         if nlze['command'][i]=='window_type':
             if nlze['args'][i][0]=='MONOLOGUE':
                 mono=1
+
+        # MONOLOGUE_print
         if(nlze['command'][i]=='print'):
             if mono==1:
                 ncmd=nlze['command'][i+1]
@@ -207,6 +321,8 @@ for i in range(0,eflen):
                     mono=0
                 else:
                     mono=1
+
+        # MONOLOGUE_ruby
         if(nlze['command'][i]=='ruby'):
             if mono==1:
                 ncmd=nlze['command'][i+1]
@@ -221,139 +337,118 @@ for i in range(0,eflen):
                     mono=0
                 else:
                     mono=1
+
         # telop 章节背景介绍处理
         if(nlze['command'][i]=='telop'):
             telop=1
-            xlen=len(nlze['args'][i])
-            for x in range(0,xlen):
-                tltile=tltitle+str(nlze['args'][i][x])
-            tltitle+='\n'
-        if(nlze['command'][i]=='print'):
-            if telop==1:
-                # 当下一行不是ruby或者print时合并当前的数据后关闭telop开关
-                tncmd=nlze['command'][i+1]
-                if(tncmd=='print' or tncmd=='ruby'):
-                    teend=1
-                else:
-                    teend=0
-                tltlen=len(nlze['args'][i])
-                for b in range(0,tltlen):
-                    if('\\n' in nlze['args'][i][b]):
-                        tltemp=str(nlze['args'][i][b])
-                        tltemp=tltemp.replace('\\n','\n')
-                        tltext+=tltemp
-                    elif (nlze['args'][i][b] in ms_spname):
-                        trpn=nlze['args'][i][b]
-                    else:
-                        tltemp=str(nlze['args'][i][b])
-                        tltext+=tltemp
-                if teend==1:
-                    telop=0
-        if(nlze['command'][i]=='ruby'):
-            if telop==1:
-                tncmd=nlze['command'][i+1]
-                if(tncmd=='print' or tncmd=='ruby'):
-                    teend=1
-                else:
-                    teend=0
-                if('\\n' in nlze['args'][i][0]):
-                    tltemp=str(nlze['args'][i][0])
-                    tltemp=tltemp.replace('\\n','\n')
-                    tltext+=tltemp
-                else:
-                    tltemp=str(nlze['args'][i][0])
-                    tltext+=tltemp
-                if teend==1:
-                    telop=0
+            tltemp=''
+            n=int(i)
+            ttemp=nor_te_title(n)
+            tltitle=ttemp
+
+        # # telop_print(备用)
+        # if(nlze['command'][i]=='print'):
+        #     if telop==1:
+        #         ncmd=nlze['command'][i+1]
+        #         if(ncmd=='print' or ncmd=='ruby' or ncmd=='wait'):
+        #             teend=0
+        #         else:
+        #             teend=1
+        #         n=int(i)
+        #         trp,tptem=nor_te_print(n)
+        #         trpn=trp
+        #         tltext+=tptem
+        #         if teend==1:
+        #             telop=0
+        #         else:
+        #             telop=1
+
+        # # telop_ruby(备用)
+        # if(nlze['command'][i]=='ruby'):
+        #     if telop==1:
+        #         ncmd=nlze['command'][i+1]
+        #         if(ncmd=='print' or ncmd=='ruby' or ncmd=='wait'):
+        #             teend=0
+        #         else:
+        #             teend=1
+        #         n=int(i)
+        #         tptem=nor_te_ruby(n)
+        #         tltext+=tptem
+        #         if teend==1:
+        #             telop=0
+        #         else:
+        #             telop=1
+
         # 对话处理
-        if outend+teend==2 or outend+telop==1:
+        # if tltitle!='' and monotext!='' and oltitle!='':
+        #     start=1
+        # elif tltitle=='' and monotext!='' and oltitle!='':
+        #     if 'telop' not in nlze['command']:
+        #         start=1
+        # elif tltitle=='' and monotext=='' and oltitle!='':
+        #     if 'telop' not in nlze['command'] and ['MONOLOGUE'] not in list(nlze['args']):
+        #         if outend==1:
+        #             start=0
+        # elif tltitle=='' and monotext=='' and oltext=='':
+        #     if 'telop' not in nlze['command'] and ['MONOLOGUE'] not in list(nlze['args']):
+        #         if 'outline' not in nlze['command']:
+        #             start=1
+        # else:
+        #     start=0
+        if 'telop' not in list(nlze['command']):
+            if ['MONOLOGUE'] in list(nlze['args']) and 'outline' in list(nlze['command']):
+                if moend==1:
+                    startrow=i
+            elif ['MONOLOGUE'] not in list(nlze['args']) and 'outline' in list(nlze['command']):
+                if outend==1:
+                    startrow=i
+            elif ['MONOLOGUE'] not in list(nlze['args']) and 'outline' not in list(nlze['command']):
+                startrow=1
+                
+        if startrow!=0:
             start=1
-        if(nlze['command'][i]=='print'):
-            if start==1:
+        # 对话处理 dialog_print
+        if start==1:
+            if(nlze['command'][i]=='print'):
                 nxchap=nlze['command'][i+1]
                 if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait_print' or nxchap=='wait'):
-                    senend=0
+                    daend=0
                 else:
-                    senend=1
-                arglen=len(nlze['args'][i])
-                for c in range(0,arglen):
-                    # 当print内容出现了音频播放时，输出音频播放内容
-                    if(str_eqrate(nlze['args'][i][c],aud_normal)>0.72):
-                        no_audio=0
-                        # print('dialog end,play audio:'+nlze['args'][i][j])
-                    elif nlze['command'][i]=='wait':
-                        rwtemp=nlze['args'][i][c]==''
-                    # 当人物id包含#cn时，替换为空白
-                    elif('#cn' in nlze['args'][i][c]):
-                        rpn=str(nlze['args'][i][c])
-                        rpn=rpn[0:rpn.rfind('#')]
-                    # 当人物id包含#时，替换为空白
-                    elif('#' in nlze['args'][i][c]):
-                        rpn=str(nlze['args'][i][c])
-                        rpn=rpn[0:rpn.rfind('#')]
-                    elif(nlze['args'][i][c] in ms_spname):
-                        rpn=nlze['args'][i][c]
-                    # 出现{player_name}时一律替换为ユーディル
-                    elif '{' in nlze['args'][i][c]:
-                        rpn='ユーディル'
-                    # 当人物id字母部分只有cn时，对照char_id.csv查表
-                    elif 'cn' in nlze['args'][i][c] or 'dn' in nlze['args'][i][c]:
-                        rpn=str(nlze['args'][i][c])
-                        for d in range(0,cidlen):
-                            if(rpn==cidfile['cid'][d]):
-                                rpn=cidfile['jp'][d]
-                    # 避免换行符出现在句子前导致文本无法正常换行
-                    elif '\\n' in str(nlze['args'][i][c])[0:2]:
-                        # if('#' in nlze['args'][i][c] or 'cn' in nlze['args'][i][c]):
-                        #     rpn=str(nlze['args'][i][c])
-                        #     rpn=rpn[0:rpn.rfind('#')]
-                        # else:
-                        #     if('\\n' in nlze['args'][i][c]):
-                        rwtemp=str(nlze['args'][i][c])
-                        rwtemp=rwtemp.replace('\\n','\n')
-                        rwtext+=rwtemp
-                    # 其余情况将字符继续拼接
-                    else:
-                        rwtext=rwtext+str(nlze['args'][i][c])
-                if(senend==1):
-                    rpn='\n'+rpn
+                    daend=1
+                n=int(i)
+                rp,rwt=nor_da_print(n)
+                rpn='\n'+rp
+                rwtext+=rwt
+                print(rpn,rwtext)
+                if daend==1:
+                    start=0
                     role.append(rpn)
-                    if('\\n' in rwtext):
-                        rwtext=rwtext.replace('\\n','\n')
-                    # rwlen=len(rwtext)
-                    # print('rwtemp:'+rwtemp,type(rwtemp),len(rwtemp))
-                    # if(rwlen>3 and '\\n' not in rwtext[-2]):
-                    #     rwtext=rwtext+'\n'
                     rolew.append(rwtext+'\n')
+                    rpn=''
                     rwtext=''
+                else:
+                    start=1
+
+        # 对话处理 dialog_ruby        
         # 注音部分舍去注音直接拼接汉字部分
-        if(nlze['command'][i]=='ruby'):
-            if start==1:
+        if start==1:
+            if(nlze['command'][i]=='ruby'):
                 nxchap=nlze['command'][i+1]
-                if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait_print'):
-                    senend=0
+                if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait_print' or nxchap=='wait'):
+                    daend=0
                 else:
-                    senend=1
-                if('\\n' in nlze['args'][i][0]):
-                        rwtemp=str(nlze['args'][i][0])
-                        rwtemp=rwtemp.replace('\\n','\n')
-                        rwtext+=rwtemp
-                elif nlze['command'][i]=='wait':
-                        rwtemp=nlze['args'][i][c]==''
+                    daend=1
+                n=int(i)
+                rwt=nor_da_ruby(n)
+                rwtext+=rwt
+                if daend==1:
+                    start=0
+                    role.append(rpn)
+                    rolew.append(rwtext+'\n')
+                    rpn=''
+                    rwtext=''
                 else:
-                    rwtemp=str(nlze['args'][i][0])
-                    rwtext+=rwtemp
-                if(senend==1):
-                        rpn='\n'+rpn
-                        role.append(rpn)
-                        if('\\n' in rwtext):
-                            rwtext=rwtext.replace('\\n','\n')
-                        # rwlen=len(rwtemp)
-                        # # print('rwtemp:'+rwtemp,type(rwtemp),len(rwtemp))
-                        # if(rwlen>3 and '\\n' not in rwtemp[-2]):
-                        #     rwtemp=rwtemp+'\n'
-                        rolew.append(rwtext)
-                        rwtext=''
+                    start=1
 
     with open(f'{export_path}/{fname}.txt','w',encoding='utf-8') as msr:
         # 调试用
@@ -375,15 +470,20 @@ for i in range(0,eflen):
         # write in role,rolew
         for i in range(0,len(role)):
             msr.write(f'{role[i]}： {rolew[i]}')
+        print(f'{oltitle}\n{oltext}\n')
+        print(f'{tltitle}\n{trpn}\n{tltext}\n')
+        print(f'{role}')
+        print(f'{rolew}')
+        print(f'File Writed:{export_path}/{fname}.txt')
         oltitle=''
         oltext=''
         mopn=''
         monotext=''
-        print(f'{oltitle}\n{oltext}\n')
-        print(f'{trpn}\n{tltitle}\n{tltext}\n')
-        print(f'{role}')
-        print(f'{rolew}')
-        print(f'File Writed:{export_path}/{fname}.txt')
+        trpn=''
+        tltitle=''
+        tltext=''
+        role=[]
+        rolew=[]
     # if(fname==1000004):
     #         print(len(role),len(rolew))
     #         print(start,rpn,rwtemp)
