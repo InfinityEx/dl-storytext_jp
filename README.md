@@ -11,7 +11,9 @@
 | Part                   | Status |
 | ---------------------- | ------ |
 | OL_Title/Outline_title | OK     |
-| [MONOLOGUE]            | /      |
-| [telop]                | /      |
-| Role Dialog            | /      |
+| [MONOLOGUE]            | OK     |
+| [telop]                | OK     |
+| Dialog_print           | /      |
+| Dialog_ruby            | /      |
+| Dialog_add_book_text   | /      |
 
