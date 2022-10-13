@@ -4,7 +4,6 @@
 #Filename:story_jp_rs.py
 #Version:1.0
 
-from operator import mod
 import os
 import pandas as pd
 import json
@@ -469,7 +468,7 @@ if __name__=='__main__':
             
             # 对话处理 add_book_text
             if start==1 and nlze['end'][i] not in plst:
-                if(nlze['command'][i]=='ruby'):
+                if(nlze['command'][i]=='add_book_text'):
                     nxchap=nlze['command'][i+1]
                     if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait' or nxchap=='wait_print' or nxchap=='add_book_text'):
                         daend=0
@@ -489,25 +488,25 @@ if __name__=='__main__':
             # print(f'{start},{rpn}.repalce("\n",""),{rwtext}')
 
         with open(f'{export_path}/{fname}.txt','w',encoding='utf-8') as msr:
-            # 调试用
-            # write in outline
-            msr.write(f'oltitle:\n{oltitle}\noltext:\n{oltext}\n')
-            # write in monologue
-            msr.write(f'mopn:\n{mopn}\nmotext:\n{monotext}\n')
-            # write in telop
-            msr.write(f'trpn:\n{trpn}\ntititle:\n{tltitle}\ntltext:\n{tltext}\n')
-
-            # # 正式输出用
+            # # 调试用
             # # write in outline
-            # msr.write(f'{oltitle}\n{oltext}\n')
+            # msr.write(f'oltitle:\n{oltitle}\noltext:\n{oltext}\n')
             # # write in monologue
-            # msr.write(f'{mopn}\n{monotext}\n')
+            # msr.write(f'mopn:\n{mopn}\nmotext:\n{monotext}\n')
             # # write in telop
-            # msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
+            # msr.write(f'trpn:\n{trpn}\ntititle:\n{tltitle}\ntltext:\n{tltext}\n')
+
+            # 正式输出用
+            # write in outline
+            msr.write(f'{oltitle}\n{oltext}\n')
+            # write in monologue
+            msr.write(f'{mopn}\n{monotext}\n')
+            # write in telop
+            msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
 
             # write in role,rolew
             for i in range(0,len(role)):
-                msr.write(f'\ndialog:')
+                # msr.write(f'\ndialog:')
                 msr.write(f'{role[i]}： {rolew[i]}\n')
             # print(f'{oltitle}\n{oltext}\n')
             # print(f'{tltitle}\n{trpn}\n{tltext}\n')
