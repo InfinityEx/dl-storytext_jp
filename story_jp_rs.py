@@ -149,7 +149,7 @@ def nor_da_print(n):
         elif(nlze['args'][i][c] in ms_spname):
             rpn=nlze['args'][i][c]
         # 出现{player_name}时一律替换为ユーディル
-        elif "{player_name}" in nlze['args'][i][c]:
+        elif r"{player_name}" in nlze['args'][i][c]:
             rpn='ユーディル'
         # 当人物id字母部分只有cn或dn时，对照char_id.csv查表
         elif 'cn' in nlze['args'][i][c] or 'dn' in nlze['args'][i][c]:
@@ -500,9 +500,9 @@ if __name__=='__main__':
             # write in outline
             msr.write(f'{oltitle}\n{oltext}\n')
             # write in monologue
-            msr.write(f'{mopn}\n{monotext}\n')
+            msr.write(f'\n{mopn}：{monotext}\n')
             # write in telop
-            msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
+            msr.write(f'\n{trpn}\n{tltitle}\n{tltext}\n')
 
             # write in role,rolew
             for i in range(0,len(role)):
