@@ -6,14 +6,14 @@
 
 
 
-已能够正常解析的部分：
+Command解析进度表：
 
-| Part                   | Status |
-| ---------------------- | ------ |
-| OL_Title/Outline_title | OK     |
-| [MONOLOGUE]            | OK     |
-| [telop]                | OK     |
-| Dialog_print           | /      |
-| Dialog_ruby            | /      |
-| Dialog_add_book_text   | /      |
+| Command名称            | 代表的对应含义         | 完成状态 |
+| ---------------------- | ---------------------- | -------- |
+| OL_Title/Outline_title | 剧情概要               | OK       |
+| [MONOLOGUE]            | 背景地点时间交代       | OK       |
+| [telop]                | ？？                   | OK       |
+| Dialog_print           | 对话(无汉字部分)       | /        |
+| Dialog_ruby            | 对话(汉字及其注音部分) | /        |
+| Dialog_add_book_text   | ？？                   | /        |
 

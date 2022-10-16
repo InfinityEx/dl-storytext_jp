@@ -2,13 +2,12 @@
 # -*- coding: utf-8 -*-
 #Author:时无ShiWu
 #Filename:story_jp_rs.py
-#Version:1.0
+#Version:1.0  448.50
 
 import os
 import pandas as pd
 import json
 import difflib
-import sys
 
 
 # 判断字符串相似度
@@ -171,7 +170,7 @@ def nor_da_print(n):
             prwtext+=prwtemp
     return prwtext
 
-# dialog_ruby
+# dialog_ruby/add_book_text
 def nor_da_ruby(n):
     i=int(n)
     prwtemp=''
@@ -190,13 +189,18 @@ def nor_da_ruby(n):
 
 if __name__=='__main__':
     # 字符串定义
+    # 语音音频字符串，相似度对比用
     aud_normal='VO_CHR_INGAMESTORY_00_00_0000'
+    # 文件所在位置
     ori_path=os.path.split(os.path.realpath(__file__))[0]
+    # char_id表
     char_id=f'{ori_path}/char_id.csv'
+    # 主线剧情json文件
     filepath=f'{ori_path}/queststory_main'
+    # csv序列
     filelist=f'{ori_path}/queststory_main.csv'
+    # 导出文件
     export_path=f'{ori_path}/queststory_main_jp'
-    mainstory_fnmae=''
 
     # 主线剧情中特殊的人物名称？
     ms_spname=['SYS','ＳＹＳ','碧竜','魔獣']
@@ -243,6 +247,7 @@ if __name__=='__main__':
     no_audio=1
     # startrow=0
 
+    pd.set_option('mode.chained_assignment', None)
     for i in range(0,eflen):
         fname=eachfile['filename'][i]
         # fname='1000001' # 测试用
@@ -255,11 +260,8 @@ if __name__=='__main__':
         sjl=len(mainstory['functions'])
         nlze=pd.json_normalize(mainstory['functions'][0],'commandList')
         pd.set_option('display.max_rows',None)
+        # 导出序列到csv文件
         # nlze.to_csv(ori_path+f'/queststory_main_csv/{fname}.csv',encoding='utf-8_sig')
-
-        # json结构<已作废，备查>
-        # ['name','args','defaultValues',['commandList','row'],['commandList','command'],['commandList','args'],['commandList','end']]
-        # ['variables','buckets'],['variables','count'],['variables','entriesHashCode'],['variables','entriesNext'],['variables','entriesKey'],['variables','entriesValue'],['variables','freeCount'],['variables','freeList']
 
         # 获取列长度
         nlzelen=len(nlze['row'])
@@ -498,11 +500,17 @@ if __name__=='__main__':
 
             # 正式输出用
             # write in outline
-            msr.write(f'{oltitle}\n{oltext}\n')
+            msr.write(f'{oltitle}\n{oltext}\n\n')
             # write in monologue
-            msr.write(f'{mopn}\n{monotext}\n')
+            if mopn=='' or monotext=='':
+                msr.write(f'')
+            else:
+                msr.write(f'{mopn}： {monotext}\n')
             # write in telop
-            msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
+            if trpn=='' or tltitle=='' or tltext=='':
+                msr.write(f'')
+            else:
+                msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
 
             # write in role,rolew
             for i in range(0,len(role)):
