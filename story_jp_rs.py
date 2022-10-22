@@ -2,14 +2,12 @@
 # -*- coding: utf-8 -*-
 #Author:时无ShiWu
 #Filename:story_jp_rs.py
-#Version:1.0
+#Version:1.0  448.50
 
-from operator import mod
 import os
 import pandas as pd
 import json
 import difflib
-import sys
 
 
 # 判断字符串相似度
@@ -137,8 +135,10 @@ def nor_da_print(n):
         if(str_eqrate(nlze['args'][i][c],aud_normal)>0.72):
             no_audio=0
             # print('dialog end,play audio:'+nlze['args'][i][j])
+        elif str_eqrate(nlze['args'][i][c],aud_mainstory)>0.72:
+            no_audio=0
         elif nlze['command'][i]=='wait':
-            prwtemp=nlze['args'][i][c]==''
+            prwtemp=''
         # 当人物id包含#cn时，替换为空白
         elif('#cn' in nlze['args'][i][c]):
             rpn=str(nlze['args'][i][c])
@@ -148,10 +148,20 @@ def nor_da_print(n):
             rpn=str(nlze['args'][i][c])
             rpn=rpn[0:rpn.rfind('#')]
         elif(nlze['args'][i][c] in ms_spname):
-            rpn=nlze['args'][i][c]
+            if c==0:
+                rpn=nlze['args'][i][c]
+            # if len(nlze['args'][i])>1:
+            #     prwtemp=str(nlze['args'][i][1])
+            #     prwtext+=prwtemp
         # 出现{player_name}时一律替换为ユーディル
         elif "{player_name}" in nlze['args'][i][c]:
-            rpn='ユーディル'
+            if c==0:
+                rpn='ユーディル'
+            if c!=0:
+                prwtemp=str(nlze['args'][i][c])
+                prwtemp=prwtemp.replace("{player_name}",'ユーディル')
+                prwtemp=prwtemp.replace('\\n','\n')
+                prwtext+=prwtemp
         # 当人物id字母部分只有cn或dn时，对照char_id.csv查表
         elif 'cn' in nlze['args'][i][c] or 'dn' in nlze['args'][i][c]:
             rpn=str(nlze['args'][i][c])
@@ -164,7 +174,8 @@ def nor_da_print(n):
             prwtemp=prwtemp.replace('\\n','\n')
             prwtext+=prwtemp
         elif ' '==nlze['args'][i][c]:
-            continue
+            prwtemp=nlze['args'][i][c]
+            prwtext+=prwtemp
         # 其余情况将字符继续拼接
         else:
             prwtemp=str(nlze['args'][i][c])
@@ -172,7 +183,7 @@ def nor_da_print(n):
             prwtext+=prwtemp
     return prwtext
 
-# dialog_ruby
+# dialog_ruby/add_book_text
 def nor_da_ruby(n):
     i=int(n)
     prwtemp=''
@@ -191,16 +202,23 @@ def nor_da_ruby(n):
 
 if __name__=='__main__':
     # 字符串定义
+    # 语音音频字符串，相似度对比用
     aud_normal='VO_CHR_INGAMESTORY_00_00_0000'
+    aud_mainstory='VO_CHR_MAINSTORY_00_00_0000'
+    # 文件所在位置
     ori_path=os.path.split(os.path.realpath(__file__))[0]
+    # char_id表
     char_id=f'{ori_path}/char_id.csv'
+    # 主线剧情json文件
     filepath=f'{ori_path}/queststory_main'
+    # csv序列
     filelist=f'{ori_path}/queststory_main.csv'
+    # 导出文件
     export_path=f'{ori_path}/queststory_main_jp'
-    mainstory_fnmae=''
 
     # 主线剧情中特殊的人物名称？
-    ms_spname=['SYS','ＳＹＳ','碧竜','魔獣']
+    ms_spname=['SYS','ＳＹＳ','碧竜','魔獣','暗殺者']
+    pcommand=['print','ruby','wait','wait_print','add_book_text','CHAPTER_INTRO_TEXT','SHOUT_COM','SHOUT_STOP']
     # print(ori_path)
 
     # 加载charaid表
@@ -244,6 +262,7 @@ if __name__=='__main__':
     no_audio=1
     # startrow=0
 
+    pd.set_option('mode.chained_assignment', None)
     for i in range(0,eflen):
         fname=eachfile['filename'][i]
         # fname='1000001' # 测试用
@@ -256,11 +275,8 @@ if __name__=='__main__':
         sjl=len(mainstory['functions'])
         nlze=pd.json_normalize(mainstory['functions'][0],'commandList')
         pd.set_option('display.max_rows',None)
+        # 导出序列到csv文件
         # nlze.to_csv(ori_path+f'/queststory_main_csv/{fname}.csv',encoding='utf-8_sig')
-
-        # json结构<已作废，备查>
-        # ['name','args','defaultValues',['commandList','row'],['commandList','command'],['commandList','args'],['commandList','end']]
-        # ['variables','buckets'],['variables','count'],['variables','entriesHashCode'],['variables','entriesNext'],['variables','entriesKey'],['variables','entriesValue'],['variables','freeCount'],['variables','freeList']
 
         # 获取列长度
         nlzelen=len(nlze['row'])
@@ -428,11 +444,14 @@ if __name__=='__main__':
             if start==1 and nlze['end'][i] not in plst:
                 if(nlze['command'][i]=='print'):
                     nxchap=nlze['command'][i+1]
-                    if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait' or nxchap=='wait_print' or nxchap=='add_book_text'):
+                    if(nxchap in pcommand):
                         daend=0
                     else:
                         daend=1
                     n=int(i)
+                    # if len(nlze['args'][i])==1 and 'cn' in list(nlze['args'][i]) and nlze['command'][i+1]=='CHAPTER_INTRO_TEXT':
+                    if nlze['command'][i+1]=='CHAPTER_INTRO_TEXT':
+                        rwtext+='[出発アニメ]'
                     rwt=nor_da_print(n)
                     if '\n' not in rpn:
                         rpn='\n'+rpn
@@ -452,7 +471,7 @@ if __name__=='__main__':
             if start==1 and nlze['end'][i] not in plst:
                 if(nlze['command'][i]=='ruby'):
                     nxchap=nlze['command'][i+1]
-                    if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait' or nxchap=='wait_print' or nxchap=='add_book_text'):
+                    if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait' or nxchap=='wait_print' or nxchap=='add_book_text' or nxchap=='CHAPTER_INTRO_TEXT'):
                         daend=0
                     else:
                         daend=1
@@ -469,7 +488,7 @@ if __name__=='__main__':
             
             # 对话处理 add_book_text
             if start==1 and nlze['end'][i] not in plst:
-                if(nlze['command'][i]=='ruby'):
+                if(nlze['command'][i]=='add_book_text'):
                     nxchap=nlze['command'][i+1]
                     if(nxchap=='print' or nxchap=='ruby' or nxchap=='wait' or nxchap=='wait_print' or nxchap=='add_book_text'):
                         daend=0
@@ -488,32 +507,39 @@ if __name__=='__main__':
 
             # print(f'{start},{rpn}.repalce("\n",""),{rwtext}')
 
-        with open(f'{export_path}/{fname}.txt','w',encoding='utf-8') as msr:
-            # 调试用
-            # write in outline
-            msr.write(f'oltitle:\n{oltitle}\noltext:\n{oltext}\n')
-            # write in monologue
-            msr.write(f'mopn:\n{mopn}\nmotext:\n{monotext}\n')
-            # write in telop
-            msr.write(f'trpn:\n{trpn}\ntititle:\n{tltitle}\ntltext:\n{tltext}\n')
-
-            # # 正式输出用
+        for px in range(0,eflen):
+            if fname==eachfile['filename'][px]:
+                outputname=eachfile['output_name'][px]
+        # with open(f'{export_path}/{fname}.txt','w',encoding='utf-8') as msr:
+        with open(f'{export_path}/{outputname}.txt','w',encoding='utf-8') as msr:
+            # # 调试用
             # # write in outline
-            # msr.write(f'{oltitle}\n{oltext}\n')
+            # msr.write(f'oltitle:\n{oltitle}\noltext:\n{oltext}\n')
             # # write in monologue
-            # msr.write(f'{mopn}\n{monotext}\n')
+            # msr.write(f'mopn:\n{mopn}\nmotext:\n{monotext}\n')
             # # write in telop
-            # msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
+            # msr.write(f'trpn:\n{trpn}\ntititle:\n{tltitle}\ntltext:\n{tltext}\n')
+
+            # 正式输出用
+            # write in outline
+            msr.write(f'{oltitle}\n{oltext}\n\n')
+            # write in monologue
+            if mopn=='' and monotext=='':
+                msr.write(f'')
+            else:
+                msr.write(f'{mopn}： {monotext}\n')
+            # write in telop
+            if trpn=='' and tltitle=='' and tltext=='':
+                msr.write(f'')
+            else:
+                msr.write(f'{trpn}\n{tltitle}\n{tltext}\n')
 
             # write in role,rolew
             for i in range(0,len(role)):
-                msr.write(f'\ndialog:')
+                # msr.write(f'\ndialog:')
                 msr.write(f'{role[i]}： {rolew[i]}\n')
-            # print(f'{oltitle}\n{oltext}\n')
-            # print(f'{tltitle}\n{trpn}\n{tltext}\n')
-            # print(f'{role}')
-            # print(f'{rolew}')
-            print(f'File Writed:{export_path}/{fname}.txt')
+
+            print(f'File Writed:{export_path}/{outputname}.txt')
             oltitle=''
             oltext=''
             mopn=''
