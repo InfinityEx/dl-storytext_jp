@@ -218,7 +218,7 @@ if __name__=='__main__':
 
     # 主线剧情中特殊的人物名称？
     ms_spname=['SYS','ＳＹＳ','碧竜','魔獣','暗殺者','帝国兵','フォレスティアの村人','長老','フォレスティア','青竜',
-    ]
+    '緋竜','輝竜']
     pcommand=['print','ruby','wait','wait_print','add_book_text','CHAPTER_INTRO_TEXT','SHOUT_COM','SHOUT_STOP']
     # print(ori_path)
 
@@ -538,7 +538,8 @@ if __name__=='__main__':
             # write in role,rolew
             for i in range(0,len(role)):
                 # msr.write(f'\ndialog:')
-                msr.write(f'{role[i]}： {rolew[i]}\n')
+                if role[i]!="" and rolew[i]!="":
+                    msr.write(f'{role[i]}： {rolew[i]}\n')
 
             print(f'File Writed:{export_path}/{outputname}.txt')
             oltitle=''
