@@ -217,8 +217,8 @@ if __name__=='__main__':
     export_path=f'{ori_path}/queststory_main_jp'
 
     # 主线剧情中特殊的人物名称？
-    ms_spname=['SYS','ＳＹＳ','碧竜','魔獣','暗殺者','帝国兵','フォレスティアの村人','長老','フォレスティア','青竜',
-    '緋竜','輝竜']
+    ms_spname=['SYS','ＳＹＳ','碧竜','魔獣','暗殺者','帝国兵','フォレスティアの村人','長老','フォレスティア','謎の少女','青竜',
+    '緋竜','輝竜','闇竜','闇竜アローラス']
     pcommand=['print','ruby','wait','wait_print','add_book_text','CHAPTER_INTRO_TEXT','SHOUT_COM','SHOUT_STOP']
     # print(ori_path)
 
